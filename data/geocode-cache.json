@@ -13,5 +13,20 @@
     "lat": -34.7022715,
     "lng": -58.3917276,
     "approximate": false
+  },
+  "hipolito yrigoyen 3600 lanus oeste": {
+    "lat": -34.6965609,
+    "lng": -58.3911718,
+    "approximate": false
+  },
+  "hipolito yrigoyen 3900 lanus oeste": {
+    "lat": -34.6996966,
+    "lng": -58.3918257,
+    "approximate": false
+  },
+  "hipolito yrigoyen 4700 lanus oeste": {
+    "lat": -34.7095747,
+    "lng": -58.3917934,
+    "approximate": false
   }
 }
