@@ -43,9 +43,12 @@ const ringLayer = L.layerGroup().addTo(map);
 const zoneLayer = L.layerGroup().addTo(map);
 
 let places = { candidates: [], competitors: [] };
+let selectedCandidateId = null;
+const candidateMarkers = new Map();
 
 const icons = {
-  candidate: icon("candidate"),
+  candidate: shopIcon("shop-marker", [34, 34], [17, 34]),
+  candidateSelected: shopIcon("shop-marker-selected", [42, 42], [21, 42]),
   direct: icon("direct"),
   indirect: icon("indirect"),
   inactive: icon("inactive")
@@ -58,6 +61,16 @@ function icon(kind) {
     iconSize: [24, 24],
     iconAnchor: [12, 24],
     popupAnchor: [0, -22]
+  });
+}
+
+function shopIcon(className, iconSize, iconAnchor) {
+  return L.divIcon({
+    className: "thiblo-marker",
+    html: `<div class="${className}"></div>`,
+    iconSize,
+    iconAnchor,
+    popupAnchor: [0, -34]
   });
 }
 
@@ -137,13 +150,16 @@ function popupForCompetitor(competitor) {
 
 function drawCandidates() {
   candidateLayer.clearLayers();
+  candidateMarkers.clear();
   places.candidates.forEach((candidate) => {
     if (!Number.isFinite(candidate.lat) || !Number.isFinite(candidate.lng)) return;
     const score = candidateScore(candidate);
-    L.marker([candidate.lat, candidate.lng], { icon: icons.candidate })
+    const marker = L.marker([candidate.lat, candidate.lng], { icon: icons.candidate })
       .bindPopup(popupForCandidate(candidate))
       .bindTooltip(`${score}/10 - ${candidate.name}`)
       .addTo(candidateLayer);
+    marker.on("click", () => selectCandidate(candidate.id, { pan: false, openPopup: false }));
+    candidateMarkers.set(candidate.id, marker);
   });
 }
 
@@ -207,19 +223,39 @@ function buildRanking() {
   rows.forEach((row) => {
     const tone = row.score >= 8 ? "good" : row.score >= 6 ? "warn" : "bad";
     const tr = document.createElement("tr");
+    tr.dataset.candidateId = row.candidate.id;
     tr.innerHTML = `
       <td><span class="score ${tone}">${row.score}</span></td>
       <td><strong>${row.candidate.name}</strong><br>${row.candidate.sqm ? `${row.candidate.sqm} m2` : "m2 a confirmar"}</td>
       <td>${row.candidate.priceLabel || "Consultar"}</td>
       <td>${row.direct600} dir. / ${row.indirect500} ind.<br>${row.nearestDirect ? `${Math.round(row.nearestDirect.meters)} m a ${row.nearestDirect.competitor.name}` : "sin directo"}</td>
     `;
-    tr.addEventListener("click", () => map.setView([row.candidate.lat, row.candidate.lng], 16));
+    tr.addEventListener("click", () => selectCandidate(row.candidate.id, { pan: true, openPopup: true }));
     body.appendChild(tr);
   });
 
   document.getElementById("candidateCount").textContent = places.candidates.length;
   document.getElementById("competitorCount").textContent = activeCompetitors().length;
   document.getElementById("bestCount").textContent = rows.filter((r) => r.score >= 8).length;
+}
+
+function selectCandidate(candidateId, options = {}) {
+  selectedCandidateId = candidateId;
+  const candidate = places.candidates.find((item) => item.id === candidateId);
+  if (!candidate) return;
+
+  document.querySelectorAll("#ranking tr").forEach((row) => {
+    row.classList.toggle("selected", row.dataset.candidateId === candidateId);
+  });
+
+  for (const [id, marker] of candidateMarkers.entries()) {
+    marker.setIcon(id === candidateId ? icons.candidateSelected : icons.candidate);
+    marker.setZIndexOffset(id === candidateId ? 1000 : 0);
+  }
+
+  const marker = candidateMarkers.get(candidateId);
+  if (options.pan) map.setView([candidate.lat, candidate.lng], Math.max(map.getZoom(), 16), { animate: true });
+  if (options.openPopup && marker) marker.openPopup();
 }
 
 function buildAnalysis() {

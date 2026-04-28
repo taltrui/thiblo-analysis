@@ -144,6 +144,19 @@ input[type="checkbox"] {
 
 .candidate-dot {
   background: var(--candidate);
+  border-radius: 3px;
+  position: relative;
+}
+
+.candidate-dot::before {
+  content: "";
+  position: absolute;
+  top: -3px;
+  left: 2px;
+  width: 8px;
+  height: 5px;
+  background: var(--candidate);
+  clip-path: polygon(0 100%, 20% 0, 80% 0, 100% 100%);
 }
 
 .direct-dot {
@@ -201,6 +214,15 @@ tbody tr {
 
 tbody tr:hover {
   background: #f7fbfa;
+}
+
+tbody tr.selected {
+  background: #e6f5f2;
+  box-shadow: inset 4px 0 0 var(--candidate);
+}
+
+tbody tr.selected td {
+  border-bottom-color: #b7dcd6;
 }
 
 .score {
@@ -275,6 +297,70 @@ tbody tr:hover {
 
 .pin.candidate {
   background: var(--candidate);
+}
+
+.shop-marker,
+.shop-marker-selected {
+  position: relative;
+  width: 34px;
+  height: 34px;
+  display: grid;
+  place-items: center;
+  border: 2px solid #fff;
+  border-radius: 10px;
+  background: var(--candidate);
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.32);
+}
+
+.shop-marker::before,
+.shop-marker-selected::before {
+  content: "";
+  position: absolute;
+  top: 5px;
+  left: 6px;
+  width: 18px;
+  height: 10px;
+  border-radius: 2px 2px 0 0;
+  background: #fff;
+  clip-path: polygon(0 100%, 15% 0, 85% 0, 100% 100%);
+}
+
+.shop-marker::after,
+.shop-marker-selected::after {
+  content: "";
+  width: 18px;
+  height: 15px;
+  margin-top: 9px;
+  border-radius: 2px;
+  background:
+    linear-gradient(90deg, transparent 0 6px, var(--candidate) 6px 11px, transparent 11px 100%),
+    #fff;
+}
+
+.shop-marker-selected {
+  width: 42px;
+  height: 42px;
+  border-width: 3px;
+  background: #064e47;
+  box-shadow:
+    0 0 0 6px rgb(15 118 110 / 0.2),
+    0 5px 14px rgb(0 0 0 / 0.38);
+}
+
+.shop-marker-selected::before {
+  top: 7px;
+  left: 8px;
+  width: 22px;
+  height: 12px;
+}
+
+.shop-marker-selected::after {
+  width: 22px;
+  height: 18px;
+  margin-top: 11px;
+  background:
+    linear-gradient(90deg, transparent 0 7px, #064e47 7px 13px, transparent 13px 100%),
+    #fff;
 }
 
 .pin.direct {
