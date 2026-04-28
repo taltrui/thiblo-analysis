@@ -38,5 +38,20 @@
     "lat": -34.7125177,
     "lng": -58.3925389,
     "approximate": true
+  },
+  "av san martin 2327 lanus oeste": {
+    "lat": -34.696332,
+    "lng": -58.4084646,
+    "approximate": false
+  },
+  "avenida bernardino rivadavia 2602 lanus oeste": {
+    "lat": -34.6904895,
+    "lng": -58.420636,
+    "approximate": false
+  },
+  "avenida san martin 1744 lanus oeste": {
+    "lat": -34.6912618,
+    "lng": -58.4034423,
+    "approximate": false
   }
 }
