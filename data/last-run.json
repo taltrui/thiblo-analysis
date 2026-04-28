@@ -1,23 +1,77 @@
 {
-  "startedAt": "2026-04-28T15:28:53.481Z",
-  "updatedAt": "2026-04-28T15:28:58.908Z",
+  "startedAt": "2026-04-28T16:25:22.641Z",
+  "updatedAt": "2026-04-28T16:26:22.232Z",
   "status": "completed_with_warnings",
   "sources": [
     {
+      "name": "Trusted seed candidates",
+      "url": "manual/web-search",
+      "found": 17,
+      "added": 17
+    },
+    {
+      "name": "Argenprop Lanus Oeste",
+      "url": "https://www.argenprop.com/locales/alquiler/lanus-oeste",
+      "found": 14,
+      "added": 0
+    },
+    {
+      "name": "Argenprop Remedios de Escalada",
+      "url": "https://www.argenprop.com/locales/alquiler/remedios-de-escalada",
+      "found": 0,
+      "added": 0
+    },
+    {
+      "name": "Argenprop cocheras/locales Remedios de Escalada",
+      "url": "https://www.argenprop.com/cocheras-o-locales/alquiler/remedios-de-escalada",
+      "found": 0,
+      "added": 0
+    },
+    {
+      "name": "Argenprop galpones/locales Remedios de Escalada",
+      "url": "https://www.argenprop.com/galpones-o-locales/alquiler/remedios-de-escalada",
+      "found": 1,
+      "added": 0
+    },
+    {
+      "name": "Inmuebles Clarin Lanus Oeste",
+      "url": "https://www.inmuebles.clarin.com/locales/alquiler/lanus-oeste",
+      "found": 14,
+      "added": 0
+    },
+    {
+      "name": "Inmuebles Clarin Remedios de Escalada",
+      "url": "https://www.inmuebles.clarin.com/locales/alquiler/remedios-de-escalada",
+      "found": 0,
+      "added": 0
+    },
+    {
       "name": "MercadoLibre Inmuebles Lanus Oeste",
       "url": "https://inmuebles.mercadolibre.com.ar/locales/alquiler/bsas-gba-sur/lanus/lanus-oeste/",
+      "found": 4,
+      "added": 1
+    },
+    {
+      "name": "MercadoLibre Inmuebles Remedios de Escalada",
+      "url": "https://inmuebles.mercadolibre.com.ar/locales/alquiler/bsas-gba-sur/lanus/remedios-de-escalada/",
+      "found": 2,
+      "added": 1
+    },
+    {
+      "name": "Zonaprop Remedios de Escalada",
+      "url": "https://www.zonaprop.com.ar/locales-comerciales-alquiler-remedios-de-escalada.html",
       "found": 0,
       "added": 0
     },
     {
       "name": "OpenStreetMap Overpass",
       "url": "https://overpass-api.de/api/interpreter",
-      "found": 50,
-      "added": 0
+      "found": 75,
+      "added": 25
     }
   ],
-  "addedCandidates": 0,
-  "addedCompetitors": 0,
+  "addedCandidates": 19,
+  "addedCompetitors": 25,
   "errors": [
     {
       "source": "Zonaprop Lanus Oeste",
@@ -28,15 +82,11 @@
       "message": "HTTP 403"
     },
     {
-      "source": "Argenprop Lanus Oeste",
-      "message": "HTTP 403"
-    },
-    {
-      "source": "Inmuebles Clarin Lanus Oeste",
-      "message": "HTTP 403"
-    },
-    {
       "source": "Properati Lanus Oeste",
+      "message": "HTTP 403"
+    },
+    {
+      "source": "Zonaprop Tagle Lanus Oeste",
       "message": "HTTP 403"
     }
   ]

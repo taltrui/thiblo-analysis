@@ -9,8 +9,8 @@ const GEOCODE_CACHE_PATH = new URL("../data/geocode-cache.json", import.meta.url
 
 const USER_AGENT = "ThibloLanusIntel/1.0 (contact: github-actions)";
 const LANUS_BBOX = {
-  south: -34.718,
-  west: -58.425,
+  south: -34.742,
+  west: -58.435,
   north: -34.684,
   east: -58.37
 };
@@ -32,8 +32,28 @@ const RENTAL_SOURCES = [
     parser: parseGenericRentalText
   },
   {
+    name: "Argenprop Remedios de Escalada",
+    url: "https://www.argenprop.com/locales/alquiler/remedios-de-escalada",
+    parser: parseGenericRentalText
+  },
+  {
+    name: "Argenprop cocheras/locales Remedios de Escalada",
+    url: "https://www.argenprop.com/cocheras-o-locales/alquiler/remedios-de-escalada",
+    parser: parseGenericRentalText
+  },
+  {
+    name: "Argenprop galpones/locales Remedios de Escalada",
+    url: "https://www.argenprop.com/galpones-o-locales/alquiler/remedios-de-escalada",
+    parser: parseGenericRentalText
+  },
+  {
     name: "Inmuebles Clarin Lanus Oeste",
     url: "https://www.inmuebles.clarin.com/locales/alquiler/lanus-oeste",
+    parser: parseGenericRentalText
+  },
+  {
+    name: "Inmuebles Clarin Remedios de Escalada",
+    url: "https://www.inmuebles.clarin.com/locales/alquiler/remedios-de-escalada",
     parser: parseGenericRentalText
   },
   {
@@ -42,10 +62,45 @@ const RENTAL_SOURCES = [
     parser: parseGenericRentalText
   },
   {
+    name: "MercadoLibre Inmuebles Remedios de Escalada",
+    url: "https://inmuebles.mercadolibre.com.ar/locales/alquiler/bsas-gba-sur/lanus/remedios-de-escalada/",
+    parser: parseGenericRentalText
+  },
+  {
     name: "Properati Lanus Oeste",
     url: "https://www.properati.com.ar/s/lanus-oeste/local/alquiler",
     parser: parseGenericRentalText
+  },
+  {
+    name: "Zonaprop Tagle Lanus Oeste",
+    url: "https://www.zonaprop.com.ar/locales-comerciales-alquiler-lanus-oeste-orden-precio-ascendente.html",
+    parser: parseGenericRentalText
+  },
+  {
+    name: "Zonaprop Remedios de Escalada",
+    url: "https://www.zonaprop.com.ar/locales-comerciales-alquiler-remedios-de-escalada.html",
+    parser: parseGenericRentalText
   }
+];
+
+const TRUSTED_SEED_CANDIDATES = [
+  candidateSeed("rent-doctor-melo-4400", "Doctor Melo 4400", "Doctor Melo 4400, Remedios de Escalada", -34.7242983, -58.397295, 650000, "$650.000 + $80.000 expensas", 140, "Argenprop Remedios de Escalada", "https://www.argenprop.com/locales/alquiler/remedios-de-escalada", "Esquina con doble vidriera en centro de Escalada. Muy buena exposicion."),
+  candidateSeed("rent-albarracin-2400", "Albarracin 2400", "Albarracin 2400, Remedios de Escalada", -34.7246144, -58.386304, 500000, "$500.000", 75, "Argenprop Remedios de Escalada", "https://www.argenprop.com/locales/alquiler/remedios-de-escalada", "Local/deposito 15x5 aprox. Sin expensas segun aviso."),
+  candidateSeed("rent-general-hornos-1415", "General Hornos 1415", "General Hornos 1415, Remedios de Escalada", -34.7273508, -58.4172236, 680000, "$680.000", 46, "Argenprop Remedios de Escalada", "https://www.argenprop.com/locales/alquiler/remedios-de-escalada", "Local/galpon en buen estado con cortina metalica y bano."),
+  candidateSeed("rent-malabia-500", "Malabia 500", "Malabia 500, Remedios de Escalada", -34.7367923, -58.3875619, 300000, "$300.000", null, "Argenprop Remedios de Escalada", "https://www.argenprop.com/locales/alquiler/remedios-de-escalada", "Local sobre zona comercial. Confirmar superficie antes de priorizar."),
+  candidateSeed("rent-29-septiembre-3800", "29 de Septiembre 3800", "29 de Septiembre 3800, Remedios de Escalada", -34.7327309, -58.3900168, 1300000, "$1.300.000", 182, "Argenprop Remedios de Escalada", "https://www.argenprop.com/locales/alquiler/remedios-de-escalada", "Local grande de 180 m2 aprox. en Remedios de Escalada."),
+  candidateSeed("rent-ministro-brin-4400", "Ministro Brin 4400", "Ministro Brin 4400, Remedios de Escalada", -34.7241253, -58.3983989, 370000, "$370.000-$420.000", 20, "Argenprop Remedios de Escalada", "https://www.argenprop.com/locales/alquiler/remedios-de-escalada", "Zona comercial cerca de Beltran. Buen precio, superficie chica."),
+  candidateSeed("rent-beltran-323", "Beltran 323", "Beltran 323, Remedios de Escalada", -34.7254023, -58.399332, 650000, "$650.000", 24, "Argenprop Remedios de Escalada", "https://www.argenprop.com/locales/alquiler/remedios-de-escalada", "Pleno centro de Remedios de Escalada, local refaccionado."),
+  candidateSeed("rent-uriarte-965", "Uriarte 965", "Uriarte 965, Remedios de Escalada", -34.7334422, -58.4082535, 500000, "$500.000", 13, "Argenprop Remedios de Escalada", "https://www.argenprop.com/cocheras-o-locales/alquiler/remedios-de-escalada", "Local a estrenar sobre Uriarte; chico pero en arteria comercial."),
+  candidateSeed("rent-zarate-100", "Zarate 100", "Zarate 100, Remedios de Escalada", -34.7307801, -58.3976787, 1300000, "$1.300.000", 225, "Argenprop Remedios de Escalada", "https://www.argenprop.com/galpones-o-locales/alquiler/remedios-de-escalada", "Deposito/galpon amplio. Puede servir si el foco es mayorista/logistica."),
+  candidateSeed("rent-fray-mamerto-esquiu-3200", "Fray Mamerto Esquiu 3200", "Fray Mamerto Esquiu 3200, Remedios de Escalada", -34.7249559, -58.389647, 500000, "$500.000", 187, "Argenprop Remedios de Escalada", "https://www.argenprop.com/galpones-o-locales/alquiler/remedios-de-escalada", "Galpon en esquina transitada; requiere evaluar estado/refacciones."),
+  candidateSeed("rent-gobernador-vergara-3415", "Gobernador Vergara 3415", "Gobernador Vergara 3415, Remedios de Escalada", -34.7155275, -58.4098222, null, "Consultar", 15, "MercadoLibre Inmuebles", "https://inmuebles.mercadolibre.com.ar/locales/bsas-gba-sur/lanus/locales-en-alquiler-lanus", "Local a estrenar segun resultado de MercadoLibre. Confirmar precio."),
+  candidateSeed("rent-tagle-3589", "Tagle 3589", "Tagle 3589, Lanus Oeste", -34.6973039, -58.4267082, 450000, "$450.000", 48, "Zonaprop", "https://www.zonaprop.com.ar/propiedades/clasificado/alcllcin-local-zona-comercial-58125903.html", "Local 4x12 en zona comercial Tagle. Buen candidato para cubrir Villa Caraza/Tagle."),
+  candidateSeed("rent-tagle-3823", "Tagle 3823", "Tagle 3823, Lanus Oeste", -34.6987819, -58.4294599, 1200000, "$1.200.000", 40, "Novosad Propiedades", "https://www.novosadpropiedades.com.ar/propiedad/alquiler-de-otro-inmueble-en-lanus-oeste-lanus-buenos-aires-3439-255935", "Casa con local comercial en PB y deposito. Evaluar si se puede alquilar/usar como local puro."),
+  candidateSeed("rent-enrique-fernandez-2100", "Enrique Fernandez 2100", "Enrique Fernandez 2100, Lanus Oeste", -34.6911887, -58.40747, 450000, "$450.000", 25, "Zonaprop", "https://www.zonaprop.com.ar/locales-comerciales-lanus-oeste-con-desague-cloacal-orden-precio-ascendente.html", "A metros de centro comercial; local compacto sin expensas."),
+  candidateSeed("rent-rivadavia-2602-coto", "Rivadavia 2602 - Coto Lanus", "Rivadavia 2602, Lanus Oeste", -34.6904895, -58.420636, 500000, "$500.000 + $150.000 expensas", 45, "Zonaprop", "https://www.zonaprop.com.ar/locales-comerciales-lanus-oeste-con-luz-orden-precio-ascendente.html", "Local dentro de Coto Lanus. Alto flujo indirecto, pero formato shopping/sucursal."),
+  candidateSeed("rent-25-mayo-975", "25 de Mayo 975", "25 de Mayo 975, Lanus Oeste", -34.705496, -58.4064641, 500000, "$500.000", 35, "Zonaprop", "https://www.zonaprop.com.ar/locales-comerciales-alquiler-lanus-oeste-con-apto-profesional-publicado-hace-menos-de-15-dias.html", "Local 4.4x8 con deposito y bano, cerca de 25 de Mayo."),
+  candidateSeed("rent-viamonte-2349", "Viamonte 2349", "Viamonte 2349, Lanus Oeste", -34.6887543, -58.4165585, 750000, "$750.000", 70, "Zonaprop", "https://www.zonaprop.com.ar/locales-comerciales-alquiler-lanus-oeste-a-estrenar.html", "Dos salones de venta, deposito/oficina y bano. Buena exposicion hacia avenidas.")
 ];
 
 async function main() {
@@ -63,6 +118,14 @@ async function main() {
   };
 
   const knownCandidateIds = new Set(places.candidates.map((item) => item.id));
+  const seedAdded = mergeTrustedSeeds(places, knownCandidateIds, startedAt);
+  run.sources.push({
+    name: "Trusted seed candidates",
+    url: "manual/web-search",
+    found: TRUSTED_SEED_CANDIDATES.length,
+    added: seedAdded
+  });
+  run.addedCandidates += seedAdded;
 
   for (const source of RENTAL_SOURCES) {
     try {
@@ -184,7 +247,7 @@ function parseGenericRentalText(html, source) {
     const price = parsePrice(chunk);
     const sqm = parseSqm(chunk);
     const address = parseAddress(chunk);
-    if (!address || !price) continue;
+    if (!address || !price || price < 250000) continue;
 
     const cleanAddress = `${address}, Lanus Oeste`;
     candidates.push({
@@ -247,11 +310,11 @@ function parseAddress(text) {
 }
 
 function looksLanus(candidate) {
-  return /lanus oeste|lanús oeste/i.test(`${candidate.address} ${candidate.name}`);
+  return /lanus oeste|lanús oeste|remedios de escalada|tagle/i.test(`${candidate.address} ${candidate.name}`);
 }
 
 function inferTraffic(address) {
-  if (/hipolito|yrigoyen|25 de mayo|remedios|san martin|gobernador|aristobulo/i.test(address)) return 5;
+  if (/hipolito|yrigoyen|25 de mayo|remedios|san martin|gobernador|aristobulo|tagle|melo|beltran|brin|29 de septiembre|rivadavia/i.test(address)) return 5;
   return 3;
 }
 
@@ -260,6 +323,49 @@ function inferFit(sqm, price) {
   if (sqm && sqm >= 25 && price && price <= 900000) return 4;
   if (sqm && sqm < 18) return 2;
   return 3;
+}
+
+function candidateSeed(id, name, address, lat, lng, price, priceLabel, sqm, source, sourceUrl, notes) {
+  return {
+    id,
+    name,
+    address,
+    lat,
+    lng,
+    price,
+    priceLabel,
+    sqm,
+    traffic: inferTraffic(address),
+    fit: inferFit(sqm, price),
+    status: "active",
+    source,
+    sourceUrl,
+    notes
+  };
+}
+
+function mergeTrustedSeeds(places, knownCandidateIds, timestamp) {
+  let added = 0;
+  for (const seed of TRUSTED_SEED_CANDIDATES) {
+    if (knownCandidateIds.has(seed.id)) {
+      const existing = places.candidates.find((item) => item.id === seed.id);
+      Object.assign(existing, {
+        ...seed,
+        discoveredAt: existing.discoveredAt || timestamp,
+        lastSeenAt: timestamp
+      });
+      continue;
+    }
+
+    places.candidates.push({
+      ...seed,
+      discoveredAt: timestamp,
+      lastSeenAt: timestamp
+    });
+    knownCandidateIds.add(seed.id);
+    added += 1;
+  }
+  return added;
 }
 
 function formatPrice(price) {
@@ -301,9 +407,9 @@ async function fetchOsmCompetitors() {
   const query = `
     [out:json][timeout:25];
     (
-      node["shop"~"supermarket|convenience|wholesale|chemist|houseware"](${LANUS_BBOX.south},${LANUS_BBOX.west},${LANUS_BBOX.north},${LANUS_BBOX.east});
-      way["shop"~"supermarket|convenience|wholesale|chemist|houseware"](${LANUS_BBOX.south},${LANUS_BBOX.west},${LANUS_BBOX.north},${LANUS_BBOX.east});
-      relation["shop"~"supermarket|convenience|wholesale|chemist|houseware"](${LANUS_BBOX.south},${LANUS_BBOX.west},${LANUS_BBOX.north},${LANUS_BBOX.east});
+      node["shop"~"supermarket|convenience|wholesale|chemist|houseware|doityourself|department_store"](${LANUS_BBOX.south},${LANUS_BBOX.west},${LANUS_BBOX.north},${LANUS_BBOX.east});
+      way["shop"~"supermarket|convenience|wholesale|chemist|houseware|doityourself|department_store"](${LANUS_BBOX.south},${LANUS_BBOX.west},${LANUS_BBOX.north},${LANUS_BBOX.east});
+      relation["shop"~"supermarket|convenience|wholesale|chemist|houseware|doityourself|department_store"](${LANUS_BBOX.south},${LANUS_BBOX.west},${LANUS_BBOX.north},${LANUS_BBOX.east});
     );
     out center tags;
   `;

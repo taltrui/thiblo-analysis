@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-04-28T15:28:58.908Z",
+  "updatedAt": "2026-04-28T16:26:22.232Z",
   "sourceNote": "Actualizado automaticamente por scripts/update-data.mjs. Algunas coordenadas pueden ser aproximadas.",
   "candidates": [
     {
@@ -22,6 +22,114 @@
       "lastSeenAt": "2026-04-28T04:12:33.126Z"
     },
     {
+      "id": "rent-doctor-melo-4400",
+      "name": "Doctor Melo 4400",
+      "address": "Doctor Melo 4400, Remedios de Escalada",
+      "lat": -34.7242983,
+      "lng": -58.397295,
+      "price": 650000,
+      "priceLabel": "$650.000 + $80.000 expensas",
+      "sqm": 140,
+      "traffic": 5,
+      "fit": 5,
+      "status": "active",
+      "source": "Argenprop Remedios de Escalada",
+      "sourceUrl": "https://www.argenprop.com/locales/alquiler/remedios-de-escalada",
+      "notes": "Esquina con doble vidriera en centro de Escalada. Muy buena exposicion.",
+      "discoveredAt": "2026-04-28T16:25:22.641Z",
+      "lastSeenAt": "2026-04-28T16:25:22.641Z"
+    },
+    {
+      "id": "rent-tagle-3589",
+      "name": "Tagle 3589",
+      "address": "Tagle 3589, Lanus Oeste",
+      "lat": -34.6973039,
+      "lng": -58.4267082,
+      "price": 450000,
+      "priceLabel": "$450.000",
+      "sqm": 48,
+      "traffic": 5,
+      "fit": 5,
+      "status": "active",
+      "source": "Zonaprop",
+      "sourceUrl": "https://www.zonaprop.com.ar/propiedades/clasificado/alcllcin-local-zona-comercial-58125903.html",
+      "notes": "Local 4x12 en zona comercial Tagle. Buen candidato para cubrir Villa Caraza/Tagle.",
+      "discoveredAt": "2026-04-28T16:25:22.641Z",
+      "lastSeenAt": "2026-04-28T16:25:22.641Z"
+    },
+    {
+      "id": "rent-albarracin-2400",
+      "name": "Albarracin 2400",
+      "address": "Albarracin 2400, Remedios de Escalada",
+      "lat": -34.7246144,
+      "lng": -58.386304,
+      "price": 500000,
+      "priceLabel": "$500.000",
+      "sqm": 75,
+      "traffic": 5,
+      "fit": 5,
+      "status": "active",
+      "source": "Argenprop Remedios de Escalada",
+      "sourceUrl": "https://www.argenprop.com/locales/alquiler/remedios-de-escalada",
+      "notes": "Local/deposito 15x5 aprox. Sin expensas segun aviso.",
+      "discoveredAt": "2026-04-28T16:25:22.641Z",
+      "lastSeenAt": "2026-04-28T16:25:22.641Z"
+    },
+    {
+      "id": "rent-fray-mamerto-esquiu-3200",
+      "name": "Fray Mamerto Esquiu 3200",
+      "address": "Fray Mamerto Esquiu 3200, Remedios de Escalada",
+      "lat": -34.7249559,
+      "lng": -58.389647,
+      "price": 500000,
+      "priceLabel": "$500.000",
+      "sqm": 187,
+      "traffic": 5,
+      "fit": 4,
+      "status": "active",
+      "source": "Argenprop Remedios de Escalada",
+      "sourceUrl": "https://www.argenprop.com/galpones-o-locales/alquiler/remedios-de-escalada",
+      "notes": "Galpon en esquina transitada; requiere evaluar estado/refacciones.",
+      "discoveredAt": "2026-04-28T16:25:22.641Z",
+      "lastSeenAt": "2026-04-28T16:25:22.641Z"
+    },
+    {
+      "id": "rent-rivadavia-2602-coto",
+      "name": "Rivadavia 2602 - Coto Lanus",
+      "address": "Rivadavia 2602, Lanus Oeste",
+      "lat": -34.6904895,
+      "lng": -58.420636,
+      "price": 500000,
+      "priceLabel": "$500.000 + $150.000 expensas",
+      "sqm": 45,
+      "traffic": 5,
+      "fit": 5,
+      "status": "active",
+      "source": "Zonaprop",
+      "sourceUrl": "https://www.zonaprop.com.ar/locales-comerciales-lanus-oeste-con-luz-orden-precio-ascendente.html",
+      "notes": "Local dentro de Coto Lanus. Alto flujo indirecto, pero formato shopping/sucursal.",
+      "discoveredAt": "2026-04-28T16:25:22.641Z",
+      "lastSeenAt": "2026-04-28T16:25:22.641Z"
+    },
+    {
+      "id": "rent-general-hornos-1415",
+      "name": "General Hornos 1415",
+      "address": "General Hornos 1415, Remedios de Escalada",
+      "lat": -34.7273508,
+      "lng": -58.4172236,
+      "price": 680000,
+      "priceLabel": "$680.000",
+      "sqm": 46,
+      "traffic": 5,
+      "fit": 5,
+      "status": "active",
+      "source": "Argenprop Remedios de Escalada",
+      "sourceUrl": "https://www.argenprop.com/locales/alquiler/remedios-de-escalada",
+      "notes": "Local/galpon en buen estado con cortina metalica y bano.",
+      "discoveredAt": "2026-04-28T16:25:22.641Z",
+      "lastSeenAt": "2026-04-28T16:25:22.641Z"
+    },
+    {
       "id": "rent-aristobulo-191",
       "name": "Aristobulo del Valle 191",
       "address": "Aristobulo del Valle 191, Lanus Oeste",
@@ -36,6 +144,24 @@
       "source": "Zonaprop",
       "sourceUrl": "https://www.zonaprop.com.ar/locales-comerciales-alquiler-q-lanus-oeste.html",
       "notes": "Lanusita. Buen flujo, pero competencia directa cercana."
+    },
+    {
+      "id": "rent-malabia-500",
+      "name": "Malabia 500",
+      "address": "Malabia 500, Remedios de Escalada",
+      "lat": -34.7367923,
+      "lng": -58.3875619,
+      "price": 300000,
+      "priceLabel": "$300.000",
+      "sqm": null,
+      "traffic": 5,
+      "fit": 3,
+      "status": "active",
+      "source": "Argenprop Remedios de Escalada",
+      "sourceUrl": "https://www.argenprop.com/locales/alquiler/remedios-de-escalada",
+      "notes": "Local sobre zona comercial. Confirmar superficie antes de priorizar.",
+      "discoveredAt": "2026-04-28T16:25:22.641Z",
+      "lastSeenAt": "2026-04-28T16:25:22.641Z"
     },
     {
       "id": "rent-santiago-plaul-3209",
@@ -86,6 +212,42 @@
       "notes": "Interesante por entrepiso/guardado; ubicacion mas barrial."
     },
     {
+      "id": "rent-viamonte-2349",
+      "name": "Viamonte 2349",
+      "address": "Viamonte 2349, Lanus Oeste",
+      "lat": -34.6887543,
+      "lng": -58.4165585,
+      "price": 750000,
+      "priceLabel": "$750.000",
+      "sqm": 70,
+      "traffic": 3,
+      "fit": 5,
+      "status": "active",
+      "source": "Zonaprop",
+      "sourceUrl": "https://www.zonaprop.com.ar/locales-comerciales-alquiler-lanus-oeste-a-estrenar.html",
+      "notes": "Dos salones de venta, deposito/oficina y bano. Buena exposicion hacia avenidas.",
+      "discoveredAt": "2026-04-28T16:25:22.641Z",
+      "lastSeenAt": "2026-04-28T16:25:22.641Z"
+    },
+    {
+      "id": "rent-25-mayo-975",
+      "name": "25 de Mayo 975",
+      "address": "25 de Mayo 975, Lanus Oeste",
+      "lat": -34.705496,
+      "lng": -58.4064641,
+      "price": 500000,
+      "priceLabel": "$500.000",
+      "sqm": 35,
+      "traffic": 5,
+      "fit": 4,
+      "status": "active",
+      "source": "Zonaprop",
+      "sourceUrl": "https://www.zonaprop.com.ar/locales-comerciales-alquiler-lanus-oeste-con-apto-profesional-publicado-hace-menos-de-15-dias.html",
+      "notes": "Local 4.4x8 con deposito y bano, cerca de 25 de Mayo.",
+      "discoveredAt": "2026-04-28T16:25:22.641Z",
+      "lastSeenAt": "2026-04-28T16:25:22.641Z"
+    },
+    {
       "id": "rent-25-mayo-1500",
       "name": "Av. 25 de Mayo 1500 esq. Medeiros",
       "address": "Av. 25 de Mayo 1500, Lanus Oeste",
@@ -101,6 +263,60 @@
       "source": "Inmuebles Clarin",
       "sourceUrl": "https://www.inmuebles.clarin.com/local-en-alquiler-en-lanus-oeste--17572397",
       "notes": "Esquina con vidriera. En la cuadra hay un supermercado chino; buen test para competencia indirecta."
+    },
+    {
+      "id": "rent-29-septiembre-3800",
+      "name": "29 de Septiembre 3800",
+      "address": "29 de Septiembre 3800, Remedios de Escalada",
+      "lat": -34.7327309,
+      "lng": -58.3900168,
+      "price": 1300000,
+      "priceLabel": "$1.300.000",
+      "sqm": 182,
+      "traffic": 5,
+      "fit": 3,
+      "status": "active",
+      "source": "Argenprop Remedios de Escalada",
+      "sourceUrl": "https://www.argenprop.com/locales/alquiler/remedios-de-escalada",
+      "notes": "Local grande de 180 m2 aprox. en Remedios de Escalada.",
+      "discoveredAt": "2026-04-28T16:25:22.641Z",
+      "lastSeenAt": "2026-04-28T16:25:22.641Z"
+    },
+    {
+      "id": "rent-zarate-100",
+      "name": "Zarate 100",
+      "address": "Zarate 100, Remedios de Escalada",
+      "lat": -34.7307801,
+      "lng": -58.3976787,
+      "price": 1300000,
+      "priceLabel": "$1.300.000",
+      "sqm": 225,
+      "traffic": 5,
+      "fit": 3,
+      "status": "active",
+      "source": "Argenprop Remedios de Escalada",
+      "sourceUrl": "https://www.argenprop.com/galpones-o-locales/alquiler/remedios-de-escalada",
+      "notes": "Deposito/galpon amplio. Puede servir si el foco es mayorista/logistica.",
+      "discoveredAt": "2026-04-28T16:25:22.641Z",
+      "lastSeenAt": "2026-04-28T16:25:22.641Z"
+    },
+    {
+      "id": "rent-ministro-brin-4400",
+      "name": "Ministro Brin 4400",
+      "address": "Ministro Brin 4400, Remedios de Escalada",
+      "lat": -34.7241253,
+      "lng": -58.3983989,
+      "price": 370000,
+      "priceLabel": "$370.000-$420.000",
+      "sqm": 20,
+      "traffic": 5,
+      "fit": 3,
+      "status": "active",
+      "source": "Argenprop Remedios de Escalada",
+      "sourceUrl": "https://www.argenprop.com/locales/alquiler/remedios-de-escalada",
+      "notes": "Zona comercial cerca de Beltran. Buen precio, superficie chica.",
+      "discoveredAt": "2026-04-28T16:25:22.641Z",
+      "lastSeenAt": "2026-04-28T16:25:22.641Z"
     },
     {
       "id": "rent-hipolito-3900",
@@ -169,7 +385,44 @@
       "lng": -58.3962651,
       "approximate": true,
       "discoveredAt": "2026-04-28T04:12:33.126Z",
-      "lastSeenAt": "2026-04-28T04:12:33.126Z"
+      "lastSeenAt": "2026-04-28T16:25:22.641Z"
+    },
+    {
+      "id": "rent-avenida-hipolito-yrigoyen-3800-lanus-oeste",
+      "name": "Avenida HipóLito Yrigoyen 3800",
+      "address": "Avenida HipóLito Yrigoyen 3800, Lanus Oeste",
+      "price": 40000002,
+      "priceLabel": "$40.000.002",
+      "sqm": 208,
+      "traffic": 5,
+      "fit": 3,
+      "status": "active",
+      "source": "MercadoLibre Inmuebles Lanus Oeste",
+      "sourceUrl": "https://inmuebles.mercadolibre.com.ar/locales/alquiler/bsas-gba-sur/lanus/lanus-oeste/",
+      "notes": "Hallado automaticamente; verificar disponibilidad, requisitos y medidas con la inmobiliaria.",
+      "lat": -34.699167,
+      "lng": -58.3918578,
+      "approximate": false,
+      "discoveredAt": "2026-04-28T16:25:22.641Z",
+      "lastSeenAt": "2026-04-28T16:25:22.641Z"
+    },
+    {
+      "id": "rent-enrique-fernandez-2100",
+      "name": "Enrique Fernandez 2100",
+      "address": "Enrique Fernandez 2100, Lanus Oeste",
+      "lat": -34.6911887,
+      "lng": -58.40747,
+      "price": 450000,
+      "priceLabel": "$450.000",
+      "sqm": 25,
+      "traffic": 3,
+      "fit": 4,
+      "status": "active",
+      "source": "Zonaprop",
+      "sourceUrl": "https://www.zonaprop.com.ar/locales-comerciales-lanus-oeste-con-desague-cloacal-orden-precio-ascendente.html",
+      "notes": "A metros de centro comercial; local compacto sin expensas.",
+      "discoveredAt": "2026-04-28T16:25:22.641Z",
+      "lastSeenAt": "2026-04-28T16:25:22.641Z"
     },
     {
       "id": "rent-jose-moreno-400",
@@ -186,6 +439,24 @@
       "source": "Argenprop / Inmuebles Clarin",
       "sourceUrl": "https://www.inmuebles.clarin.com/local-en-alquiler-en-lanus-oeste--18857789",
       "notes": "Dos unidades con entrepiso, opcion de unificar y negociar terminaciones."
+    },
+    {
+      "id": "rent-beltran-323",
+      "name": "Beltran 323",
+      "address": "Beltran 323, Remedios de Escalada",
+      "lat": -34.7254023,
+      "lng": -58.399332,
+      "price": 650000,
+      "priceLabel": "$650.000",
+      "sqm": 24,
+      "traffic": 5,
+      "fit": 3,
+      "status": "active",
+      "source": "Argenprop Remedios de Escalada",
+      "sourceUrl": "https://www.argenprop.com/locales/alquiler/remedios-de-escalada",
+      "notes": "Pleno centro de Remedios de Escalada, local refaccionado.",
+      "discoveredAt": "2026-04-28T16:25:22.641Z",
+      "lastSeenAt": "2026-04-28T16:25:22.641Z"
     },
     {
       "id": "rent-hipolito-3600",
@@ -239,6 +510,24 @@
       "notes": "Gran local a estrenar, costo muy alto para prueba inicial."
     },
     {
+      "id": "rent-gobernador-vergara-3415",
+      "name": "Gobernador Vergara 3415",
+      "address": "Gobernador Vergara 3415, Remedios de Escalada",
+      "lat": -34.7155275,
+      "lng": -58.4098222,
+      "price": null,
+      "priceLabel": "Consultar",
+      "sqm": 15,
+      "traffic": 5,
+      "fit": 2,
+      "status": "active",
+      "source": "MercadoLibre Inmuebles",
+      "sourceUrl": "https://inmuebles.mercadolibre.com.ar/locales/bsas-gba-sur/lanus/locales-en-alquiler-lanus",
+      "notes": "Local a estrenar segun resultado de MercadoLibre. Confirmar precio.",
+      "discoveredAt": "2026-04-28T16:25:22.641Z",
+      "lastSeenAt": "2026-04-28T16:25:22.641Z"
+    },
+    {
       "id": "rent-remedios-santiago",
       "name": "Remedios de Escalada y Santiago del Estero",
       "address": "Remedios de Escalada y Santiago del Estero, Lanus Oeste",
@@ -273,6 +562,24 @@
       "notes": "Muy centrico y barato, pero extremadamente chico para articulos de limpieza."
     },
     {
+      "id": "rent-uriarte-965",
+      "name": "Uriarte 965",
+      "address": "Uriarte 965, Remedios de Escalada",
+      "lat": -34.7334422,
+      "lng": -58.4082535,
+      "price": 500000,
+      "priceLabel": "$500.000",
+      "sqm": 13,
+      "traffic": 5,
+      "fit": 2,
+      "status": "active",
+      "source": "Argenprop Remedios de Escalada",
+      "sourceUrl": "https://www.argenprop.com/cocheras-o-locales/alquiler/remedios-de-escalada",
+      "notes": "Local a estrenar sobre Uriarte; chico pero en arteria comercial.",
+      "discoveredAt": "2026-04-28T16:25:22.641Z",
+      "lastSeenAt": "2026-04-28T16:25:22.641Z"
+    },
+    {
       "id": "rent-gobernador-irigoyen-200",
       "name": "Gobernador Irigoyen 200",
       "address": "Gobernador Irigoyen 200, Lanus Oeste",
@@ -288,6 +595,24 @@
       "source": "Inmuebles Clarin / Argenprop",
       "sourceUrl": "https://www.inmuebles.clarin.com/local-en-alquiler-en-lanus-oeste--19029526",
       "notes": "Lanusita, excelente exposicion pero pequeno."
+    },
+    {
+      "id": "rent-tagle-3823",
+      "name": "Tagle 3823",
+      "address": "Tagle 3823, Lanus Oeste",
+      "lat": -34.6987819,
+      "lng": -58.4294599,
+      "price": 1200000,
+      "priceLabel": "$1.200.000",
+      "sqm": 40,
+      "traffic": 5,
+      "fit": 3,
+      "status": "active",
+      "source": "Novosad Propiedades",
+      "sourceUrl": "https://www.novosadpropiedades.com.ar/propiedad/alquiler-de-otro-inmueble-en-lanus-oeste-lanus-buenos-aires-3439-255935",
+      "notes": "Casa con local comercial en PB y deposito. Evaluar si se puede alquilar/usar como local puro.",
+      "discoveredAt": "2026-04-28T16:25:22.641Z",
+      "lastSeenAt": "2026-04-28T16:25:22.641Z"
     },
     {
       "id": "rent-avenida-hipolito-yrigoyen-4000-lanus-oeste",
@@ -306,7 +631,7 @@
       "lng": -58.3917718,
       "approximate": false,
       "discoveredAt": "2026-04-28T04:12:33.126Z",
-      "lastSeenAt": "2026-04-28T04:12:33.126Z"
+      "lastSeenAt": "2026-04-28T16:25:22.641Z"
     },
     {
       "id": "rent-camilo-cavour-3000",
@@ -324,6 +649,25 @@
       "source": "Inmuebles Clarin",
       "sourceUrl": "https://www.inmuebles.clarin.com/local-en-alquiler-en-lanus-oeste--17765818",
       "notes": "A 20 m de Av. 25 de Mayo al 300. Chico, ultima actividad kiosco."
+    },
+    {
+      "id": "rent-avenida-hipolito-yrigoyen-6000-lanus-oeste",
+      "name": "Avenida HipóLito Yrigoyen 6000",
+      "address": "Avenida HipóLito Yrigoyen 6000, Lanus Oeste",
+      "price": 35000034,
+      "priceLabel": "$35.000.034",
+      "sqm": 34,
+      "traffic": 5,
+      "fit": 3,
+      "status": "active",
+      "source": "MercadoLibre Inmuebles Remedios de Escalada",
+      "sourceUrl": "https://inmuebles.mercadolibre.com.ar/locales/alquiler/bsas-gba-sur/lanus/remedios-de-escalada/",
+      "notes": "Hallado automaticamente; verificar disponibilidad, requisitos y medidas con la inmobiliaria.",
+      "lat": -34.7125177,
+      "lng": -58.3925389,
+      "approximate": true,
+      "discoveredAt": "2026-04-28T16:25:22.641Z",
+      "lastSeenAt": "2026-04-28T16:25:22.641Z"
     }
   ],
   "competitors": [
@@ -371,6 +715,22 @@
       "status": "active",
       "source": "PuntoClick / Near Place",
       "sourceUrl": "https://ar.near-place.com/mas-limpio-articulos-de-limpieza-b1826ehg-2-de-mayo-2911-lanus-oeste"
+    },
+    {
+      "id": "osm-node-4674803893",
+      "name": "Productos Limpieza",
+      "address": "Lanus Oeste",
+      "lat": -34.7076699,
+      "lng": -58.3978891,
+      "category": "direct",
+      "status": "active",
+      "source": "OpenStreetMap",
+      "sourceUrl": "https://www.openstreetmap.org/",
+      "osm": {
+        "type": "node",
+        "id": 4674803893,
+        "shop": "department_store"
+      }
     },
     {
       "id": "osm-way-545341155",
@@ -423,6 +783,54 @@
       "sourceUrl": "https://www.pulkrolimpieza.com.ar/empresa-limpieza/super-de-limpieza/"
     },
     {
+      "id": "osm-node-4635916876",
+      "name": "20 de Julio",
+      "address": "El Plumerillo",
+      "lat": -34.7291175,
+      "lng": -58.4225953,
+      "category": "indirect",
+      "status": "active",
+      "source": "OpenStreetMap",
+      "sourceUrl": "https://www.openstreetmap.org/",
+      "osm": {
+        "type": "node",
+        "id": 4635916876,
+        "shop": "convenience"
+      }
+    },
+    {
+      "id": "osm-node-3793298641",
+      "name": "Almacén",
+      "address": "Lanus Oeste",
+      "lat": -34.7346613,
+      "lng": -58.3856843,
+      "category": "indirect",
+      "status": "active",
+      "source": "OpenStreetMap",
+      "sourceUrl": "https://www.openstreetmap.org/",
+      "osm": {
+        "type": "node",
+        "id": 3793298641,
+        "shop": "convenience"
+      }
+    },
+    {
+      "id": "osm-node-3793321431",
+      "name": "Almacén",
+      "address": "Lanus Oeste",
+      "lat": -34.7370418,
+      "lng": -58.3859069,
+      "category": "indirect",
+      "status": "active",
+      "source": "OpenStreetMap",
+      "sourceUrl": "https://www.openstreetmap.org/",
+      "osm": {
+        "type": "node",
+        "id": 3793321431,
+        "shop": "convenience"
+      }
+    },
+    {
       "id": "osm-node-3710063994",
       "name": "Almacén chico",
       "address": "Lanus Oeste",
@@ -435,6 +843,38 @@
       "osm": {
         "type": "node",
         "id": 3710063994,
+        "shop": "convenience"
+      }
+    },
+    {
+      "id": "osm-node-5268235314",
+      "name": "Autoservicio",
+      "address": "General Juan Farrel",
+      "lat": -34.6877251,
+      "lng": -58.4287399,
+      "category": "indirect",
+      "status": "active",
+      "source": "OpenStreetMap",
+      "sourceUrl": "https://www.openstreetmap.org/",
+      "osm": {
+        "type": "node",
+        "id": 5268235314,
+        "shop": "convenience"
+      }
+    },
+    {
+      "id": "osm-node-4645621276",
+      "name": "Autoservicio Patricia",
+      "address": "Lanus Oeste",
+      "lat": -34.7172058,
+      "lng": -58.4349744,
+      "category": "indirect",
+      "status": "active",
+      "source": "OpenStreetMap",
+      "sourceUrl": "https://www.openstreetmap.org/",
+      "osm": {
+        "type": "node",
+        "id": 4645621276,
         "shop": "convenience"
       }
     },
@@ -503,6 +943,22 @@
       }
     },
     {
+      "id": "osm-way-648802319",
+      "name": "Carrefour Maxi",
+      "address": "Colectora Camino Presidente Juan Domingo Perón",
+      "lat": -34.7370599,
+      "lng": -58.4352183,
+      "category": "indirect",
+      "status": "active",
+      "source": "OpenStreetMap",
+      "sourceUrl": "https://www.openstreetmap.org/",
+      "osm": {
+        "type": "way",
+        "id": 648802319,
+        "shop": "supermarket"
+      }
+    },
+    {
       "id": "osm-way-546181433",
       "name": "Casa Koruk",
       "address": "Avenida Hipólito Yrigoyen",
@@ -535,6 +991,22 @@
       }
     },
     {
+      "id": "osm-way-185144706",
+      "name": "Coto",
+      "address": "Lanus Oeste",
+      "lat": -34.7266604,
+      "lng": -58.3951256,
+      "category": "indirect",
+      "status": "active",
+      "source": "OpenStreetMap",
+      "sourceUrl": "https://www.openstreetmap.org/",
+      "osm": {
+        "type": "way",
+        "id": 185144706,
+        "shop": "supermarket"
+      }
+    },
+    {
       "id": "comp-coto-rivadavia",
       "name": "Coto Lanus Oeste",
       "address": "Av. Pres. Bernardino Rivadavia 2602, Lanus Oeste",
@@ -544,6 +1016,22 @@
       "status": "active",
       "source": "Near Place / Rappi",
       "sourceUrl": "https://ar.near-place.com/coto-avenida-pres-bernardino-rivadavia-2602-lanus-oeste"
+    },
+    {
+      "id": "osm-way-545346372",
+      "name": "Cycla",
+      "address": "Avenida Remedios de Escalada de San Martín",
+      "lat": -34.6889654,
+      "lng": -58.3929409,
+      "category": "indirect",
+      "status": "active",
+      "source": "OpenStreetMap",
+      "sourceUrl": "https://www.openstreetmap.org/",
+      "osm": {
+        "type": "way",
+        "id": 545346372,
+        "shop": "doityourself"
+      }
     },
     {
       "id": "osm-way-546209929",
@@ -590,6 +1078,22 @@
       "osm": {
         "type": "way",
         "id": 545347988,
+        "shop": "supermarket"
+      }
+    },
+    {
+      "id": "osm-way-467520633",
+      "name": "Disco",
+      "address": "Avenida Juan Hipólito Vieytes 1046",
+      "lat": -34.7388914,
+      "lng": -58.409436,
+      "category": "indirect",
+      "status": "active",
+      "source": "OpenStreetMap",
+      "sourceUrl": "https://www.openstreetmap.org/",
+      "osm": {
+        "type": "way",
+        "id": 467520633,
         "shop": "supermarket"
       }
     },
@@ -738,6 +1242,22 @@
       }
     },
     {
+      "id": "osm-way-470354387",
+      "name": "Granja - Fiambreria - Almacén",
+      "address": "Hernando de Magallanes",
+      "lat": -34.7130485,
+      "lng": -58.4285271,
+      "category": "indirect",
+      "status": "active",
+      "source": "OpenStreetMap",
+      "sourceUrl": "https://www.openstreetmap.org/",
+      "osm": {
+        "type": "way",
+        "id": 470354387,
+        "shop": "convenience"
+      }
+    },
+    {
       "id": "osm-node-5268759816",
       "name": "Granja El Trebol",
       "address": "Coronel D'Elía",
@@ -799,6 +1319,38 @@
         "type": "way",
         "id": 98245245,
         "shop": "supermarket"
+      }
+    },
+    {
+      "id": "osm-node-3813281303",
+      "name": "Kiosco",
+      "address": "Lanus Oeste",
+      "lat": -34.726018,
+      "lng": -58.4102004,
+      "category": "indirect",
+      "status": "active",
+      "source": "OpenStreetMap",
+      "sourceUrl": "https://www.openstreetmap.org/",
+      "osm": {
+        "type": "node",
+        "id": 3813281303,
+        "shop": "convenience"
+      }
+    },
+    {
+      "id": "osm-way-545500530",
+      "name": "La Farola",
+      "address": "San Vladimiro",
+      "lat": -34.6884224,
+      "lng": -58.4329677,
+      "category": "indirect",
+      "status": "active",
+      "source": "OpenStreetMap",
+      "sourceUrl": "https://www.openstreetmap.org/",
+      "osm": {
+        "type": "way",
+        "id": 545500530,
+        "shop": "convenience"
       }
     },
     {
@@ -882,6 +1434,22 @@
       }
     },
     {
+      "id": "osm-way-470365491",
+      "name": "Master Autoservicio Mayorista",
+      "address": "Ejército de los Andes",
+      "lat": -34.7140667,
+      "lng": -58.4288049,
+      "category": "indirect",
+      "status": "active",
+      "source": "OpenStreetMap",
+      "sourceUrl": "https://www.openstreetmap.org/",
+      "osm": {
+        "type": "way",
+        "id": 470365491,
+        "shop": "supermarket"
+      }
+    },
+    {
       "id": "osm-node-7533350951",
       "name": "Mercado chino",
       "address": "Coronel D'Elía",
@@ -898,6 +1466,22 @@
       }
     },
     {
+      "id": "osm-node-5278007579",
+      "name": "Novedades Caraza",
+      "address": "Tagle",
+      "lat": -34.6966879,
+      "lng": -58.4255973,
+      "category": "indirect",
+      "status": "active",
+      "source": "OpenStreetMap",
+      "sourceUrl": "https://www.openstreetmap.org/",
+      "osm": {
+        "type": "node",
+        "id": 5278007579,
+        "shop": "convenience"
+      }
+    },
+    {
       "id": "osm-way-545496602",
       "name": "Ogus",
       "address": "Avenida Intendente Manuel Quindimil",
@@ -910,6 +1494,22 @@
       "osm": {
         "type": "way",
         "id": 545496602,
+        "shop": "convenience"
+      }
+    },
+    {
+      "id": "osm-node-4633609134",
+      "name": "Panes y Facturas",
+      "address": "Avenida General Martín Rodríguez",
+      "lat": -34.7295707,
+      "lng": -58.4226071,
+      "category": "indirect",
+      "status": "active",
+      "source": "OpenStreetMap",
+      "sourceUrl": "https://www.openstreetmap.org/",
+      "osm": {
+        "type": "node",
+        "id": 4633609134,
         "shop": "convenience"
       }
     },
@@ -930,6 +1530,38 @@
       }
     },
     {
+      "id": "osm-way-469231851",
+      "name": "San Martiín",
+      "address": "Avenida General San Martín",
+      "lat": -34.7122525,
+      "lng": -58.4253183,
+      "category": "indirect",
+      "status": "active",
+      "source": "OpenStreetMap",
+      "sourceUrl": "https://www.openstreetmap.org/",
+      "osm": {
+        "type": "way",
+        "id": 469231851,
+        "shop": "convenience"
+      }
+    },
+    {
+      "id": "osm-way-546150011",
+      "name": "Santarios Viamonte",
+      "address": "General Viamonte",
+      "lat": -34.697092,
+      "lng": -58.4072206,
+      "category": "indirect",
+      "status": "active",
+      "source": "OpenStreetMap",
+      "sourceUrl": "https://www.openstreetmap.org/",
+      "osm": {
+        "type": "way",
+        "id": 546150011,
+        "shop": "doityourself"
+      }
+    },
+    {
       "id": "osm-way-545050145",
       "name": "ServiCompras",
       "address": "Avenida Bernardino Rivadavia",
@@ -943,6 +1575,38 @@
         "type": "way",
         "id": 545050145,
         "shop": "convenience"
+      }
+    },
+    {
+      "id": "osm-way-468917897",
+      "name": "Shell",
+      "address": "Avenida General San Martín",
+      "lat": -34.7120241,
+      "lng": -58.4254454,
+      "category": "indirect",
+      "status": "active",
+      "source": "OpenStreetMap",
+      "sourceUrl": "https://www.openstreetmap.org/",
+      "osm": {
+        "type": "way",
+        "id": 468917897,
+        "shop": "convenience"
+      }
+    },
+    {
+      "id": "osm-node-11181435242",
+      "name": "Sonrisa",
+      "address": "Lanus Oeste",
+      "lat": -34.7400454,
+      "lng": -58.3976392,
+      "category": "indirect",
+      "status": "active",
+      "source": "OpenStreetMap",
+      "sourceUrl": "https://www.openstreetmap.org/",
+      "osm": {
+        "type": "node",
+        "id": 11181435242,
+        "shop": "supermarket"
       }
     },
     {
@@ -972,6 +1636,22 @@
       "status": "active",
       "source": "Near Place",
       "sourceUrl": "https://ar.near-place.com/coto-lanus-oeste-avenida-pres-bernardino-rivadavia-2602-lanus-oeste"
+    },
+    {
+      "id": "osm-way-467520637",
+      "name": "Super Mercado",
+      "address": "Avenida Juan Hipólito Vieytes",
+      "lat": -34.7375464,
+      "lng": -58.4168268,
+      "category": "indirect",
+      "status": "active",
+      "source": "OpenStreetMap",
+      "sourceUrl": "https://www.openstreetmap.org/",
+      "osm": {
+        "type": "way",
+        "id": 467520637,
+        "shop": "convenience"
+      }
     },
     {
       "id": "osm-way-545346375",
@@ -1018,6 +1698,54 @@
       "osm": {
         "type": "way",
         "id": 546354905,
+        "shop": "supermarket"
+      }
+    },
+    {
+      "id": "osm-node-4633620381",
+      "name": "Supermercado",
+      "address": "Carlos Glade",
+      "lat": -34.7348816,
+      "lng": -58.4183219,
+      "category": "indirect",
+      "status": "active",
+      "source": "OpenStreetMap",
+      "sourceUrl": "https://www.openstreetmap.org/",
+      "osm": {
+        "type": "node",
+        "id": 4633620381,
+        "shop": "convenience"
+      }
+    },
+    {
+      "id": "osm-way-468892274",
+      "name": "Supermercado",
+      "address": "General Olazábal",
+      "lat": -34.6984226,
+      "lng": -58.4305374,
+      "category": "indirect",
+      "status": "active",
+      "source": "OpenStreetMap",
+      "sourceUrl": "https://www.openstreetmap.org/",
+      "osm": {
+        "type": "way",
+        "id": 468892274,
+        "shop": "supermarket"
+      }
+    },
+    {
+      "id": "osm-node-2297671656",
+      "name": "Supermercado America",
+      "address": "Lanus Oeste",
+      "lat": -34.7254376,
+      "lng": -58.3748057,
+      "category": "indirect",
+      "status": "active",
+      "source": "OpenStreetMap",
+      "sourceUrl": "https://www.openstreetmap.org/",
+      "osm": {
+        "type": "node",
+        "id": 2297671656,
         "shop": "supermarket"
       }
     },
@@ -1152,6 +1880,22 @@
       "osm": {
         "type": "node",
         "id": 5278618314,
+        "shop": "supermarket"
+      }
+    },
+    {
+      "id": "osm-way-470362810",
+      "name": "Supermercardo Argensol",
+      "address": "Ejército de los Andes",
+      "lat": -34.7145585,
+      "lng": -58.4297193,
+      "category": "indirect",
+      "status": "active",
+      "source": "OpenStreetMap",
+      "sourceUrl": "https://www.openstreetmap.org/",
+      "osm": {
+        "type": "way",
+        "id": 470362810,
         "shop": "supermarket"
       }
     },

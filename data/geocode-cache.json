@@ -28,5 +28,15 @@
     "lat": -34.7095747,
     "lng": -58.3917934,
     "approximate": false
+  },
+  "avenida hipolito yrigoyen 3800 lanus oeste": {
+    "lat": -34.699167,
+    "lng": -58.3918578,
+    "approximate": false
+  },
+  "avenida hipolito yrigoyen 6000 lanus oeste": {
+    "lat": -34.7125177,
+    "lng": -58.3925389,
+    "approximate": true
   }
 }

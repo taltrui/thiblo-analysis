@@ -26,6 +26,27 @@ const zones = [
     radius: 660,
     color: "#0f5f8c",
     text: "Perfil barrial/mixto; buena logica para clientes que compran bidones, sueltos e insumos de uso frecuente."
+  },
+  {
+    name: "Tagle / Villa Caraza",
+    center: [-34.6981, -58.4281],
+    radius: 760,
+    color: "#2563eb",
+    text: "Zona barrial con menor competencia directa visible y alquileres mas bajos. Buena opcion para capturar Caraza/Villa Diamante, con menor flujo premium que Lanusita."
+  },
+  {
+    name: "Centro de Remedios de Escalada",
+    center: [-34.7248, -58.3980],
+    radius: 760,
+    color: "#0f766e",
+    text: "Buen corredor comercial alrededor de Melo, Beltran y Brin. Interesante para un local de cercania con ticket recurrente."
+  },
+  {
+    name: "Escalada sur / 29 de Septiembre",
+    center: [-34.7330, -58.3920],
+    radius: 900,
+    color: "#7c3aed",
+    text: "Aparecen locales y depositos mas grandes. Conviene evaluar si el modelo busca retail de barrio o capacidad de stock/mayorista."
   }
 ];
 
