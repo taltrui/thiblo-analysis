@@ -11,7 +11,7 @@ const USER_AGENT = "ThibloLanusIntel/1.0 (contact: github-actions)";
 const LANUS_BBOX = {
   south: -34.742,
   west: -58.435,
-  north: -34.684,
+  north: -34.662,
   east: -58.37
 };
 
@@ -47,6 +47,11 @@ const RENTAL_SOURCES = [
     parser: parseGenericRentalText
   },
   {
+    name: "Argenprop Valentin Alsina",
+    url: "https://www.argenprop.com/locales/alquiler/valentin-alsina",
+    parser: parseGenericRentalText
+  },
+  {
     name: "Inmuebles Clarin Lanus Oeste",
     url: "https://www.inmuebles.clarin.com/locales/alquiler/lanus-oeste",
     parser: parseGenericRentalText
@@ -57,6 +62,11 @@ const RENTAL_SOURCES = [
     parser: parseGenericRentalText
   },
   {
+    name: "Inmuebles Clarin Valentin Alsina",
+    url: "https://www.inmuebles.clarin.com/locales/alquiler/valentin-alsina",
+    parser: parseGenericRentalText
+  },
+  {
     name: "MercadoLibre Inmuebles Lanus Oeste",
     url: "https://inmuebles.mercadolibre.com.ar/locales/alquiler/bsas-gba-sur/lanus/lanus-oeste/",
     parser: parseGenericRentalText
@@ -64,6 +74,11 @@ const RENTAL_SOURCES = [
   {
     name: "MercadoLibre Inmuebles Remedios de Escalada",
     url: "https://inmuebles.mercadolibre.com.ar/locales/alquiler/bsas-gba-sur/lanus/remedios-de-escalada/",
+    parser: parseGenericRentalText
+  },
+  {
+    name: "MercadoLibre Inmuebles Valentin Alsina",
+    url: "https://inmuebles.mercadolibre.com.ar/locales/alquiler/bsas-gba-sur/lanus/valentin-alsina/",
     parser: parseGenericRentalText
   },
   {
@@ -79,6 +94,16 @@ const RENTAL_SOURCES = [
   {
     name: "Zonaprop Remedios de Escalada",
     url: "https://www.zonaprop.com.ar/locales-comerciales-alquiler-remedios-de-escalada.html",
+    parser: parseGenericRentalText
+  },
+  {
+    name: "Zonaprop Valentin Alsina",
+    url: "https://www.zonaprop.com.ar/locales-comerciales-alquiler-valentin-alsina.html",
+    parser: parseGenericRentalText
+  },
+  {
+    name: "Buscainmueble Valentin Alsina",
+    url: "https://www.buscainmueble.com/locales/alquiler/valentin-alsina",
     parser: parseGenericRentalText
   }
 ];
@@ -100,7 +125,24 @@ const TRUSTED_SEED_CANDIDATES = [
   candidateSeed("rent-enrique-fernandez-2100", "Enrique Fernandez 2100", "Enrique Fernandez 2100, Lanus Oeste", -34.6911887, -58.40747, 450000, "$450.000", 25, "Zonaprop", "https://www.zonaprop.com.ar/locales-comerciales-lanus-oeste-con-desague-cloacal-orden-precio-ascendente.html", "A metros de centro comercial; local compacto sin expensas."),
   candidateSeed("rent-rivadavia-2602-coto", "Rivadavia 2602 - Coto Lanus", "Rivadavia 2602, Lanus Oeste", -34.6904895, -58.420636, 500000, "$500.000 + $150.000 expensas", 45, "Zonaprop", "https://www.zonaprop.com.ar/locales-comerciales-lanus-oeste-con-luz-orden-precio-ascendente.html", "Local dentro de Coto Lanus. Alto flujo indirecto, pero formato shopping/sucursal."),
   candidateSeed("rent-25-mayo-975", "25 de Mayo 975", "25 de Mayo 975, Lanus Oeste", -34.705496, -58.4064641, 500000, "$500.000", 35, "Zonaprop", "https://www.zonaprop.com.ar/locales-comerciales-alquiler-lanus-oeste-con-apto-profesional-publicado-hace-menos-de-15-dias.html", "Local 4.4x8 con deposito y bano, cerca de 25 de Mayo."),
-  candidateSeed("rent-viamonte-2349", "Viamonte 2349", "Viamonte 2349, Lanus Oeste", -34.6887543, -58.4165585, 750000, "$750.000", 70, "Zonaprop", "https://www.zonaprop.com.ar/locales-comerciales-alquiler-lanus-oeste-a-estrenar.html", "Dos salones de venta, deposito/oficina y bano. Buena exposicion hacia avenidas.")
+  candidateSeed("rent-viamonte-2349", "Viamonte 2349", "Viamonte 2349, Lanus Oeste", -34.6887543, -58.4165585, 750000, "$750.000", 70, "Zonaprop", "https://www.zonaprop.com.ar/locales-comerciales-alquiler-lanus-oeste-a-estrenar.html", "Dos salones de venta, deposito/oficina y bano. Buena exposicion hacia avenidas."),
+  candidateSeed("rent-peron-2100-valentin-alsina", "Juan Domingo Peron 2100", "Juan Domingo Peron 2100, Valentin Alsina", -34.6776037, -58.4008517, 1500000, "$1.500.000", 70, "Argenprop / Inmuebles Clarin", "https://www.argenprop.com/local-en-alquiler-en-valentin-alsina--18268686", "Local comercial sobre Av. Peron, 4,50 x 17 m aprox., luz trifasica y frente vidriado."),
+  candidateSeed("rent-peron-2300-valentin-alsina", "Juan Domingo Peron 2300", "Juan Domingo Peron 2300, Valentin Alsina", -34.6760603, -58.4027541, null, "Consultar", 36, "Argenprop", "https://www.argenprop.com/local-en-alquiler-en-valentin-alsina--16744700", "Local a estrenar sobre Av. Peron esquina Ucrania. El aviso indica que anteriormente fue casa de articulos de limpieza.", { approximate: true }),
+  candidateSeed("rent-peron-2400-valentin-alsina", "Juan Domingo Peron 2400", "Juan Domingo Peron 2400, Valentin Alsina", -34.6752902, -58.4037048, 3500000, "$3.500.000", 112, "Inmuebles Clarin", "https://www.inmuebles.clarin.com/local-en-alquiler-en-valentin-alsina--18955549", "Local con frente de 7 m x 12 m, vidriera, persiana motorizada, bano y kitchenette.", { approximate: true }),
+  candidateSeed("rent-peron-2500-valentin-alsina", "Juan Domingo Peron 2500", "Juan Domingo Peron 2500, Valentin Alsina", -34.6745185, -58.4046555, 350000, "$350.000", 18, "Inmuebles Clarin / Argenprop", "https://www.inmuebles.clarin.com/local-en-alquiler-en-valentin-alsina--18985181", "Local dentro de Galeria Boulevard, 3 x 3 m con entrepiso. Muy barato pero chico.", { approximate: true }),
+  candidateSeed("rent-peron-2600-valentin-alsina", "Juan Domingo Peron 2600", "Juan Domingo Peron 2600, Valentin Alsina", -34.6737470, -58.4056062, 1500000, "$1.500.000 + $120.000 expensas", 57, "Zonaprop / Inmuebles Clarin", "https://www.zonaprop.com.ar/locales-comerciales-valentin-alsina.html", "Local en pleno centro comercial, entre Farrel y Rucci. Frente, persiana, entrepiso, bano y kitchenette.", { approximate: true }),
+  candidateSeed("rent-peron-3100-valentin-alsina", "Juan Domingo Peron 3100", "Juan Domingo Peron 3100, Valentin Alsina", -34.6704520, -58.4101197, 850000, "$850.000", 36, "Inmuebles Clarin", "https://www.inmuebles.clarin.com/local-en-alquiler-en-valentin-alsina--18970944", "Local de 4,50 x 8 m aprox. sobre Av. Peron, con bano.", { approximate: true }),
+  candidateSeed("rent-peron-3400-valentin-alsina", "Juan Domingo Peron 3400", "Juan Domingo Peron 3400, Valentin Alsina", -34.6688900, -58.4122300, 900000, "$900.000", 220, "Argenprop", "https://www.argenprop.com/local-en-alquiler-en-valentin-alsina--16356561", "Amplio local sobre Av. Peron, ex distribuidora de bebidas, con oficina, cocina, bano y patio.", { approximate: true }),
+  candidateSeed("rent-peron-3712-valentin-alsina", "Juan Domingo Peron 3712", "Juan Domingo Peron 3712, Valentin Alsina", -34.6668951, -58.4149161, 450000, "$450.000", 18, "Argenprop / Inmuebles Clarin", "https://www.argenprop.com/local-en-alquiler-en-valentin-alsina--16941625", "Local sobre avenida de 18 m2 con bano. Precio bajo; revisar si sigue disponible.", { approximate: true }),
+  candidateSeed("rent-peron-3765-valentin-alsina", "Juan Domingo Peron 3765", "Juan Domingo Peron 3765, Valentin Alsina", -34.6666182, -58.4153652, 450000, "$450.000", 40, "Zonaprop / Inmuebles Clarin", "https://www.zonaprop.com.ar/propiedades/clasificado/alcllcin-propiedad-reservada-local.-av-juan-d-peron-al-3700-57588020.html", "Local con bano sobre avenida. El aviso de Zonaprop figura reservado; mantener como referencia de precio/zona.", { approximate: true, status: "reserved" })
+];
+
+const TRUSTED_SEED_COMPETITORS = [
+  competitorSeed("comp-salon-peinador-peron-2326", "Distribuidora Salon del Peinador Av. Peron", "Juan Domingo Peron 2326, Valentin Alsina", -34.6759597, -58.4029483, "direct", "PuntoClick", "https://puntoclick.com.ar/empresa/distribuidora-salon-del-peinador-av-peron", "Articulos de limpieza / cosmetica / perfumeria sobre Av. Peron.", { approximate: true }),
+  competitorSeed("comp-dia-peron-3241", "Supermercado Dia - Peron 3241", "Juan Domingo Peron 3241, Valentin Alsina", -34.6698124, -58.4110547, "indirect", "Near Place", "https://ar.near-place.com/supermercado-dia-presidente-teniente-general-juan-domingo-peron-3241-valentin-alsina", "Supermercado de cadena sobre el corredor Peron."),
+  competitorSeed("comp-wow-bazar-peron-2649", "Wow bazar", "Juan Domingo Peron 2649, Valentin Alsina", -34.673365, -58.406074, "indirect", "Near Place", "https://ar.near-place.com/wow-bazar-presidente-teniente-general-juan-domingo-peron-2649-valentin-alsina", "Bazar sobre Av. Peron; competencia indirecta por articulos de hogar/limpieza."),
+  competitorSeed("comp-marva-lavadero-peron-2133", "Marva lavadero autoservicio tintoreria", "Juan Domingo Peron 2133, Valentin Alsina", -34.6773501, -58.4011649, "indirect", "Cybo", "https://es.cybo.com/AR-biz/marva-lavadero-autoservicio-tintoreria", "Servicio de lavado/tintoreria; no vende necesariamente productos, pero compite por necesidad de limpieza.", { approximate: true }),
+  competitorSeed("comp-outlet-alsina-peron-3890", "Outlet Alsina", "Juan Domingo Peron 3890, Valentin Alsina", -34.665965, -58.416425, "indirect", "Near Place", "https://ar.near-place.com/outlet-alsina-presidente-teniente-general-juan-domingo-peron-3890-valentin-alsina", "Outlet/comercio de hogar sobre Av. Peron; referencia de flujo comercial.")
 ];
 
 async function main() {
@@ -126,6 +168,16 @@ async function main() {
     added: seedAdded
   });
   run.addedCandidates += seedAdded;
+
+  const knownCompetitorIds = new Set(places.competitors.map((item) => item.id));
+  const competitorSeedAdded = mergeTrustedCompetitorSeeds(places, knownCompetitorIds, startedAt);
+  run.sources.push({
+    name: "Trusted seed competitors",
+    url: "manual/web-search",
+    found: TRUSTED_SEED_COMPETITORS.length,
+    added: competitorSeedAdded
+  });
+  run.addedCompetitors += competitorSeedAdded;
 
   for (const source of RENTAL_SOURCES) {
     try {
@@ -175,7 +227,6 @@ async function main() {
 
   try {
     const competitors = await fetchOsmCompetitors();
-    const knownCompetitorIds = new Set(places.competitors.map((item) => item.id));
     let added = 0;
     for (const competitor of competitors) {
       if (!knownCompetitorIds.has(competitor.id)) {
@@ -310,11 +361,11 @@ function parseAddress(text) {
 }
 
 function looksLanus(candidate) {
-  return /lanus oeste|lanús oeste|remedios de escalada|tagle/i.test(`${candidate.address} ${candidate.name}`);
+  return /lanus oeste|lanús oeste|remedios de escalada|valentin alsina|valentín alsina|juan domingo peron|juan domingo perón|tagle/i.test(`${candidate.address} ${candidate.name}`);
 }
 
 function inferTraffic(address) {
-  if (/hipolito|yrigoyen|25 de mayo|remedios|san martin|gobernador|aristobulo|tagle|melo|beltran|brin|29 de septiembre|rivadavia/i.test(address)) return 5;
+  if (/hipolito|yrigoyen|25 de mayo|remedios|san martin|gobernador|aristobulo|tagle|melo|beltran|brin|29 de septiembre|rivadavia|juan domingo peron|juan domingo perón|peron|perón/i.test(address)) return 5;
   return 3;
 }
 
@@ -325,7 +376,7 @@ function inferFit(sqm, price) {
   return 3;
 }
 
-function candidateSeed(id, name, address, lat, lng, price, priceLabel, sqm, source, sourceUrl, notes) {
+function candidateSeed(id, name, address, lat, lng, price, priceLabel, sqm, source, sourceUrl, notes, extra = {}) {
   return {
     id,
     name,
@@ -340,7 +391,24 @@ function candidateSeed(id, name, address, lat, lng, price, priceLabel, sqm, sour
     status: "active",
     source,
     sourceUrl,
-    notes
+    notes,
+    ...extra
+  };
+}
+
+function competitorSeed(id, name, address, lat, lng, category, source, sourceUrl, notes, extra = {}) {
+  return {
+    id,
+    name,
+    address,
+    lat,
+    lng,
+    category,
+    status: "active",
+    source,
+    sourceUrl,
+    notes,
+    ...extra
   };
 }
 
@@ -363,6 +431,30 @@ function mergeTrustedSeeds(places, knownCandidateIds, timestamp) {
       lastSeenAt: timestamp
     });
     knownCandidateIds.add(seed.id);
+    added += 1;
+  }
+  return added;
+}
+
+function mergeTrustedCompetitorSeeds(places, knownCompetitorIds, timestamp) {
+  let added = 0;
+  for (const seed of TRUSTED_SEED_COMPETITORS) {
+    if (knownCompetitorIds.has(seed.id)) {
+      const existing = places.competitors.find((item) => item.id === seed.id);
+      Object.assign(existing, {
+        ...seed,
+        discoveredAt: existing.discoveredAt || timestamp,
+        lastSeenAt: timestamp
+      });
+      continue;
+    }
+
+    places.competitors.push({
+      ...seed,
+      discoveredAt: timestamp,
+      lastSeenAt: timestamp
+    });
+    knownCompetitorIds.add(seed.id);
     added += 1;
   }
   return added;
@@ -407,9 +499,9 @@ async function fetchOsmCompetitors() {
   const query = `
     [out:json][timeout:25];
     (
-      node["shop"~"supermarket|convenience|wholesale|chemist|houseware|doityourself|department_store"](${LANUS_BBOX.south},${LANUS_BBOX.west},${LANUS_BBOX.north},${LANUS_BBOX.east});
-      way["shop"~"supermarket|convenience|wholesale|chemist|houseware|doityourself|department_store"](${LANUS_BBOX.south},${LANUS_BBOX.west},${LANUS_BBOX.north},${LANUS_BBOX.east});
-      relation["shop"~"supermarket|convenience|wholesale|chemist|houseware|doityourself|department_store"](${LANUS_BBOX.south},${LANUS_BBOX.west},${LANUS_BBOX.north},${LANUS_BBOX.east});
+      node["shop"~"supermarket|convenience|wholesale|chemist|houseware|doityourself|department_store|beauty|cosmetics|hardware|paint|variety_store"](${LANUS_BBOX.south},${LANUS_BBOX.west},${LANUS_BBOX.north},${LANUS_BBOX.east});
+      way["shop"~"supermarket|convenience|wholesale|chemist|houseware|doityourself|department_store|beauty|cosmetics|hardware|paint|variety_store"](${LANUS_BBOX.south},${LANUS_BBOX.west},${LANUS_BBOX.north},${LANUS_BBOX.east});
+      relation["shop"~"supermarket|convenience|wholesale|chemist|houseware|doityourself|department_store|beauty|cosmetics|hardware|paint|variety_store"](${LANUS_BBOX.south},${LANUS_BBOX.west},${LANUS_BBOX.north},${LANUS_BBOX.east});
     );
     out center tags;
   `;
@@ -434,7 +526,8 @@ async function fetchOsmCompetitors() {
       const lng = element.lon ?? element.center?.lon;
       if (!Number.isFinite(lat) || !Number.isFinite(lng)) return null;
 
-      const isDirect = /limp|clor|quim|droguer/i.test(name);
+      const shop = String(tags.shop || "");
+      const isDirect = /limp|clor|quim|droguer|perfum|sal[oó]n del peinador/i.test(name) || /chemist|cosmetics/.test(shop);
       return {
         id: `osm-${element.type}-${element.id}`,
         name,
@@ -448,7 +541,7 @@ async function fetchOsmCompetitors() {
         osm: {
           type: element.type,
           id: element.id,
-          shop: tags.shop
+          shop
         }
       };
     })

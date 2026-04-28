@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-04-28T16:58:40.265Z",
+  "updatedAt": "2026-04-28T17:20:46.677Z",
   "sourceNote": "Actualizado automaticamente por scripts/update-data.mjs. Algunas coordenadas pueden ser aproximadas.",
   "candidates": [
     {
@@ -37,7 +37,7 @@
       "sourceUrl": "https://www.argenprop.com/locales/alquiler/remedios-de-escalada",
       "notes": "Esquina con doble vidriera en centro de Escalada. Muy buena exposicion.",
       "discoveredAt": "2026-04-28T16:25:22.641Z",
-      "lastSeenAt": "2026-04-28T16:58:16.446Z"
+      "lastSeenAt": "2026-04-28T17:20:03.209Z"
     },
     {
       "id": "rent-tagle-3589",
@@ -55,7 +55,7 @@
       "sourceUrl": "https://www.zonaprop.com.ar/propiedades/clasificado/alcllcin-local-zona-comercial-58125903.html",
       "notes": "Local 4x12 en zona comercial Tagle. Buen candidato para cubrir Villa Caraza/Tagle.",
       "discoveredAt": "2026-04-28T16:25:22.641Z",
-      "lastSeenAt": "2026-04-28T16:58:16.446Z"
+      "lastSeenAt": "2026-04-28T17:20:03.209Z"
     },
     {
       "id": "rent-albarracin-2400",
@@ -73,7 +73,7 @@
       "sourceUrl": "https://www.argenprop.com/locales/alquiler/remedios-de-escalada",
       "notes": "Local/deposito 15x5 aprox. Sin expensas segun aviso.",
       "discoveredAt": "2026-04-28T16:25:22.641Z",
-      "lastSeenAt": "2026-04-28T16:58:16.446Z"
+      "lastSeenAt": "2026-04-28T17:20:03.209Z"
     },
     {
       "id": "rent-fray-mamerto-esquiu-3200",
@@ -91,7 +91,26 @@
       "sourceUrl": "https://www.argenprop.com/galpones-o-locales/alquiler/remedios-de-escalada",
       "notes": "Galpon en esquina transitada; requiere evaluar estado/refacciones.",
       "discoveredAt": "2026-04-28T16:25:22.641Z",
-      "lastSeenAt": "2026-04-28T16:58:16.446Z"
+      "lastSeenAt": "2026-04-28T17:20:03.209Z"
+    },
+    {
+      "id": "rent-peron-3400-valentin-alsina",
+      "name": "Juan Domingo Peron 3400",
+      "address": "Juan Domingo Peron 3400, Valentin Alsina",
+      "lat": -34.66889,
+      "lng": -58.41223,
+      "price": 900000,
+      "priceLabel": "$900.000",
+      "sqm": 220,
+      "traffic": 5,
+      "fit": 4,
+      "status": "active",
+      "source": "Argenprop",
+      "sourceUrl": "https://www.argenprop.com/local-en-alquiler-en-valentin-alsina--16356561",
+      "notes": "Amplio local sobre Av. Peron, ex distribuidora de bebidas, con oficina, cocina, bano y patio.",
+      "approximate": true,
+      "discoveredAt": "2026-04-28T17:18:34.980Z",
+      "lastSeenAt": "2026-04-28T17:20:03.209Z"
     },
     {
       "id": "rent-rivadavia-2602-coto",
@@ -109,26 +128,7 @@
       "sourceUrl": "https://www.zonaprop.com.ar/locales-comerciales-lanus-oeste-con-luz-orden-precio-ascendente.html",
       "notes": "Local dentro de Coto Lanus. Alto flujo indirecto, pero formato shopping/sucursal.",
       "discoveredAt": "2026-04-28T16:25:22.641Z",
-      "lastSeenAt": "2026-04-28T16:58:16.446Z"
-    },
-    {
-      "id": "rent-avenida-bernardino-rivadavia-2602-lanus-oeste",
-      "name": "Avenida Bernardino Rivadavia 2602",
-      "address": "Avenida Bernardino Rivadavia 2602, Lanus Oeste",
-      "price": 500000,
-      "priceLabel": "$500.000",
-      "sqm": 45,
-      "traffic": 5,
-      "fit": 5,
-      "status": "active",
-      "source": "Zonaprop Tagle Lanus Oeste",
-      "sourceUrl": "https://www.zonaprop.com.ar/locales-comerciales-alquiler-lanus-oeste-orden-precio-ascendente.html",
-      "notes": "Hallado automaticamente; verificar disponibilidad, requisitos y medidas con la inmobiliaria.",
-      "lat": -34.6904895,
-      "lng": -58.420636,
-      "approximate": false,
-      "discoveredAt": "2026-04-28T16:58:16.446Z",
-      "lastSeenAt": "2026-04-28T16:58:16.446Z"
+      "lastSeenAt": "2026-04-28T17:20:03.209Z"
     },
     {
       "id": "rent-general-hornos-1415",
@@ -146,7 +146,7 @@
       "sourceUrl": "https://www.argenprop.com/locales/alquiler/remedios-de-escalada",
       "notes": "Local/galpon en buen estado con cortina metalica y bano.",
       "discoveredAt": "2026-04-28T16:25:22.641Z",
-      "lastSeenAt": "2026-04-28T16:58:16.446Z"
+      "lastSeenAt": "2026-04-28T17:20:03.209Z"
     },
     {
       "id": "rent-aristobulo-191",
@@ -180,7 +180,7 @@
       "sourceUrl": "https://www.argenprop.com/locales/alquiler/remedios-de-escalada",
       "notes": "Local sobre zona comercial. Confirmar superficie antes de priorizar.",
       "discoveredAt": "2026-04-28T16:25:22.641Z",
-      "lastSeenAt": "2026-04-28T16:58:16.446Z"
+      "lastSeenAt": "2026-04-28T17:20:03.209Z"
     },
     {
       "id": "rent-santiago-plaul-3209",
@@ -231,6 +231,25 @@
       "notes": "Interesante por entrepiso/guardado; ubicacion mas barrial."
     },
     {
+      "id": "rent-peron-3765-valentin-alsina",
+      "name": "Juan Domingo Peron 3765",
+      "address": "Juan Domingo Peron 3765, Valentin Alsina",
+      "lat": -34.6666182,
+      "lng": -58.4153652,
+      "price": 450000,
+      "priceLabel": "$450.000",
+      "sqm": 40,
+      "traffic": 5,
+      "fit": 4,
+      "status": "reserved",
+      "source": "Zonaprop / Inmuebles Clarin",
+      "sourceUrl": "https://www.zonaprop.com.ar/propiedades/clasificado/alcllcin-propiedad-reservada-local.-av-juan-d-peron-al-3700-57588020.html",
+      "notes": "Local con bano sobre avenida. El aviso de Zonaprop figura reservado; mantener como referencia de precio/zona.",
+      "approximate": true,
+      "discoveredAt": "2026-04-28T17:18:34.980Z",
+      "lastSeenAt": "2026-04-28T17:20:03.209Z"
+    },
+    {
       "id": "rent-viamonte-2349",
       "name": "Viamonte 2349",
       "address": "Viamonte 2349, Lanus Oeste",
@@ -246,7 +265,7 @@
       "sourceUrl": "https://www.zonaprop.com.ar/locales-comerciales-alquiler-lanus-oeste-a-estrenar.html",
       "notes": "Dos salones de venta, deposito/oficina y bano. Buena exposicion hacia avenidas.",
       "discoveredAt": "2026-04-28T16:25:22.641Z",
-      "lastSeenAt": "2026-04-28T16:58:16.446Z"
+      "lastSeenAt": "2026-04-28T17:20:03.209Z"
     },
     {
       "id": "rent-25-mayo-975",
@@ -264,7 +283,26 @@
       "sourceUrl": "https://www.zonaprop.com.ar/locales-comerciales-alquiler-lanus-oeste-con-apto-profesional-publicado-hace-menos-de-15-dias.html",
       "notes": "Local 4.4x8 con deposito y bano, cerca de 25 de Mayo.",
       "discoveredAt": "2026-04-28T16:25:22.641Z",
-      "lastSeenAt": "2026-04-28T16:58:16.446Z"
+      "lastSeenAt": "2026-04-28T17:20:03.209Z"
+    },
+    {
+      "id": "rent-peron-3100-valentin-alsina",
+      "name": "Juan Domingo Peron 3100",
+      "address": "Juan Domingo Peron 3100, Valentin Alsina",
+      "lat": -34.670452,
+      "lng": -58.4101197,
+      "price": 850000,
+      "priceLabel": "$850.000",
+      "sqm": 36,
+      "traffic": 5,
+      "fit": 4,
+      "status": "active",
+      "source": "Inmuebles Clarin",
+      "sourceUrl": "https://www.inmuebles.clarin.com/local-en-alquiler-en-valentin-alsina--18970944",
+      "notes": "Local de 4,50 x 8 m aprox. sobre Av. Peron, con bano.",
+      "approximate": true,
+      "discoveredAt": "2026-04-28T17:18:34.980Z",
+      "lastSeenAt": "2026-04-28T17:20:03.209Z"
     },
     {
       "id": "rent-25-mayo-1500",
@@ -299,7 +337,7 @@
       "sourceUrl": "https://www.argenprop.com/locales/alquiler/remedios-de-escalada",
       "notes": "Local grande de 180 m2 aprox. en Remedios de Escalada.",
       "discoveredAt": "2026-04-28T16:25:22.641Z",
-      "lastSeenAt": "2026-04-28T16:58:16.446Z"
+      "lastSeenAt": "2026-04-28T17:20:03.209Z"
     },
     {
       "id": "rent-zarate-100",
@@ -317,7 +355,45 @@
       "sourceUrl": "https://www.argenprop.com/galpones-o-locales/alquiler/remedios-de-escalada",
       "notes": "Deposito/galpon amplio. Puede servir si el foco es mayorista/logistica.",
       "discoveredAt": "2026-04-28T16:25:22.641Z",
-      "lastSeenAt": "2026-04-28T16:58:16.446Z"
+      "lastSeenAt": "2026-04-28T17:20:03.209Z"
+    },
+    {
+      "id": "rent-peron-2300-valentin-alsina",
+      "name": "Juan Domingo Peron 2300",
+      "address": "Juan Domingo Peron 2300, Valentin Alsina",
+      "lat": -34.6760603,
+      "lng": -58.4027541,
+      "price": null,
+      "priceLabel": "Consultar",
+      "sqm": 36,
+      "traffic": 5,
+      "fit": 3,
+      "status": "active",
+      "source": "Argenprop",
+      "sourceUrl": "https://www.argenprop.com/local-en-alquiler-en-valentin-alsina--16744700",
+      "notes": "Local a estrenar sobre Av. Peron esquina Ucrania. El aviso indica que anteriormente fue casa de articulos de limpieza.",
+      "approximate": true,
+      "discoveredAt": "2026-04-28T17:18:34.980Z",
+      "lastSeenAt": "2026-04-28T17:20:03.209Z"
+    },
+    {
+      "id": "rent-peron-2500-valentin-alsina",
+      "name": "Juan Domingo Peron 2500",
+      "address": "Juan Domingo Peron 2500, Valentin Alsina",
+      "lat": -34.6745185,
+      "lng": -58.4046555,
+      "price": 350000,
+      "priceLabel": "$350.000",
+      "sqm": 18,
+      "traffic": 5,
+      "fit": 3,
+      "status": "active",
+      "source": "Inmuebles Clarin / Argenprop",
+      "sourceUrl": "https://www.inmuebles.clarin.com/local-en-alquiler-en-valentin-alsina--18985181",
+      "notes": "Local dentro de Galeria Boulevard, 3 x 3 m con entrepiso. Muy barato pero chico.",
+      "approximate": true,
+      "discoveredAt": "2026-04-28T17:18:34.980Z",
+      "lastSeenAt": "2026-04-28T17:20:03.209Z"
     },
     {
       "id": "rent-ministro-brin-4400",
@@ -335,7 +411,44 @@
       "sourceUrl": "https://www.argenprop.com/locales/alquiler/remedios-de-escalada",
       "notes": "Zona comercial cerca de Beltran. Buen precio, superficie chica.",
       "discoveredAt": "2026-04-28T16:25:22.641Z",
-      "lastSeenAt": "2026-04-28T16:58:16.446Z"
+      "lastSeenAt": "2026-04-28T17:20:03.209Z"
+    },
+    {
+      "id": "rent-peron-3712-valentin-alsina",
+      "name": "Juan Domingo Peron 3712",
+      "address": "Juan Domingo Peron 3712, Valentin Alsina",
+      "lat": -34.6668951,
+      "lng": -58.4149161,
+      "price": 450000,
+      "priceLabel": "$450.000",
+      "sqm": 18,
+      "traffic": 5,
+      "fit": 3,
+      "status": "active",
+      "source": "Argenprop / Inmuebles Clarin",
+      "sourceUrl": "https://www.argenprop.com/local-en-alquiler-en-valentin-alsina--16941625",
+      "notes": "Local sobre avenida de 18 m2 con bano. Precio bajo; revisar si sigue disponible.",
+      "approximate": true,
+      "discoveredAt": "2026-04-28T17:18:34.980Z",
+      "lastSeenAt": "2026-04-28T17:20:03.209Z"
+    },
+    {
+      "id": "rent-peron-2100-valentin-alsina",
+      "name": "Juan Domingo Peron 2100",
+      "address": "Juan Domingo Peron 2100, Valentin Alsina",
+      "lat": -34.6776037,
+      "lng": -58.4008517,
+      "price": 1500000,
+      "priceLabel": "$1.500.000",
+      "sqm": 70,
+      "traffic": 5,
+      "fit": 3,
+      "status": "active",
+      "source": "Argenprop / Inmuebles Clarin",
+      "sourceUrl": "https://www.argenprop.com/local-en-alquiler-en-valentin-alsina--18268686",
+      "notes": "Local comercial sobre Av. Peron, 4,50 x 17 m aprox., luz trifasica y frente vidriado.",
+      "discoveredAt": "2026-04-28T17:18:34.980Z",
+      "lastSeenAt": "2026-04-28T17:20:03.209Z"
     },
     {
       "id": "rent-hipolito-3900",
@@ -404,7 +517,26 @@
       "lng": -58.3962651,
       "approximate": true,
       "discoveredAt": "2026-04-28T04:12:33.126Z",
-      "lastSeenAt": "2026-04-28T16:25:22.641Z"
+      "lastSeenAt": "2026-04-28T17:20:03.209Z"
+    },
+    {
+      "id": "rent-peron-2400-valentin-alsina",
+      "name": "Juan Domingo Peron 2400",
+      "address": "Juan Domingo Peron 2400, Valentin Alsina",
+      "lat": -34.6752902,
+      "lng": -58.4037048,
+      "price": 3500000,
+      "priceLabel": "$3.500.000",
+      "sqm": 112,
+      "traffic": 5,
+      "fit": 3,
+      "status": "active",
+      "source": "Inmuebles Clarin",
+      "sourceUrl": "https://www.inmuebles.clarin.com/local-en-alquiler-en-valentin-alsina--18955549",
+      "notes": "Local con frente de 7 m x 12 m, vidriera, persiana motorizada, bano y kitchenette.",
+      "approximate": true,
+      "discoveredAt": "2026-04-28T17:18:34.980Z",
+      "lastSeenAt": "2026-04-28T17:20:03.209Z"
     },
     {
       "id": "rent-avenida-hipolito-yrigoyen-3800-lanus-oeste",
@@ -423,7 +555,7 @@
       "lng": -58.3918578,
       "approximate": false,
       "discoveredAt": "2026-04-28T16:25:22.641Z",
-      "lastSeenAt": "2026-04-28T16:25:22.641Z"
+      "lastSeenAt": "2026-04-28T17:20:03.209Z"
     },
     {
       "id": "rent-enrique-fernandez-2100",
@@ -441,7 +573,7 @@
       "sourceUrl": "https://www.zonaprop.com.ar/locales-comerciales-lanus-oeste-con-desague-cloacal-orden-precio-ascendente.html",
       "notes": "A metros de centro comercial; local compacto sin expensas.",
       "discoveredAt": "2026-04-28T16:25:22.641Z",
-      "lastSeenAt": "2026-04-28T16:58:16.446Z"
+      "lastSeenAt": "2026-04-28T17:20:03.209Z"
     },
     {
       "id": "rent-jose-moreno-400",
@@ -475,7 +607,7 @@
       "sourceUrl": "https://www.argenprop.com/locales/alquiler/remedios-de-escalada",
       "notes": "Pleno centro de Remedios de Escalada, local refaccionado.",
       "discoveredAt": "2026-04-28T16:25:22.641Z",
-      "lastSeenAt": "2026-04-28T16:58:16.446Z"
+      "lastSeenAt": "2026-04-28T17:20:03.209Z"
     },
     {
       "id": "rent-hipolito-3600",
@@ -512,6 +644,25 @@
       "notes": "Lanusita, salon 4x8, entrepiso y terraza. Disponible desde marzo 2026 segun aviso."
     },
     {
+      "id": "rent-peron-2600-valentin-alsina",
+      "name": "Juan Domingo Peron 2600",
+      "address": "Juan Domingo Peron 2600, Valentin Alsina",
+      "lat": -34.673747,
+      "lng": -58.4056062,
+      "price": 1500000,
+      "priceLabel": "$1.500.000 + $120.000 expensas",
+      "sqm": 57,
+      "traffic": 5,
+      "fit": 3,
+      "status": "active",
+      "source": "Zonaprop / Inmuebles Clarin",
+      "sourceUrl": "https://www.zonaprop.com.ar/locales-comerciales-valentin-alsina.html",
+      "notes": "Local en pleno centro comercial, entre Farrel y Rucci. Frente, persiana, entrepiso, bano y kitchenette.",
+      "approximate": true,
+      "discoveredAt": "2026-04-28T17:18:34.980Z",
+      "lastSeenAt": "2026-04-28T17:20:03.209Z"
+    },
+    {
       "id": "rent-hipolito-4700",
       "name": "Hipolito Yrigoyen 4700",
       "address": "Hipolito Yrigoyen 4700, Lanus Oeste",
@@ -544,7 +695,7 @@
       "sourceUrl": "https://inmuebles.mercadolibre.com.ar/locales/bsas-gba-sur/lanus/locales-en-alquiler-lanus",
       "notes": "Local a estrenar segun resultado de MercadoLibre. Confirmar precio.",
       "discoveredAt": "2026-04-28T16:25:22.641Z",
-      "lastSeenAt": "2026-04-28T16:58:16.446Z"
+      "lastSeenAt": "2026-04-28T17:20:03.209Z"
     },
     {
       "id": "rent-remedios-santiago",
@@ -596,7 +747,7 @@
       "sourceUrl": "https://www.argenprop.com/cocheras-o-locales/alquiler/remedios-de-escalada",
       "notes": "Local a estrenar sobre Uriarte; chico pero en arteria comercial.",
       "discoveredAt": "2026-04-28T16:25:22.641Z",
-      "lastSeenAt": "2026-04-28T16:58:16.446Z"
+      "lastSeenAt": "2026-04-28T17:20:03.209Z"
     },
     {
       "id": "rent-gobernador-irigoyen-200",
@@ -631,7 +782,7 @@
       "sourceUrl": "https://www.novosadpropiedades.com.ar/propiedad/alquiler-de-otro-inmueble-en-lanus-oeste-lanus-buenos-aires-3439-255935",
       "notes": "Casa con local comercial en PB y deposito. Evaluar si se puede alquilar/usar como local puro.",
       "discoveredAt": "2026-04-28T16:25:22.641Z",
-      "lastSeenAt": "2026-04-28T16:58:16.446Z"
+      "lastSeenAt": "2026-04-28T17:20:03.209Z"
     },
     {
       "id": "rent-avenida-hipolito-yrigoyen-4000-lanus-oeste",
@@ -650,7 +801,7 @@
       "lng": -58.3917718,
       "approximate": false,
       "discoveredAt": "2026-04-28T04:12:33.126Z",
-      "lastSeenAt": "2026-04-28T16:25:22.641Z"
+      "lastSeenAt": "2026-04-28T17:20:03.209Z"
     },
     {
       "id": "rent-camilo-cavour-3000",
@@ -686,45 +837,7 @@
       "lng": -58.3925389,
       "approximate": true,
       "discoveredAt": "2026-04-28T16:25:22.641Z",
-      "lastSeenAt": "2026-04-28T16:25:22.641Z"
-    },
-    {
-      "id": "rent-av-san-martin-2327-lanus-oeste",
-      "name": "Av. San MartíN 2327",
-      "address": "Av. San MartíN 2327, Lanus Oeste",
-      "price": 40000028,
-      "priceLabel": "$40.000.028",
-      "sqm": 48,
-      "traffic": 3,
-      "fit": 3,
-      "status": "active",
-      "source": "Zonaprop Tagle Lanus Oeste",
-      "sourceUrl": "https://www.zonaprop.com.ar/locales-comerciales-alquiler-lanus-oeste-orden-precio-ascendente.html",
-      "notes": "Hallado automaticamente; verificar disponibilidad, requisitos y medidas con la inmobiliaria.",
-      "lat": -34.696332,
-      "lng": -58.4084646,
-      "approximate": false,
-      "discoveredAt": "2026-04-28T16:58:16.446Z",
-      "lastSeenAt": "2026-04-28T16:58:16.446Z"
-    },
-    {
-      "id": "rent-avenida-san-martin-1744-lanus-oeste",
-      "name": "Avenida San MartíN 1744",
-      "address": "Avenida San MartíN 1744, Lanus Oeste",
-      "price": 59000028,
-      "priceLabel": "$59.000.028",
-      "sqm": 28,
-      "traffic": 3,
-      "fit": 3,
-      "status": "active",
-      "source": "Zonaprop Tagle Lanus Oeste",
-      "sourceUrl": "https://www.zonaprop.com.ar/locales-comerciales-alquiler-lanus-oeste-orden-precio-ascendente.html",
-      "notes": "Hallado automaticamente; verificar disponibilidad, requisitos y medidas con la inmobiliaria.",
-      "lat": -34.6912618,
-      "lng": -58.4034423,
-      "approximate": false,
-      "discoveredAt": "2026-04-28T16:58:16.446Z",
-      "lastSeenAt": "2026-04-28T16:58:16.446Z"
+      "lastSeenAt": "2026-04-28T17:20:03.209Z"
     }
   ],
   "competitors": [
@@ -761,6 +874,21 @@
       "status": "active",
       "source": "Pulkro Limpieza",
       "sourceUrl": "https://www.pulkrolimpieza.com.ar/empresa-limpieza/distribuidora-articulos-de-limpieza/"
+    },
+    {
+      "id": "comp-salon-peinador-peron-2326",
+      "name": "Distribuidora Salon del Peinador Av. Peron",
+      "address": "Juan Domingo Peron 2326, Valentin Alsina",
+      "lat": -34.6759597,
+      "lng": -58.4029483,
+      "category": "direct",
+      "status": "active",
+      "source": "PuntoClick",
+      "sourceUrl": "https://puntoclick.com.ar/empresa/distribuidora-salon-del-peinador-av-peron",
+      "notes": "Articulos de limpieza / cosmetica / perfumeria sobre Av. Peron.",
+      "approximate": true,
+      "discoveredAt": "2026-04-28T17:18:34.980Z",
+      "lastSeenAt": "2026-04-28T17:20:03.209Z"
     },
     {
       "id": "comp-mas-limpio",
@@ -920,6 +1048,22 @@
       }
     },
     {
+      "id": "osm-node-10173919365",
+      "name": "Autoservicio Los Hermanos",
+      "address": "Presidente Teniente General Juan Domingo Perón 1725",
+      "lat": -34.6802553,
+      "lng": -58.3982576,
+      "category": "indirect",
+      "status": "active",
+      "source": "OpenStreetMap",
+      "sourceUrl": "https://www.openstreetmap.org/",
+      "osm": {
+        "type": "node",
+        "id": 10173919365,
+        "shop": "supermarket"
+      }
+    },
+    {
       "id": "osm-node-4645621276",
       "name": "Autoservicio Patricia",
       "address": "Lanus Oeste",
@@ -952,6 +1096,38 @@
       }
     },
     {
+      "id": "osm-way-468917891",
+      "name": "Barna",
+      "address": "Avenida General San Martín",
+      "lat": -34.7113748,
+      "lng": -58.4242354,
+      "category": "indirect",
+      "status": "active",
+      "source": "OpenStreetMap",
+      "sourceUrl": "https://www.openstreetmap.org/",
+      "osm": {
+        "type": "way",
+        "id": 468917891,
+        "shop": "hardware"
+      }
+    },
+    {
+      "id": "osm-node-11181428836",
+      "name": "BH",
+      "address": "Lanus Oeste",
+      "lat": -34.739308,
+      "lng": -58.4043286,
+      "category": "indirect",
+      "status": "active",
+      "source": "OpenStreetMap",
+      "sourceUrl": "https://www.openstreetmap.org/",
+      "osm": {
+        "type": "node",
+        "id": 11181428836,
+        "shop": "hardware"
+      }
+    },
+    {
       "id": "osm-node-5279799316",
       "name": "Carames",
       "address": "José María Moreno",
@@ -965,6 +1141,22 @@
         "type": "node",
         "id": 5279799316,
         "shop": "convenience"
+      }
+    },
+    {
+      "id": "osm-way-469230702",
+      "name": "Carmelo",
+      "address": "Avenida General San Martín",
+      "lat": -34.7107901,
+      "lng": -58.4225016,
+      "category": "indirect",
+      "status": "active",
+      "source": "OpenStreetMap",
+      "sourceUrl": "https://www.openstreetmap.org/",
+      "osm": {
+        "type": "way",
+        "id": 469230702,
+        "shop": "hardware"
       }
     },
     {
@@ -1016,6 +1208,22 @@
       }
     },
     {
+      "id": "osm-way-546133979",
+      "name": "Casa Berden",
+      "address": "25 de Mayo",
+      "lat": -34.6987755,
+      "lng": -58.4201535,
+      "category": "indirect",
+      "status": "active",
+      "source": "OpenStreetMap",
+      "sourceUrl": "https://www.openstreetmap.org/",
+      "osm": {
+        "type": "way",
+        "id": 546133979,
+        "shop": "paint"
+      }
+    },
+    {
       "id": "osm-way-546181433",
       "name": "Casa Koruk",
       "address": "Avenida Hipólito Yrigoyen",
@@ -1032,6 +1240,22 @@
       }
     },
     {
+      "id": "osm-node-4674803895",
+      "name": "Cerrajería (lanus oeste)",
+      "address": "Lanus Oeste",
+      "lat": -34.7079281,
+      "lng": -58.3956823,
+      "category": "indirect",
+      "status": "active",
+      "source": "OpenStreetMap",
+      "sourceUrl": "https://www.openstreetmap.org/",
+      "osm": {
+        "type": "node",
+        "id": 4674803895,
+        "shop": "hardware"
+      }
+    },
+    {
       "id": "osm-node-1652900336",
       "name": "Chino",
       "address": "Lanus Oeste",
@@ -1045,6 +1269,38 @@
         "type": "node",
         "id": 1652900336,
         "shop": "supermarket"
+      }
+    },
+    {
+      "id": "osm-node-5279949666",
+      "name": "Colorshop",
+      "address": "Avenida General San Martín",
+      "lat": -34.7058443,
+      "lng": -58.4167992,
+      "category": "indirect",
+      "status": "active",
+      "source": "OpenStreetMap",
+      "sourceUrl": "https://www.openstreetmap.org/",
+      "osm": {
+        "type": "node",
+        "id": 5279949666,
+        "shop": "paint"
+      }
+    },
+    {
+      "id": "osm-way-468915811",
+      "name": "Cotillon",
+      "address": "Avenida General San Martín",
+      "lat": -34.7101285,
+      "lng": -58.4219799,
+      "category": "indirect",
+      "status": "active",
+      "source": "OpenStreetMap",
+      "sourceUrl": "https://www.openstreetmap.org/",
+      "osm": {
+        "type": "way",
+        "id": 468915811,
+        "shop": "variety_store"
       }
     },
     {
@@ -1088,6 +1344,22 @@
         "type": "way",
         "id": 545346372,
         "shop": "doityourself"
+      }
+    },
+    {
+      "id": "osm-way-545317237",
+      "name": "Day % Autoservicio",
+      "address": "General Viamonte",
+      "lat": -34.6827472,
+      "lng": -58.4203687,
+      "category": "indirect",
+      "status": "active",
+      "source": "OpenStreetMap",
+      "sourceUrl": "https://www.openstreetmap.org/",
+      "osm": {
+        "type": "way",
+        "id": 545317237,
+        "shop": "convenience"
       }
     },
     {
@@ -1155,6 +1427,22 @@
       }
     },
     {
+      "id": "osm-node-5270507147",
+      "name": "Don Pollo",
+      "address": "General Viamonte",
+      "lat": -34.6835288,
+      "lng": -58.4193604,
+      "category": "indirect",
+      "status": "active",
+      "source": "OpenStreetMap",
+      "sourceUrl": "https://www.openstreetmap.org/",
+      "osm": {
+        "type": "node",
+        "id": 5270507147,
+        "shop": "convenience"
+      }
+    },
+    {
       "id": "osm-node-5307464125",
       "name": "El Galpón",
       "address": "Avenida Teodoro Sánchez de Bustamante",
@@ -1168,6 +1456,38 @@
         "type": "node",
         "id": 5307464125,
         "shop": "convenience"
+      }
+    },
+    {
+      "id": "osm-node-4633591958",
+      "name": "El Obrero",
+      "address": "Avenida General Martín Rodríguez",
+      "lat": -34.7342737,
+      "lng": -58.4313605,
+      "category": "indirect",
+      "status": "active",
+      "source": "OpenStreetMap",
+      "sourceUrl": "https://www.openstreetmap.org/",
+      "osm": {
+        "type": "node",
+        "id": 4633591958,
+        "shop": "hardware"
+      }
+    },
+    {
+      "id": "osm-node-4250980499",
+      "name": "El Palacio del Aluminio",
+      "address": "Avenida Hipólito Yrigoyen 4200",
+      "lat": -34.7034568,
+      "lng": -58.3915991,
+      "category": "indirect",
+      "status": "active",
+      "source": "OpenStreetMap",
+      "sourceUrl": "https://www.openstreetmap.org/",
+      "osm": {
+        "type": "node",
+        "id": 4250980499,
+        "shop": "hardware"
       }
     },
     {
@@ -1187,6 +1507,22 @@
       }
     },
     {
+      "id": "osm-way-545107888",
+      "name": "El Sol",
+      "address": "Avenida Bernardino Rivadavia",
+      "lat": -34.6866876,
+      "lng": -58.4138229,
+      "category": "indirect",
+      "status": "active",
+      "source": "OpenStreetMap",
+      "sourceUrl": "https://www.openstreetmap.org/",
+      "osm": {
+        "type": "way",
+        "id": 545107888,
+        "shop": "paint"
+      }
+    },
+    {
       "id": "osm-way-468914837",
       "name": "El Viejo Conde",
       "address": "Marco Avellaneda",
@@ -1200,6 +1536,54 @@
         "type": "way",
         "id": 468914837,
         "shop": "convenience"
+      }
+    },
+    {
+      "id": "osm-node-5277961616",
+      "name": "Femar",
+      "address": "Avenida General San Martín",
+      "lat": -34.6938023,
+      "lng": -58.4061881,
+      "category": "indirect",
+      "status": "active",
+      "source": "OpenStreetMap",
+      "sourceUrl": "https://www.openstreetmap.org/",
+      "osm": {
+        "type": "node",
+        "id": 5277961616,
+        "shop": "hardware"
+      }
+    },
+    {
+      "id": "osm-way-470362808",
+      "name": "Ferretería",
+      "address": "Ejército de los Andes",
+      "lat": -34.7146781,
+      "lng": -58.4300109,
+      "category": "indirect",
+      "status": "active",
+      "source": "OpenStreetMap",
+      "sourceUrl": "https://www.openstreetmap.org/",
+      "osm": {
+        "type": "way",
+        "id": 470362808,
+        "shop": "hardware"
+      }
+    },
+    {
+      "id": "osm-way-545051138",
+      "name": "Ferretería Sanitarios Electricidad",
+      "address": "General Viamonte",
+      "lat": -34.6905327,
+      "lng": -58.4147156,
+      "category": "indirect",
+      "status": "active",
+      "source": "OpenStreetMap",
+      "sourceUrl": "https://www.openstreetmap.org/",
+      "osm": {
+        "type": "way",
+        "id": 545051138,
+        "shop": "hardware"
       }
     },
     {
@@ -1232,6 +1616,38 @@
         "type": "way",
         "id": 546160544,
         "shop": "supermarket"
+      }
+    },
+    {
+      "id": "osm-node-4571256754",
+      "name": "FOX",
+      "address": "Lanus Oeste",
+      "lat": -34.7332951,
+      "lng": -58.4086506,
+      "category": "indirect",
+      "status": "active",
+      "source": "OpenStreetMap",
+      "sourceUrl": "https://www.openstreetmap.org/",
+      "osm": {
+        "type": "node",
+        "id": 4571256754,
+        "shop": "paint"
+      }
+    },
+    {
+      "id": "osm-node-5278063334",
+      "name": "Fric-Rot",
+      "address": "Chaco",
+      "lat": -34.6889357,
+      "lng": -58.4008918,
+      "category": "indirect",
+      "status": "active",
+      "source": "OpenStreetMap",
+      "sourceUrl": "https://www.openstreetmap.org/",
+      "osm": {
+        "type": "node",
+        "id": 5278063334,
+        "shop": "hardware"
       }
     },
     {
@@ -1280,6 +1696,54 @@
         "type": "way",
         "id": 545496596,
         "shop": "supermarket"
+      }
+    },
+    {
+      "id": "osm-node-6335257512",
+      "name": "Gamix pinturerías",
+      "address": "Lanus Oeste",
+      "lat": -34.6848406,
+      "lng": -58.3861606,
+      "category": "indirect",
+      "status": "active",
+      "source": "OpenStreetMap",
+      "sourceUrl": "https://www.openstreetmap.org/",
+      "osm": {
+        "type": "node",
+        "id": 6335257512,
+        "shop": "paint"
+      }
+    },
+    {
+      "id": "osm-node-4145308838",
+      "name": "Giannoni",
+      "address": "Lanus Oeste",
+      "lat": -34.7035698,
+      "lng": -58.3921133,
+      "category": "indirect",
+      "status": "active",
+      "source": "OpenStreetMap",
+      "sourceUrl": "https://www.openstreetmap.org/",
+      "osm": {
+        "type": "node",
+        "id": 4145308838,
+        "shop": "paint"
+      }
+    },
+    {
+      "id": "osm-way-546154891",
+      "name": "Gran Pinturerías",
+      "address": "Avenida General San Martín",
+      "lat": -34.6916065,
+      "lng": -58.4036115,
+      "category": "indirect",
+      "status": "active",
+      "source": "OpenStreetMap",
+      "sourceUrl": "https://www.openstreetmap.org/",
+      "osm": {
+        "type": "way",
+        "id": 546154891,
+        "shop": "paint"
       }
     },
     {
@@ -1379,6 +1843,38 @@
       }
     },
     {
+      "id": "osm-way-545346373",
+      "name": "Irat",
+      "address": "Avenida Remedios de Escalada de San Martín",
+      "lat": -34.688905,
+      "lng": -58.3933686,
+      "category": "indirect",
+      "status": "active",
+      "source": "OpenStreetMap",
+      "sourceUrl": "https://www.openstreetmap.org/",
+      "osm": {
+        "type": "way",
+        "id": 545346373,
+        "shop": "paint"
+      }
+    },
+    {
+      "id": "osm-node-4633575565",
+      "name": "Jacinto Salón",
+      "address": "Avenida General Martín Rodríguez",
+      "lat": -34.7354222,
+      "lng": -58.4335234,
+      "category": "indirect",
+      "status": "active",
+      "source": "OpenStreetMap",
+      "sourceUrl": "https://www.openstreetmap.org/",
+      "osm": {
+        "type": "node",
+        "id": 4633575565,
+        "shop": "beauty"
+      }
+    },
+    {
       "id": "osm-node-3813281303",
       "name": "Kiosco",
       "address": "Lanus Oeste",
@@ -1395,6 +1891,54 @@
       }
     },
     {
+      "id": "osm-way-545361990",
+      "name": "Kiosco El Ro-Jo",
+      "address": "Avenida Remedios de Escalada de San Martín",
+      "lat": -34.6631541,
+      "lng": -58.4171019,
+      "category": "indirect",
+      "status": "active",
+      "source": "OpenStreetMap",
+      "sourceUrl": "https://www.openstreetmap.org/",
+      "osm": {
+        "type": "way",
+        "id": 545361990,
+        "shop": "convenience"
+      }
+    },
+    {
+      "id": "osm-node-12801119609",
+      "name": "kiosko",
+      "address": "Lanus Oeste",
+      "lat": -34.7049105,
+      "lng": -58.3930912,
+      "category": "indirect",
+      "status": "active",
+      "source": "OpenStreetMap",
+      "sourceUrl": "https://www.openstreetmap.org/",
+      "osm": {
+        "type": "node",
+        "id": 12801119609,
+        "shop": "variety_store"
+      }
+    },
+    {
+      "id": "osm-node-5278538261",
+      "name": "Kromacolor",
+      "address": "Juan Piñeiro",
+      "lat": -34.7068389,
+      "lng": -58.3936008,
+      "category": "indirect",
+      "status": "active",
+      "source": "OpenStreetMap",
+      "sourceUrl": "https://www.openstreetmap.org/",
+      "osm": {
+        "type": "node",
+        "id": 5278538261,
+        "shop": "paint"
+      }
+    },
+    {
       "id": "osm-way-545500530",
       "name": "La Farola",
       "address": "San Vladimiro",
@@ -1407,6 +1951,22 @@
       "osm": {
         "type": "way",
         "id": 545500530,
+        "shop": "convenience"
+      }
+    },
+    {
+      "id": "osm-node-5270787627",
+      "name": "La Isla",
+      "address": "Avenida Santa Fe",
+      "lat": -34.6762703,
+      "lng": -58.3854664,
+      "category": "indirect",
+      "status": "active",
+      "source": "OpenStreetMap",
+      "sourceUrl": "https://www.openstreetmap.org/",
+      "osm": {
+        "type": "node",
+        "id": 5270787627,
         "shop": "convenience"
       }
     },
@@ -1459,6 +2019,22 @@
       }
     },
     {
+      "id": "osm-node-10176061663",
+      "name": "Los Cocos",
+      "address": "Avenida Cabildo 301",
+      "lat": -34.6787585,
+      "lng": -58.3888692,
+      "category": "indirect",
+      "status": "active",
+      "source": "OpenStreetMap",
+      "sourceUrl": "https://www.openstreetmap.org/",
+      "osm": {
+        "type": "node",
+        "id": 10176061663,
+        "shop": "convenience"
+      }
+    },
+    {
       "id": "osm-node-5278346910",
       "name": "Los Mas Famosos",
       "address": "Avenida Hipólito Yrigoyen",
@@ -1472,6 +2048,22 @@
         "type": "node",
         "id": 5278346910,
         "shop": "convenience"
+      }
+    },
+    {
+      "id": "osm-way-546127814",
+      "name": "Luna",
+      "address": "Díaz Vélez",
+      "lat": -34.6669416,
+      "lng": -58.3715219,
+      "category": "indirect",
+      "status": "active",
+      "source": "OpenStreetMap",
+      "sourceUrl": "https://www.openstreetmap.org/",
+      "osm": {
+        "type": "way",
+        "id": 546127814,
+        "shop": "supermarket"
       }
     },
     {
@@ -1489,6 +2081,69 @@
         "id": 546125997,
         "shop": "supermarket"
       }
+    },
+    {
+      "id": "osm-way-546360839",
+      "name": "Maderera Los Helechos",
+      "address": "Avenida General San Martín",
+      "lat": -34.7048698,
+      "lng": -58.4161941,
+      "category": "indirect",
+      "status": "active",
+      "source": "OpenStreetMap",
+      "sourceUrl": "https://www.openstreetmap.org/",
+      "osm": {
+        "type": "way",
+        "id": 546360839,
+        "shop": "hardware"
+      }
+    },
+    {
+      "id": "osm-way-545355233",
+      "name": "Magic Color",
+      "address": "Brasil",
+      "lat": -34.6838693,
+      "lng": -58.386895,
+      "category": "indirect",
+      "status": "active",
+      "source": "OpenStreetMap",
+      "sourceUrl": "https://www.openstreetmap.org/",
+      "osm": {
+        "type": "way",
+        "id": 545355233,
+        "shop": "paint"
+      }
+    },
+    {
+      "id": "osm-way-549201107",
+      "name": "Makro",
+      "address": "Lanus Oeste",
+      "lat": -34.6625688,
+      "lng": -58.3894931,
+      "category": "indirect",
+      "status": "active",
+      "source": "OpenStreetMap",
+      "sourceUrl": "https://www.openstreetmap.org/",
+      "osm": {
+        "type": "way",
+        "id": 549201107,
+        "shop": "wholesale"
+      }
+    },
+    {
+      "id": "comp-marva-lavadero-peron-2133",
+      "name": "Marva lavadero autoservicio tintoreria",
+      "address": "Juan Domingo Peron 2133, Valentin Alsina",
+      "lat": -34.6773501,
+      "lng": -58.4011649,
+      "category": "indirect",
+      "status": "active",
+      "source": "Cybo",
+      "sourceUrl": "https://es.cybo.com/AR-biz/marva-lavadero-autoservicio-tintoreria",
+      "notes": "Servicio de lavado/tintoreria; no vende necesariamente productos, pero compite por necesidad de limpieza.",
+      "approximate": true,
+      "discoveredAt": "2026-04-28T17:18:34.980Z",
+      "lastSeenAt": "2026-04-28T17:20:03.209Z"
     },
     {
       "id": "osm-way-470365491",
@@ -1520,6 +2175,54 @@
         "type": "node",
         "id": 7533350951,
         "shop": "supermarket"
+      }
+    },
+    {
+      "id": "osm-way-549435756",
+      "name": "Migliore",
+      "address": "Avenida Teodoro Sánchez de Bustamante",
+      "lat": -34.6894528,
+      "lng": -58.3793489,
+      "category": "indirect",
+      "status": "active",
+      "source": "OpenStreetMap",
+      "sourceUrl": "https://www.openstreetmap.org/",
+      "osm": {
+        "type": "way",
+        "id": 549435756,
+        "shop": "paint"
+      }
+    },
+    {
+      "id": "osm-way-546125983",
+      "name": "Modo",
+      "address": "Avenida Intendente Manuel Quindimil",
+      "lat": -34.695849,
+      "lng": -58.3952015,
+      "category": "indirect",
+      "status": "active",
+      "source": "OpenStreetMap",
+      "sourceUrl": "https://www.openstreetmap.org/",
+      "osm": {
+        "type": "way",
+        "id": 546125983,
+        "shop": "paint"
+      }
+    },
+    {
+      "id": "osm-node-1136648694",
+      "name": "Nasiol",
+      "address": "Avenida General San Martín",
+      "lat": -34.7045517,
+      "lng": -58.4158766,
+      "category": "indirect",
+      "status": "active",
+      "source": "OpenStreetMap",
+      "sourceUrl": "https://www.openstreetmap.org/",
+      "osm": {
+        "type": "node",
+        "id": 1136648694,
+        "shop": "paint"
       }
     },
     {
@@ -1555,6 +2258,20 @@
       }
     },
     {
+      "id": "comp-outlet-alsina-peron-3890",
+      "name": "Outlet Alsina",
+      "address": "Juan Domingo Peron 3890, Valentin Alsina",
+      "lat": -34.665965,
+      "lng": -58.416425,
+      "category": "indirect",
+      "status": "active",
+      "source": "Near Place",
+      "sourceUrl": "https://ar.near-place.com/outlet-alsina-presidente-teniente-general-juan-domingo-peron-3890-valentin-alsina",
+      "notes": "Outlet/comercio de hogar sobre Av. Peron; referencia de flujo comercial.",
+      "discoveredAt": "2026-04-28T17:18:34.980Z",
+      "lastSeenAt": "2026-04-28T17:20:03.209Z"
+    },
+    {
       "id": "osm-node-4633609134",
       "name": "Panes y Facturas",
       "address": "Avenida General Martín Rodríguez",
@@ -1568,6 +2285,86 @@
         "type": "node",
         "id": 4633609134,
         "shop": "convenience"
+      }
+    },
+    {
+      "id": "osm-way-546360843",
+      "name": "Paris",
+      "address": "Yerbal",
+      "lat": -34.7051813,
+      "lng": -58.4165214,
+      "category": "indirect",
+      "status": "active",
+      "source": "OpenStreetMap",
+      "sourceUrl": "https://www.openstreetmap.org/",
+      "osm": {
+        "type": "way",
+        "id": 546360843,
+        "shop": "beauty"
+      }
+    },
+    {
+      "id": "osm-node-6568642678",
+      "name": "Pasqualino",
+      "address": "Lanus Oeste",
+      "lat": -34.6755527,
+      "lng": -58.4166321,
+      "category": "indirect",
+      "status": "active",
+      "source": "OpenStreetMap",
+      "sourceUrl": "https://www.openstreetmap.org/",
+      "osm": {
+        "type": "node",
+        "id": 6568642678,
+        "shop": "hardware"
+      }
+    },
+    {
+      "id": "osm-node-9653202813",
+      "name": "Pinturerías Camino I",
+      "address": "Camino General Belgrano 701",
+      "lat": -34.689178,
+      "lng": -58.3773984,
+      "category": "indirect",
+      "status": "active",
+      "source": "OpenStreetMap",
+      "sourceUrl": "https://www.openstreetmap.org/",
+      "osm": {
+        "type": "node",
+        "id": 9653202813,
+        "shop": "paint"
+      }
+    },
+    {
+      "id": "osm-way-545097910",
+      "name": "Pinturerías Indugar",
+      "address": "Coronel D'Elía",
+      "lat": -34.6902457,
+      "lng": -58.4092951,
+      "category": "indirect",
+      "status": "active",
+      "source": "OpenStreetMap",
+      "sourceUrl": "https://www.openstreetmap.org/",
+      "osm": {
+        "type": "way",
+        "id": 545097910,
+        "shop": "paint"
+      }
+    },
+    {
+      "id": "osm-node-5278346869",
+      "name": "Prestigio",
+      "address": "Avenida Hipólito Yrigoyen",
+      "lat": -34.6986823,
+      "lng": -58.3923002,
+      "category": "indirect",
+      "status": "active",
+      "source": "OpenStreetMap",
+      "sourceUrl": "https://www.openstreetmap.org/",
+      "osm": {
+        "type": "node",
+        "id": 5278346869,
+        "shop": "paint"
       }
     },
     {
@@ -1587,6 +2384,22 @@
       }
     },
     {
+      "id": "osm-node-4520034610",
+      "name": "Rocemol",
+      "address": "Lanus Oeste",
+      "lat": -34.6819566,
+      "lng": -58.4192569,
+      "category": "indirect",
+      "status": "active",
+      "source": "OpenStreetMap",
+      "sourceUrl": "https://www.openstreetmap.org/",
+      "osm": {
+        "type": "node",
+        "id": 4520034610,
+        "shop": "paint"
+      }
+    },
+    {
       "id": "osm-way-469231851",
       "name": "San Martiín",
       "address": "Avenida General San Martín",
@@ -1600,6 +2413,38 @@
         "type": "way",
         "id": 469231851,
         "shop": "convenience"
+      }
+    },
+    {
+      "id": "osm-node-4978572298",
+      "name": "Sanitarios Viamonte",
+      "address": "Lanus Oeste",
+      "lat": -34.6975996,
+      "lng": -58.4065258,
+      "category": "indirect",
+      "status": "active",
+      "source": "OpenStreetMap",
+      "sourceUrl": "https://www.openstreetmap.org/",
+      "osm": {
+        "type": "node",
+        "id": 4978572298,
+        "shop": "hardware"
+      }
+    },
+    {
+      "id": "osm-way-546160540",
+      "name": "Sanitarios Viamonte",
+      "address": "General Viamonte",
+      "lat": -34.6971496,
+      "lng": -58.4064825,
+      "category": "indirect",
+      "status": "active",
+      "source": "OpenStreetMap",
+      "sourceUrl": "https://www.openstreetmap.org/",
+      "osm": {
+        "type": "way",
+        "id": 546160540,
+        "shop": "hardware"
       }
     },
     {
@@ -1667,6 +2512,22 @@
       }
     },
     {
+      "id": "osm-way-549201100",
+      "name": "Super Ahorro",
+      "address": "Avenida Rivadavia",
+      "lat": -34.6730352,
+      "lng": -58.3949116,
+      "category": "indirect",
+      "status": "active",
+      "source": "OpenStreetMap",
+      "sourceUrl": "https://www.openstreetmap.org/",
+      "osm": {
+        "type": "way",
+        "id": 549201100,
+        "shop": "supermarket"
+      }
+    },
+    {
       "id": "osm-node-5109729323",
       "name": "Super Chino",
       "address": "Lanus Oeste",
@@ -1693,6 +2554,22 @@
       "status": "active",
       "source": "Near Place",
       "sourceUrl": "https://ar.near-place.com/coto-lanus-oeste-avenida-pres-bernardino-rivadavia-2602-lanus-oeste"
+    },
+    {
+      "id": "osm-way-544904703",
+      "name": "Super Luna",
+      "address": "José María Moreno",
+      "lat": -34.680887,
+      "lng": -58.430073,
+      "category": "indirect",
+      "status": "active",
+      "source": "OpenStreetMap",
+      "sourceUrl": "https://www.openstreetmap.org/",
+      "osm": {
+        "type": "way",
+        "id": 544904703,
+        "shop": "supermarket"
+      }
     },
     {
       "id": "osm-way-467520637",
@@ -1791,6 +2668,22 @@
       }
     },
     {
+      "id": "osm-way-544898825",
+      "name": "Supermercado \"La Economia\"",
+      "address": "Teniente Coronel Obon",
+      "lat": -34.6718453,
+      "lng": -58.4238005,
+      "category": "indirect",
+      "status": "active",
+      "source": "OpenStreetMap",
+      "sourceUrl": "https://www.openstreetmap.org/",
+      "osm": {
+        "type": "way",
+        "id": 544898825,
+        "shop": "supermarket"
+      }
+    },
+    {
       "id": "osm-node-2297671656",
       "name": "Supermercado America",
       "address": "Lanus Oeste",
@@ -1855,6 +2748,20 @@
       }
     },
     {
+      "id": "comp-dia-peron-3241",
+      "name": "Supermercado Dia - Peron 3241",
+      "address": "Juan Domingo Peron 3241, Valentin Alsina",
+      "lat": -34.6698124,
+      "lng": -58.4110547,
+      "category": "indirect",
+      "status": "active",
+      "source": "Near Place",
+      "sourceUrl": "https://ar.near-place.com/supermercado-dia-presidente-teniente-general-juan-domingo-peron-3241-valentin-alsina",
+      "notes": "Supermercado de cadena sobre el corredor Peron.",
+      "discoveredAt": "2026-04-28T17:18:34.980Z",
+      "lastSeenAt": "2026-04-28T17:20:03.209Z"
+    },
+    {
       "id": "comp-dia-eva-peron",
       "name": "Supermercado DIA Lanus",
       "address": "Eva Peron 2567, Lanus Oeste",
@@ -1878,6 +2785,22 @@
       "osm": {
         "type": "way",
         "id": 546213365,
+        "shop": "supermarket"
+      }
+    },
+    {
+      "id": "osm-way-546136926",
+      "name": "Supermercado Eterno",
+      "address": "Avenida Remedios de Escalada de San Martín",
+      "lat": -34.6835337,
+      "lng": -58.4010071,
+      "category": "indirect",
+      "status": "active",
+      "source": "OpenStreetMap",
+      "sourceUrl": "https://www.openstreetmap.org/",
+      "osm": {
+        "type": "way",
+        "id": 546136926,
         "shop": "supermarket"
       }
     },
@@ -1937,6 +2860,22 @@
       "osm": {
         "type": "node",
         "id": 5278618314,
+        "shop": "supermarket"
+      }
+    },
+    {
+      "id": "osm-node-10173919364",
+      "name": "Supermercados Argenchino",
+      "address": "Presidente Teniente General Juan Domingo Perón 1767",
+      "lat": -34.6799379,
+      "lng": -58.3985369,
+      "category": "indirect",
+      "status": "active",
+      "source": "OpenStreetMap",
+      "sourceUrl": "https://www.openstreetmap.org/",
+      "osm": {
+        "type": "node",
+        "id": 10173919364,
         "shop": "supermarket"
       }
     },
@@ -2005,6 +2944,22 @@
       }
     },
     {
+      "id": "osm-node-4407585121",
+      "name": "Tersuave",
+      "address": "Lanus Oeste",
+      "lat": -34.6729227,
+      "lng": -58.3936076,
+      "category": "indirect",
+      "status": "active",
+      "source": "OpenStreetMap",
+      "sourceUrl": "https://www.openstreetmap.org/",
+      "osm": {
+        "type": "node",
+        "id": 4407585121,
+        "shop": "paint"
+      }
+    },
+    {
       "id": "osm-node-1060505841",
       "name": "Vea",
       "address": "Avenida Hipólito Yrigoyen 3043",
@@ -2051,6 +3006,36 @@
         "id": 546194227,
         "shop": "supermarket"
       }
+    },
+    {
+      "id": "osm-way-239342153",
+      "name": "Vital",
+      "address": "Lanus Oeste",
+      "lat": -34.6637798,
+      "lng": -58.3905145,
+      "category": "indirect",
+      "status": "active",
+      "source": "OpenStreetMap",
+      "sourceUrl": "https://www.openstreetmap.org/",
+      "osm": {
+        "type": "way",
+        "id": 239342153,
+        "shop": "supermarket"
+      }
+    },
+    {
+      "id": "comp-wow-bazar-peron-2649",
+      "name": "Wow bazar",
+      "address": "Juan Domingo Peron 2649, Valentin Alsina",
+      "lat": -34.673365,
+      "lng": -58.406074,
+      "category": "indirect",
+      "status": "active",
+      "source": "Near Place",
+      "sourceUrl": "https://ar.near-place.com/wow-bazar-presidente-teniente-general-juan-domingo-peron-2649-valentin-alsina",
+      "notes": "Bazar sobre Av. Peron; competencia indirecta por articulos de hogar/limpieza.",
+      "discoveredAt": "2026-04-28T17:18:34.980Z",
+      "lastSeenAt": "2026-04-28T17:20:03.209Z"
     }
   ]
 }

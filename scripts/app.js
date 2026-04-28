@@ -47,6 +47,13 @@ const zones = [
     radius: 900,
     color: "#7c3aed",
     text: "Aparecen locales y depositos mas grandes. Conviene evaluar si el modelo busca retail de barrio o capacidad de stock/mayorista."
+  },
+  {
+    name: "Av. Juan Domingo Peron / Valentin Alsina",
+    center: [-34.6726, -58.4085],
+    radius: 1450,
+    color: "#dc2626",
+    text: "Corredor comercial fuerte de Valentin Alsina, con mucho flujo barrial, supermercados y bazares. Hay locales chicos baratos y algunos espacios grandes; revisar competencia directa de perfumeria/limpieza."
   }
 ];
 
