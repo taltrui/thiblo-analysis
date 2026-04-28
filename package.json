@@ -1,0 +1,10 @@
+{
+  "name": "thiblo-lanus-intel",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "scrape": "node scripts/update-data.mjs",
+    "serve": "node scripts/serve.mjs"
+  }
+}

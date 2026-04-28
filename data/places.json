@@ -1,0 +1,1254 @@
+{
+  "updatedAt": "2026-04-28T04:13:12.834Z",
+  "sourceNote": "Actualizado automaticamente por scripts/update-data.mjs. Algunas coordenadas pueden ser aproximadas.",
+  "candidates": [
+    {
+      "id": "rent-av-hipolito-yrigoyen-4100-lanus-oeste",
+      "name": "AV. HIPOLITO YRIGOYEN 4100",
+      "address": "AV. HIPOLITO YRIGOYEN 4100, Lanus Oeste",
+      "price": 89007,
+      "priceLabel": "$89.007",
+      "sqm": 450,
+      "traffic": 5,
+      "fit": 4,
+      "status": "active",
+      "source": "MercadoLibre Inmuebles Lanus Oeste",
+      "sourceUrl": "https://inmuebles.mercadolibre.com.ar/locales/alquiler/bsas-gba-sur/lanus/lanus-oeste/",
+      "notes": "Hallado automaticamente; verificar disponibilidad, requisitos y medidas con la inmobiliaria.",
+      "lat": -34.7022715,
+      "lng": -58.3917276,
+      "approximate": false,
+      "discoveredAt": "2026-04-28T04:12:33.126Z",
+      "lastSeenAt": "2026-04-28T04:12:33.126Z"
+    },
+    {
+      "id": "rent-aristobulo-191",
+      "name": "Aristobulo del Valle 191",
+      "address": "Aristobulo del Valle 191, Lanus Oeste",
+      "lat": -34.7046869,
+      "lng": -58.3942646,
+      "price": 900000,
+      "priceLabel": "$900.000",
+      "sqm": 75,
+      "traffic": 5,
+      "fit": 4,
+      "status": "active",
+      "source": "Zonaprop",
+      "sourceUrl": "https://www.zonaprop.com.ar/locales-comerciales-alquiler-q-lanus-oeste.html",
+      "notes": "Lanusita. Buen flujo, pero competencia directa cercana."
+    },
+    {
+      "id": "rent-santiago-plaul-3209",
+      "name": "Santiago Plaul 3209",
+      "address": "Santiago Plaul 3209, Lanus Oeste",
+      "lat": -34.6989748,
+      "lng": -58.4188794,
+      "price": 400000,
+      "priceLabel": "$400.000",
+      "sqm": 60,
+      "traffic": 3,
+      "fit": 5,
+      "status": "active",
+      "source": "Zonaprop / MercadoLibre",
+      "sourceUrl": "https://www.zonaprop.com.ar/locales-comerciales-alquiler-q-lanus-oeste.html",
+      "notes": "A 10 m de Av. 25 de Mayo. Porton al frente y bano. Muy buen balance precio/superficie."
+    },
+    {
+      "id": "rent-25-mayo-1300",
+      "name": "Av. 25 de Mayo 1300",
+      "address": "Av. 25 de Mayo 1300, Lanus Oeste",
+      "lat": -34.7051245,
+      "lng": -58.4105373,
+      "price": 400000,
+      "priceLabel": "$400.000",
+      "sqm": null,
+      "traffic": 4,
+      "fit": 4,
+      "status": "active",
+      "source": "Argenprop",
+      "sourceUrl": "https://www.argenprop.com/locales/alquiler/lanus-oeste",
+      "notes": "Sobre avenida, buen flujo. Confirmar medidas."
+    },
+    {
+      "id": "rent-coronel-delia-1300",
+      "name": "Coronel D'Elia 1300",
+      "address": "Coronel D'Elia 1300, Lanus Oeste",
+      "lat": -34.6917626,
+      "lng": -58.4068307,
+      "price": 450000,
+      "priceLabel": "$450.000 aprox.",
+      "sqm": 70,
+      "traffic": 3,
+      "fit": 4,
+      "status": "active",
+      "source": "Avisos inmobiliarios",
+      "sourceUrl": "https://www.zonaprop.com.ar/locales-comerciales-alquiler-q-lanus-oeste.html",
+      "notes": "Interesante por entrepiso/guardado; ubicacion mas barrial."
+    },
+    {
+      "id": "rent-25-mayo-1500",
+      "name": "Av. 25 de Mayo 1500 esq. Medeiros",
+      "address": "Av. 25 de Mayo 1500, Lanus Oeste",
+      "lat": -34.7064,
+      "lng": -58.4132,
+      "approximate": true,
+      "price": 1000000,
+      "priceLabel": "$1.000.000",
+      "sqm": 97,
+      "traffic": 4,
+      "fit": 4,
+      "status": "active",
+      "source": "Inmuebles Clarin",
+      "sourceUrl": "https://www.inmuebles.clarin.com/local-en-alquiler-en-lanus-oeste--17572397",
+      "notes": "Esquina con vidriera. En la cuadra hay un supermercado chino; buen test para competencia indirecta."
+    },
+    {
+      "id": "rent-hipolito-3900",
+      "name": "Hipolito Yrigoyen 3900",
+      "address": "Hipolito Yrigoyen 3900, Lanus Oeste",
+      "lat": -34.7004058,
+      "lng": -58.3917918,
+      "approximate": true,
+      "price": 1900000,
+      "priceLabel": "$1.900.000",
+      "sqm": 150,
+      "traffic": 5,
+      "fit": 3,
+      "status": "active",
+      "source": "Inmuebles Clarin",
+      "sourceUrl": "https://www.inmuebles.clarin.com/local-en-alquiler-en-lanus-oeste--17196723",
+      "notes": "Salon en primer piso cerca de estacion. Menos ideal si se necesita carga/descarga a calle."
+    },
+    {
+      "id": "rent-moreno-400-200m",
+      "name": "Moreno 400",
+      "address": "Moreno 400, Lanus Oeste",
+      "lat": -34.7015604,
+      "lng": -58.3970872,
+      "price": 1950000,
+      "priceLabel": "$1.950.000",
+      "sqm": 200,
+      "traffic": 4,
+      "fit": 4,
+      "status": "active",
+      "source": "Inmuebles Clarin",
+      "sourceUrl": "https://www.inmuebles.clarin.com/local-en-alquiler-en-lanus-oeste--17762386",
+      "notes": "200 m2 a pasos de Lanusita. Ideal supermercado segun aviso; alquiler alto."
+    },
+    {
+      "id": "rent-remedios-900",
+      "name": "Av. Remedios de Escalada 900",
+      "address": "Av. Remedios de Escalada 900, Lanus Oeste",
+      "lat": -34.6872466,
+      "lng": -58.3962651,
+      "approximate": true,
+      "price": 2499000,
+      "priceLabel": "$2.499.000",
+      "sqm": 170,
+      "traffic": 5,
+      "fit": 3,
+      "status": "active",
+      "source": "Zonaprop",
+      "sourceUrl": "https://www.zonaprop.com.ar/propiedades/clasificado/alcllcin-local-en-alquiler-en-lanus-oeste-lanus-g.-b.-a.-zona-55920971.html",
+      "notes": "Esquina de alto trafico. Alquiler alto para etapa inicial."
+    },
+    {
+      "id": "rent-av-remedios-de-escalada-900-lanus-oeste",
+      "name": "AV REMEDIOS DE ESCALADA 900",
+      "address": "AV REMEDIOS DE ESCALADA 900, Lanus Oeste",
+      "price": 2499000,
+      "priceLabel": "$2.499.000",
+      "sqm": 336.92,
+      "traffic": 5,
+      "fit": 3,
+      "status": "active",
+      "source": "Inmuebles Clarin Lanus Oeste",
+      "sourceUrl": "https://www.inmuebles.clarin.com/locales/alquiler/lanus-oeste",
+      "notes": "Hallado automaticamente; verificar disponibilidad, requisitos y medidas con la inmobiliaria.",
+      "lat": -34.6872466,
+      "lng": -58.3962651,
+      "approximate": true,
+      "discoveredAt": "2026-04-28T04:12:33.126Z",
+      "lastSeenAt": "2026-04-28T04:12:33.126Z"
+    },
+    {
+      "id": "rent-jose-moreno-400",
+      "name": "Jose Maria Moreno 400",
+      "address": "Jose Maria Moreno 400, Lanus Oeste",
+      "lat": -34.7015604,
+      "lng": -58.3970872,
+      "price": 500000,
+      "priceLabel": "$500.000 unidad / $900.000 unificado",
+      "sqm": 27,
+      "traffic": 4,
+      "fit": 3,
+      "status": "active",
+      "source": "Argenprop / Inmuebles Clarin",
+      "sourceUrl": "https://www.inmuebles.clarin.com/local-en-alquiler-en-lanus-oeste--18857789",
+      "notes": "Dos unidades con entrepiso, opcion de unificar y negociar terminaciones."
+    },
+    {
+      "id": "rent-hipolito-3600",
+      "name": "Hipolito Yrigoyen 3600",
+      "address": "Hipolito Yrigoyen 3600, Lanus Oeste",
+      "lat": -34.7004,
+      "lng": -58.3918,
+      "price": 1300000,
+      "priceLabel": "$1.300.000",
+      "sqm": null,
+      "traffic": 5,
+      "fit": 3,
+      "status": "active",
+      "source": "Inmuebles Clarin",
+      "sourceUrl": "https://www.inmuebles.clarin.com/local-en-alquiler-en-lanus-oeste--18448739",
+      "notes": "Esquina sobre avenida, buena visibilidad. Precio medio-alto."
+    },
+    {
+      "id": "rent-aristobulo-0",
+      "name": "Aristobulo del Valle 0 / 68",
+      "address": "Aristobulo del Valle 68, Lanus Oeste",
+      "lat": -34.7046869,
+      "lng": -58.3942646,
+      "approximate": true,
+      "price": 1500000,
+      "priceLabel": "$1.500.000",
+      "sqm": 52,
+      "traffic": 5,
+      "fit": 3,
+      "status": "active",
+      "source": "Argenprop / Zonaprop",
+      "sourceUrl": "https://www.argenprop.com/local-en-alquiler-en-lanus-oeste--19103391",
+      "notes": "Lanusita, salon 4x8, entrepiso y terraza. Disponible desde marzo 2026 segun aviso."
+    },
+    {
+      "id": "rent-hipolito-4700",
+      "name": "Hipolito Yrigoyen 4700",
+      "address": "Hipolito Yrigoyen 4700, Lanus Oeste",
+      "lat": -34.7048,
+      "lng": -58.3839,
+      "approximate": true,
+      "price": 4500000,
+      "priceLabel": "$4.500.000",
+      "sqm": 260,
+      "traffic": 5,
+      "fit": 2,
+      "status": "active",
+      "source": "Inmuebles Clarin",
+      "sourceUrl": "https://www.inmuebles.clarin.com/local-en-alquiler-en-lanus-oeste--18536812",
+      "notes": "Gran local a estrenar, costo muy alto para prueba inicial."
+    },
+    {
+      "id": "rent-remedios-santiago",
+      "name": "Remedios de Escalada y Santiago del Estero",
+      "address": "Remedios de Escalada y Santiago del Estero, Lanus Oeste",
+      "lat": -34.6872466,
+      "lng": -58.3962651,
+      "approximate": true,
+      "price": 270000,
+      "priceLabel": "$270.000",
+      "sqm": 20,
+      "traffic": 4,
+      "fit": 2,
+      "status": "active",
+      "source": "Zonaprop",
+      "sourceUrl": "https://www.zonaprop.com.ar/locales-comerciales-alquiler-q-lanus-oeste.html",
+      "notes": "Barato y sobre avenida; probablemente chico para inventario amplio."
+    },
+    {
+      "id": "rent-gobernador-irigoyen-44",
+      "name": "Gobernador Irigoyen 44",
+      "address": "Gobernador Irigoyen 44, Lanus Oeste",
+      "lat": -34.7037,
+      "lng": -58.3942,
+      "approximate": true,
+      "price": 350000,
+      "priceLabel": "$350.000",
+      "sqm": 3,
+      "traffic": 5,
+      "fit": 1,
+      "status": "active",
+      "source": "Inmuebles Clarin",
+      "sourceUrl": "https://www.inmuebles.clarin.com/local-en-alquiler-en-lanus-oeste--18711715",
+      "notes": "Muy centrico y barato, pero extremadamente chico para articulos de limpieza."
+    },
+    {
+      "id": "rent-gobernador-irigoyen-200",
+      "name": "Gobernador Irigoyen 200",
+      "address": "Gobernador Irigoyen 200, Lanus Oeste",
+      "lat": -34.7041,
+      "lng": -58.3949,
+      "approximate": true,
+      "price": 900000,
+      "priceLabel": "$900.000",
+      "sqm": 18,
+      "traffic": 5,
+      "fit": 2,
+      "status": "active",
+      "source": "Inmuebles Clarin / Argenprop",
+      "sourceUrl": "https://www.inmuebles.clarin.com/local-en-alquiler-en-lanus-oeste--19029526",
+      "notes": "Lanusita, excelente exposicion pero pequeno."
+    },
+    {
+      "id": "rent-avenida-hipolito-yrigoyen-4000-lanus-oeste",
+      "name": "AVENIDA HIPOLITO YRIGOYEN 4000",
+      "address": "AVENIDA HIPOLITO YRIGOYEN 4000, Lanus Oeste",
+      "price": 3200000,
+      "priceLabel": "$3.200.000",
+      "sqm": null,
+      "traffic": 5,
+      "fit": 3,
+      "status": "active",
+      "source": "Inmuebles Clarin Lanus Oeste",
+      "sourceUrl": "https://www.inmuebles.clarin.com/locales/alquiler/lanus-oeste",
+      "notes": "Hallado automaticamente; verificar disponibilidad, requisitos y medidas con la inmobiliaria.",
+      "lat": -34.7011612,
+      "lng": -58.3917718,
+      "approximate": false,
+      "discoveredAt": "2026-04-28T04:12:33.126Z",
+      "lastSeenAt": "2026-04-28T04:12:33.126Z"
+    },
+    {
+      "id": "rent-camilo-cavour-3000",
+      "name": "Camilo V. Cavour 3000 PB",
+      "address": "Camilo V. Cavour 3000, Lanus Oeste",
+      "lat": -34.7052,
+      "lng": -58.4016,
+      "approximate": true,
+      "price": 480000,
+      "priceLabel": "$480.000",
+      "sqm": 14.16,
+      "traffic": 4,
+      "fit": 2,
+      "status": "active",
+      "source": "Inmuebles Clarin",
+      "sourceUrl": "https://www.inmuebles.clarin.com/local-en-alquiler-en-lanus-oeste--17765818",
+      "notes": "A 20 m de Av. 25 de Mayo al 300. Chico, ultima actividad kiosco."
+    }
+  ],
+  "competitors": [
+    {
+      "id": "comp-badem-c",
+      "name": "BADEM-C",
+      "address": "Av. San Martin 3328, Lanus Oeste",
+      "lat": -34.7057062,
+      "lng": -58.4166575,
+      "category": "direct",
+      "status": "active",
+      "source": "Yellow Pages Argentina",
+      "sourceUrl": "https://www.yellowpages.ar/en/phone-54-1121375818-cleaning-products-supplier-Lan%C3%BAs-Oeste-AREN8165.html"
+    },
+    {
+      "id": "comp-buenas-ondas",
+      "name": "Buenas Ondas Articulos de Limpieza",
+      "address": "Dr. Arturo Melo 2955, Lanus Oeste",
+      "lat": -34.7069502,
+      "lng": -58.39448,
+      "category": "direct",
+      "status": "active",
+      "source": "Pulkro Limpieza",
+      "sourceUrl": "https://www.pulkrolimpieza.com.ar/empresa-limpieza/buenas-ondas-articulos-de-limpieza/"
+    },
+    {
+      "id": "comp-distribuidora-quindimil",
+      "name": "Distribuidora Articulos de Limpieza",
+      "address": "Int. Manuel Quindimil 78 aprox., Lanus Oeste",
+      "lat": -34.6859157,
+      "lng": -58.4067623,
+      "approximate": true,
+      "category": "direct",
+      "status": "active",
+      "source": "Pulkro Limpieza",
+      "sourceUrl": "https://www.pulkrolimpieza.com.ar/empresa-limpieza/distribuidora-articulos-de-limpieza/"
+    },
+    {
+      "id": "comp-mas-limpio",
+      "name": "MAS Limpio Articulos de Limpieza",
+      "address": "2 de Mayo 2911, Lanus Oeste",
+      "lat": -34.70606,
+      "lng": -58.3971252,
+      "category": "direct",
+      "status": "active",
+      "source": "PuntoClick / Near Place",
+      "sourceUrl": "https://ar.near-place.com/mas-limpio-articulos-de-limpieza-b1826ehg-2-de-mayo-2911-lanus-oeste"
+    },
+    {
+      "id": "osm-way-545341155",
+      "name": "Quimica APM",
+      "address": "Coronel Ignacio Warnes",
+      "lat": -34.6848921,
+      "lng": -58.42324,
+      "category": "direct",
+      "status": "active",
+      "source": "OpenStreetMap",
+      "sourceUrl": "https://www.openstreetmap.org/",
+      "osm": {
+        "type": "way",
+        "id": 545341155,
+        "shop": "chemist"
+      }
+    },
+    {
+      "id": "comp-quimica-lanus",
+      "name": "Quimica Lanus",
+      "address": "Av. Remedios de Escalada de San Martin 574, Lanus Oeste",
+      "lat": -34.6918591,
+      "lng": -58.3902378,
+      "category": "direct",
+      "status": "active",
+      "source": "Sitio oficial",
+      "sourceUrl": "https://quimicalanus.click/"
+    },
+    {
+      "id": "comp-strongclor",
+      "name": "StrongClor",
+      "address": "Diputado Pedrera 1589 aprox., Lanus Oeste",
+      "lat": -34.6863405,
+      "lng": -58.4049315,
+      "approximate": true,
+      "category": "direct",
+      "status": "active",
+      "source": "PuntoClick / OSM",
+      "sourceUrl": "https://puntoclick.com.ar/empresa/strongclor"
+    },
+    {
+      "id": "comp-super-limpieza-cerrado",
+      "name": "Super de Limpieza",
+      "address": "Av. San Martin 1830, Lanus Oeste",
+      "lat": -34.6922424,
+      "lng": -58.404367,
+      "category": "direct",
+      "status": "closed",
+      "source": "Pulkro Limpieza",
+      "sourceUrl": "https://www.pulkrolimpieza.com.ar/empresa-limpieza/super-de-limpieza/"
+    },
+    {
+      "id": "osm-node-3710063994",
+      "name": "Almacén chico",
+      "address": "Lanus Oeste",
+      "lat": -34.6947281,
+      "lng": -58.4098324,
+      "category": "indirect",
+      "status": "active",
+      "source": "OpenStreetMap",
+      "sourceUrl": "https://www.openstreetmap.org/",
+      "osm": {
+        "type": "node",
+        "id": 3710063994,
+        "shop": "convenience"
+      }
+    },
+    {
+      "id": "osm-way-546138760",
+      "name": "Avicola Buenos Aires",
+      "address": "Santiago Plaul",
+      "lat": -34.6871476,
+      "lng": -58.404943,
+      "category": "indirect",
+      "status": "active",
+      "source": "OpenStreetMap",
+      "sourceUrl": "https://www.openstreetmap.org/",
+      "osm": {
+        "type": "way",
+        "id": 546138760,
+        "shop": "supermarket"
+      }
+    },
+    {
+      "id": "osm-node-5279799316",
+      "name": "Carames",
+      "address": "José María Moreno",
+      "lat": -34.6997687,
+      "lng": -58.4116354,
+      "category": "indirect",
+      "status": "active",
+      "source": "OpenStreetMap",
+      "sourceUrl": "https://www.openstreetmap.org/",
+      "osm": {
+        "type": "node",
+        "id": 5279799316,
+        "shop": "convenience"
+      }
+    },
+    {
+      "id": "osm-node-3736819402",
+      "name": "Carrefour",
+      "address": "Lanus Oeste",
+      "lat": -34.7061447,
+      "lng": -58.3919714,
+      "category": "indirect",
+      "status": "active",
+      "source": "OpenStreetMap",
+      "sourceUrl": "https://www.openstreetmap.org/",
+      "osm": {
+        "type": "node",
+        "id": 3736819402,
+        "shop": "supermarket"
+      }
+    },
+    {
+      "id": "osm-node-3710114883",
+      "name": "Carrefour Express",
+      "address": "Coronel D'Elía",
+      "lat": -34.6908817,
+      "lng": -58.4079675,
+      "category": "indirect",
+      "status": "active",
+      "source": "OpenStreetMap",
+      "sourceUrl": "https://www.openstreetmap.org/",
+      "osm": {
+        "type": "node",
+        "id": 3710114883,
+        "shop": "convenience"
+      }
+    },
+    {
+      "id": "osm-way-546181433",
+      "name": "Casa Koruk",
+      "address": "Avenida Hipólito Yrigoyen",
+      "lat": -34.7031149,
+      "lng": -58.392095,
+      "category": "indirect",
+      "status": "active",
+      "source": "OpenStreetMap",
+      "sourceUrl": "https://www.openstreetmap.org/",
+      "osm": {
+        "type": "way",
+        "id": 546181433,
+        "shop": "houseware"
+      }
+    },
+    {
+      "id": "osm-node-1652900336",
+      "name": "Chino",
+      "address": "Lanus Oeste",
+      "lat": -34.7075104,
+      "lng": -58.3889374,
+      "category": "indirect",
+      "status": "active",
+      "source": "OpenStreetMap",
+      "sourceUrl": "https://www.openstreetmap.org/",
+      "osm": {
+        "type": "node",
+        "id": 1652900336,
+        "shop": "supermarket"
+      }
+    },
+    {
+      "id": "comp-coto-rivadavia",
+      "name": "Coto Lanus Oeste",
+      "address": "Av. Pres. Bernardino Rivadavia 2602, Lanus Oeste",
+      "lat": -34.6904807,
+      "lng": -58.4202466,
+      "category": "indirect",
+      "status": "active",
+      "source": "Near Place / Rappi",
+      "sourceUrl": "https://ar.near-place.com/coto-avenida-pres-bernardino-rivadavia-2602-lanus-oeste"
+    },
+    {
+      "id": "osm-way-546209929",
+      "name": "Dia",
+      "address": "25 de Mayo",
+      "lat": -34.7071372,
+      "lng": -58.3999597,
+      "category": "indirect",
+      "status": "active",
+      "source": "OpenStreetMap",
+      "sourceUrl": "https://www.openstreetmap.org/",
+      "osm": {
+        "type": "way",
+        "id": 546209929,
+        "shop": "supermarket"
+      }
+    },
+    {
+      "id": "osm-way-547942772",
+      "name": "Dia",
+      "address": "29 de Septiembre",
+      "lat": -34.7063256,
+      "lng": -58.3898121,
+      "category": "indirect",
+      "status": "active",
+      "source": "OpenStreetMap",
+      "sourceUrl": "https://www.openstreetmap.org/",
+      "osm": {
+        "type": "way",
+        "id": 547942772,
+        "shop": "supermarket"
+      }
+    },
+    {
+      "id": "osm-way-545347988",
+      "name": "Diarco",
+      "address": "Avenida General San Martín",
+      "lat": -34.687051,
+      "lng": -58.3976704,
+      "category": "indirect",
+      "status": "active",
+      "source": "OpenStreetMap",
+      "sourceUrl": "https://www.openstreetmap.org/",
+      "osm": {
+        "type": "way",
+        "id": 545347988,
+        "shop": "supermarket"
+      }
+    },
+    {
+      "id": "osm-node-5307464125",
+      "name": "El Galpón",
+      "address": "Avenida Teodoro Sánchez de Bustamante",
+      "lat": -34.6893677,
+      "lng": -58.3801366,
+      "category": "indirect",
+      "status": "active",
+      "source": "OpenStreetMap",
+      "sourceUrl": "https://www.openstreetmap.org/",
+      "osm": {
+        "type": "node",
+        "id": 5307464125,
+        "shop": "convenience"
+      }
+    },
+    {
+      "id": "osm-way-468914838",
+      "name": "El Principado",
+      "address": "Ejército de los Andes",
+      "lat": -34.7091653,
+      "lng": -58.4193181,
+      "category": "indirect",
+      "status": "active",
+      "source": "OpenStreetMap",
+      "sourceUrl": "https://www.openstreetmap.org/",
+      "osm": {
+        "type": "way",
+        "id": 468914838,
+        "shop": "convenience"
+      }
+    },
+    {
+      "id": "osm-way-468914837",
+      "name": "El Viejo Conde",
+      "address": "Marco Avellaneda",
+      "lat": -34.7126231,
+      "lng": -58.4166684,
+      "category": "indirect",
+      "status": "active",
+      "source": "OpenStreetMap",
+      "sourceUrl": "https://www.openstreetmap.org/",
+      "osm": {
+        "type": "way",
+        "id": 468914837,
+        "shop": "convenience"
+      }
+    },
+    {
+      "id": "osm-node-5109731221",
+      "name": "Fiambreria",
+      "address": "Lanus Oeste",
+      "lat": -34.7055453,
+      "lng": -58.3879089,
+      "category": "indirect",
+      "status": "active",
+      "source": "OpenStreetMap",
+      "sourceUrl": "https://www.openstreetmap.org/",
+      "osm": {
+        "type": "node",
+        "id": 5109731221,
+        "shop": "convenience"
+      }
+    },
+    {
+      "id": "osm-way-546160544",
+      "name": "For You Supermercado",
+      "address": "General Viamonte",
+      "lat": -34.699533,
+      "lng": -58.4033726,
+      "category": "indirect",
+      "status": "active",
+      "source": "OpenStreetMap",
+      "sourceUrl": "https://www.openstreetmap.org/",
+      "osm": {
+        "type": "way",
+        "id": 546160544,
+        "shop": "supermarket"
+      }
+    },
+    {
+      "id": "osm-node-5277832603",
+      "name": "Frigorifico Familibel",
+      "address": "La Rioja",
+      "lat": -34.6856925,
+      "lng": -58.4049033,
+      "category": "indirect",
+      "status": "active",
+      "source": "OpenStreetMap",
+      "sourceUrl": "https://www.openstreetmap.org/",
+      "osm": {
+        "type": "node",
+        "id": 5277832603,
+        "shop": "supermarket"
+      }
+    },
+    {
+      "id": "osm-way-546188130",
+      "name": "Full",
+      "address": "Avenida Hipólito Yrigoyen",
+      "lat": -34.6990503,
+      "lng": -58.3917522,
+      "category": "indirect",
+      "status": "active",
+      "source": "OpenStreetMap",
+      "sourceUrl": "https://www.openstreetmap.org/",
+      "osm": {
+        "type": "way",
+        "id": 546188130,
+        "shop": "convenience"
+      }
+    },
+    {
+      "id": "osm-way-545496596",
+      "name": "Gallesur",
+      "address": "Avenida Intendente Manuel Quindimil",
+      "lat": -34.6934821,
+      "lng": -58.3972495,
+      "category": "indirect",
+      "status": "active",
+      "source": "OpenStreetMap",
+      "sourceUrl": "https://www.openstreetmap.org/",
+      "osm": {
+        "type": "way",
+        "id": 545496596,
+        "shop": "supermarket"
+      }
+    },
+    {
+      "id": "osm-node-1042029896",
+      "name": "Granata",
+      "address": "Lanus Oeste",
+      "lat": -34.7123993,
+      "lng": -58.4028959,
+      "category": "indirect",
+      "status": "active",
+      "source": "OpenStreetMap",
+      "sourceUrl": "https://www.openstreetmap.org/",
+      "osm": {
+        "type": "node",
+        "id": 1042029896,
+        "shop": "convenience"
+      }
+    },
+    {
+      "id": "osm-node-5268759816",
+      "name": "Granja El Trebol",
+      "address": "Coronel D'Elía",
+      "lat": -34.6912118,
+      "lng": -58.4078165,
+      "category": "indirect",
+      "status": "active",
+      "source": "OpenStreetMap",
+      "sourceUrl": "https://www.openstreetmap.org/",
+      "osm": {
+        "type": "node",
+        "id": 5268759816,
+        "shop": "convenience"
+      }
+    },
+    {
+      "id": "osm-node-5279844580",
+      "name": "Granja Emilio",
+      "address": "Avenida General San Martín",
+      "lat": -34.7035182,
+      "lng": -58.414976,
+      "category": "indirect",
+      "status": "active",
+      "source": "OpenStreetMap",
+      "sourceUrl": "https://www.openstreetmap.org/",
+      "osm": {
+        "type": "node",
+        "id": 5279844580,
+        "shop": "convenience"
+      }
+    },
+    {
+      "id": "osm-way-546418020",
+      "name": "HHH Iris",
+      "address": "Avenida General San Martín",
+      "lat": -34.7079234,
+      "lng": -58.4189231,
+      "category": "indirect",
+      "status": "active",
+      "source": "OpenStreetMap",
+      "sourceUrl": "https://www.openstreetmap.org/",
+      "osm": {
+        "type": "way",
+        "id": 546418020,
+        "shop": "supermarket"
+      }
+    },
+    {
+      "id": "osm-way-98245245",
+      "name": "Hipermercado Coto",
+      "address": "Avenida Bernardino Rivadavia",
+      "lat": -34.691058,
+      "lng": -58.4197691,
+      "category": "indirect",
+      "status": "active",
+      "source": "OpenStreetMap",
+      "sourceUrl": "https://www.openstreetmap.org/",
+      "osm": {
+        "type": "way",
+        "id": 98245245,
+        "shop": "supermarket"
+      }
+    },
+    {
+      "id": "osm-way-547942777",
+      "name": "Le France",
+      "address": "Anatole France 2042",
+      "lat": -34.7090817,
+      "lng": -58.3896015,
+      "category": "indirect",
+      "status": "active",
+      "source": "OpenStreetMap",
+      "sourceUrl": "https://www.openstreetmap.org/",
+      "osm": {
+        "type": "way",
+        "id": 547942777,
+        "shop": "supermarket"
+      }
+    },
+    {
+      "id": "osm-node-5280308999",
+      "name": "Lo de Lucas",
+      "address": "Miguel Cané",
+      "lat": -34.7114073,
+      "lng": -58.3945494,
+      "category": "indirect",
+      "status": "active",
+      "source": "OpenStreetMap",
+      "sourceUrl": "https://www.openstreetmap.org/",
+      "osm": {
+        "type": "node",
+        "id": 5280308999,
+        "shop": "convenience"
+      }
+    },
+    {
+      "id": "osm-way-545080245",
+      "name": "Loly",
+      "address": "Coronel D'Elía",
+      "lat": -34.6893129,
+      "lng": -58.4102466,
+      "category": "indirect",
+      "status": "active",
+      "source": "OpenStreetMap",
+      "sourceUrl": "https://www.openstreetmap.org/",
+      "osm": {
+        "type": "way",
+        "id": 545080245,
+        "shop": "chemist"
+      }
+    },
+    {
+      "id": "osm-node-5278346910",
+      "name": "Los Mas Famosos",
+      "address": "Avenida Hipólito Yrigoyen",
+      "lat": -34.703647,
+      "lng": -58.3920578,
+      "category": "indirect",
+      "status": "active",
+      "source": "OpenStreetMap",
+      "sourceUrl": "https://www.openstreetmap.org/",
+      "osm": {
+        "type": "node",
+        "id": 5278346910,
+        "shop": "convenience"
+      }
+    },
+    {
+      "id": "osm-way-546125997",
+      "name": "Luna Market",
+      "address": "Avenida Intendente Manuel Quindimil",
+      "lat": -34.6910683,
+      "lng": -58.400988,
+      "category": "indirect",
+      "status": "active",
+      "source": "OpenStreetMap",
+      "sourceUrl": "https://www.openstreetmap.org/",
+      "osm": {
+        "type": "way",
+        "id": 546125997,
+        "shop": "supermarket"
+      }
+    },
+    {
+      "id": "osm-node-7533350951",
+      "name": "Mercado chino",
+      "address": "Coronel D'Elía",
+      "lat": -34.6876906,
+      "lng": -58.4127723,
+      "category": "indirect",
+      "status": "active",
+      "source": "OpenStreetMap",
+      "sourceUrl": "https://www.openstreetmap.org/",
+      "osm": {
+        "type": "node",
+        "id": 7533350951,
+        "shop": "supermarket"
+      }
+    },
+    {
+      "id": "osm-way-545496602",
+      "name": "Ogus",
+      "address": "Avenida Intendente Manuel Quindimil",
+      "lat": -34.6897258,
+      "lng": -58.4018341,
+      "category": "indirect",
+      "status": "active",
+      "source": "OpenStreetMap",
+      "sourceUrl": "https://www.openstreetmap.org/",
+      "osm": {
+        "type": "way",
+        "id": 545496602,
+        "shop": "convenience"
+      }
+    },
+    {
+      "id": "osm-node-5277809494",
+      "name": "Riveli Hogar",
+      "address": "25 de Mayo",
+      "lat": -34.6929486,
+      "lng": -58.4246976,
+      "category": "indirect",
+      "status": "active",
+      "source": "OpenStreetMap",
+      "sourceUrl": "https://www.openstreetmap.org/",
+      "osm": {
+        "type": "node",
+        "id": 5277809494,
+        "shop": "houseware"
+      }
+    },
+    {
+      "id": "osm-way-545050145",
+      "name": "ServiCompras",
+      "address": "Avenida Bernardino Rivadavia",
+      "lat": -34.689595,
+      "lng": -58.4182982,
+      "category": "indirect",
+      "status": "active",
+      "source": "OpenStreetMap",
+      "sourceUrl": "https://www.openstreetmap.org/",
+      "osm": {
+        "type": "way",
+        "id": 545050145,
+        "shop": "convenience"
+      }
+    },
+    {
+      "id": "osm-node-5109729323",
+      "name": "Super Chino",
+      "address": "Lanus Oeste",
+      "lat": -34.7042518,
+      "lng": -58.3866002,
+      "category": "indirect",
+      "status": "active",
+      "source": "OpenStreetMap",
+      "sourceUrl": "https://www.openstreetmap.org/",
+      "osm": {
+        "type": "node",
+        "id": 5109729323,
+        "shop": "convenience"
+      }
+    },
+    {
+      "id": "comp-super-chuchu",
+      "name": "Super chuchu",
+      "address": "Av. Pres. Bernardino Rivadavia 2428, Lanus Oeste",
+      "lat": -34.6904,
+      "lng": -58.4184,
+      "approximate": true,
+      "category": "indirect",
+      "status": "active",
+      "source": "Near Place",
+      "sourceUrl": "https://ar.near-place.com/coto-lanus-oeste-avenida-pres-bernardino-rivadavia-2602-lanus-oeste"
+    },
+    {
+      "id": "osm-way-545346375",
+      "name": "Supermercado",
+      "address": "Avenida Remedios de Escalada de San Martín 1133",
+      "lat": -34.6868284,
+      "lng": -58.395767,
+      "category": "indirect",
+      "status": "active",
+      "source": "OpenStreetMap",
+      "sourceUrl": "https://www.openstreetmap.org/",
+      "osm": {
+        "type": "way",
+        "id": 545346375,
+        "shop": "supermarket"
+      }
+    },
+    {
+      "id": "osm-way-546188133",
+      "name": "Supermercado",
+      "address": "Avenida Hipólito Yrigoyen",
+      "lat": -34.7002904,
+      "lng": -58.3917713,
+      "category": "indirect",
+      "status": "active",
+      "source": "OpenStreetMap",
+      "sourceUrl": "https://www.openstreetmap.org/",
+      "osm": {
+        "type": "way",
+        "id": 546188133,
+        "shop": "supermarket"
+      }
+    },
+    {
+      "id": "osm-way-546354905",
+      "name": "Supermercado",
+      "address": "Avenida General San Martín",
+      "lat": -34.7003858,
+      "lng": -58.4123499,
+      "category": "indirect",
+      "status": "active",
+      "source": "OpenStreetMap",
+      "sourceUrl": "https://www.openstreetmap.org/",
+      "osm": {
+        "type": "way",
+        "id": 546354905,
+        "shop": "supermarket"
+      }
+    },
+    {
+      "id": "osm-node-5294438014",
+      "name": "Supermercado Argenchino",
+      "address": "Presidente Raúl Alfonsín",
+      "lat": -34.6994338,
+      "lng": -58.3799489,
+      "category": "indirect",
+      "status": "active",
+      "source": "OpenStreetMap",
+      "sourceUrl": "https://www.openstreetmap.org/",
+      "osm": {
+        "type": "node",
+        "id": 5294438014,
+        "shop": "supermarket"
+      }
+    },
+    {
+      "id": "osm-node-3710111256",
+      "name": "Supermercado Chino",
+      "address": "Lanus Oeste",
+      "lat": -34.7018526,
+      "lng": -58.3945421,
+      "category": "indirect",
+      "status": "active",
+      "source": "OpenStreetMap",
+      "sourceUrl": "https://www.openstreetmap.org/",
+      "osm": {
+        "type": "node",
+        "id": 3710111256,
+        "shop": "supermarket"
+      }
+    },
+    {
+      "id": "osm-node-3710114885",
+      "name": "Supermercado Chino",
+      "address": "Lanus Oeste",
+      "lat": -34.6927654,
+      "lng": -58.4051189,
+      "category": "indirect",
+      "status": "active",
+      "source": "OpenStreetMap",
+      "sourceUrl": "https://www.openstreetmap.org/",
+      "osm": {
+        "type": "node",
+        "id": 3710114885,
+        "shop": "supermarket"
+      }
+    },
+    {
+      "id": "comp-dia-eva-peron",
+      "name": "Supermercado DIA Lanus",
+      "address": "Eva Peron 2567, Lanus Oeste",
+      "lat": -34.7147011,
+      "lng": -58.372201,
+      "category": "indirect",
+      "status": "active",
+      "source": "Near Place",
+      "sourceUrl": "https://ar.near-place.com/supermercado-dia-lanus-eva-peron2567-lanus-oeste"
+    },
+    {
+      "id": "osm-way-546213365",
+      "name": "Supermercado El Granate",
+      "address": "Fray Julián Lagos",
+      "lat": -34.7023882,
+      "lng": -58.4088639,
+      "category": "indirect",
+      "status": "active",
+      "source": "OpenStreetMap",
+      "sourceUrl": "https://www.openstreetmap.org/",
+      "osm": {
+        "type": "way",
+        "id": 546213365,
+        "shop": "supermarket"
+      }
+    },
+    {
+      "id": "comp-super-cruz-sur",
+      "name": "Supermercado La Cruz del Sur",
+      "address": "Hipolito Yrigoyen 3906, Lanus Oeste",
+      "lat": -34.7004058,
+      "lng": -58.3917918,
+      "category": "indirect",
+      "status": "active",
+      "source": "Near Place",
+      "sourceUrl": "https://ar.near-place.com/grocery_or_supermarket-nearby-supermercado-la-cruz-del-sur-avenida-presidente-hipolito-yrigoyen-3906-gran-buenos-aires/da"
+    },
+    {
+      "id": "osm-node-5279851177",
+      "name": "Supermercado Maria",
+      "address": "Manuel Castro",
+      "lat": -34.7060315,
+      "lng": -58.4172428,
+      "category": "indirect",
+      "status": "active",
+      "source": "OpenStreetMap",
+      "sourceUrl": "https://www.openstreetmap.org/",
+      "osm": {
+        "type": "node",
+        "id": 5279851177,
+        "shop": "supermarket"
+      }
+    },
+    {
+      "id": "osm-node-5278063328",
+      "name": "Supermercado Panda",
+      "address": "Avenida General San Martín",
+      "lat": -34.6886893,
+      "lng": -58.4006073,
+      "category": "indirect",
+      "status": "active",
+      "source": "OpenStreetMap",
+      "sourceUrl": "https://www.openstreetmap.org/",
+      "osm": {
+        "type": "node",
+        "id": 5278063328,
+        "shop": "supermarket"
+      }
+    },
+    {
+      "id": "osm-node-5278618314",
+      "name": "Supermercado Suerte",
+      "address": "25 de Mayo",
+      "lat": -34.7060422,
+      "lng": -58.4036473,
+      "category": "indirect",
+      "status": "active",
+      "source": "OpenStreetMap",
+      "sourceUrl": "https://www.openstreetmap.org/",
+      "osm": {
+        "type": "node",
+        "id": 5278618314,
+        "shop": "supermarket"
+      }
+    },
+    {
+      "id": "osm-way-546138758",
+      "name": "Supermercdo Paz",
+      "address": "Diputado Raúl Pedrera",
+      "lat": -34.6877496,
+      "lng": -58.4047596,
+      "category": "indirect",
+      "status": "active",
+      "source": "OpenStreetMap",
+      "sourceUrl": "https://www.openstreetmap.org/",
+      "osm": {
+        "type": "way",
+        "id": 546138758,
+        "shop": "supermarket"
+      }
+    },
+    {
+      "id": "osm-node-6240785202",
+      "name": "Sur",
+      "address": "Doctor Arturo Melo 3061",
+      "lat": -34.7086469,
+      "lng": -58.3939586,
+      "category": "indirect",
+      "status": "active",
+      "source": "OpenStreetMap",
+      "sourceUrl": "https://www.openstreetmap.org/",
+      "osm": {
+        "type": "node",
+        "id": 6240785202,
+        "shop": "supermarket"
+      }
+    },
+    {
+      "id": "osm-way-545054063",
+      "name": "Susy",
+      "address": "General Viamonte",
+      "lat": -34.6922319,
+      "lng": -58.4126761,
+      "category": "indirect",
+      "status": "active",
+      "source": "OpenStreetMap",
+      "sourceUrl": "https://www.openstreetmap.org/",
+      "osm": {
+        "type": "way",
+        "id": 545054063,
+        "shop": "convenience"
+      }
+    },
+    {
+      "id": "osm-node-1060505841",
+      "name": "Vea",
+      "address": "Avenida Hipólito Yrigoyen 3043",
+      "lat": -34.6915083,
+      "lng": -58.3896684,
+      "category": "indirect",
+      "status": "active",
+      "source": "OpenStreetMap",
+      "sourceUrl": "https://www.openstreetmap.org/",
+      "osm": {
+        "type": "node",
+        "id": 1060505841,
+        "shop": "supermarket"
+      }
+    },
+    {
+      "id": "osm-way-361975747",
+      "name": "Vea",
+      "address": "Avenida Hipólito Yrigoyen 3043",
+      "lat": -34.6907726,
+      "lng": -58.3902498,
+      "category": "indirect",
+      "status": "active",
+      "source": "OpenStreetMap",
+      "sourceUrl": "https://www.openstreetmap.org/",
+      "osm": {
+        "type": "way",
+        "id": 361975747,
+        "shop": "supermarket"
+      }
+    },
+    {
+      "id": "osm-way-546194227",
+      "name": "Vea",
+      "address": "Avenida Hipólito Yrigoyen",
+      "lat": -34.7032523,
+      "lng": -58.3915037,
+      "category": "indirect",
+      "status": "active",
+      "source": "OpenStreetMap",
+      "sourceUrl": "https://www.openstreetmap.org/",
+      "osm": {
+        "type": "way",
+        "id": 546194227,
+        "shop": "supermarket"
+      }
+    }
+  ]
+}

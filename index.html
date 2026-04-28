@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Thiblo - Mapa de locales y competencia en Lanus Oeste</title>
+  <link rel="icon" href="data:," />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="shell">
+    <aside>
+      <h1>Thiblo: locales y competencia</h1>
+      <p>
+        Mapa exploratorio para evaluar alquileres en Lanus Oeste. Los marcadores verdes son locales candidatos;
+        los rojos competidores directos y los violetas competencia indirecta como supermercados.
+      </p>
+
+      <p class="status-line" id="lastUpdated">Cargando datos...</p>
+
+      <div class="summary">
+        <div class="metric"><strong id="candidateCount">0</strong><span>locales</span></div>
+        <div class="metric"><strong id="competitorCount">0</strong><span>competidores</span></div>
+        <div class="metric"><strong id="bestCount">0</strong><span>prioritarios</span></div>
+      </div>
+
+      <div class="controls">
+        <label><input id="toggleCandidates" type="checkbox" checked /> Mostrar locales candidatos</label>
+        <label><input id="toggleDirect" type="checkbox" checked /> Mostrar competencia directa</label>
+        <label><input id="toggleIndirect" type="checkbox" checked /> Mostrar competencia indirecta</label>
+        <label><input id="toggleRings" type="checkbox" checked /> Mostrar radios de 350 m</label>
+        <label><input id="toggleZones" type="checkbox" checked /> Mostrar lectura por zonas</label>
+      </div>
+
+      <div class="legend">
+        <span><i class="dot candidate-dot"></i>Local candidato</span>
+        <span><i class="dot direct-dot"></i>Competidor directo</span>
+        <span><i class="dot indirect-dot"></i>Competidor indirecto</span>
+        <span><i class="dot inactive-dot"></i>Cerrado / dudoso</span>
+        <span><i class="dot zone-dot"></i>Zona comercial</span>
+      </div>
+
+      <h2>Ranking preliminar</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Score</th>
+            <th>Local</th>
+            <th>Alquiler</th>
+            <th>Comp.</th>
+          </tr>
+        </thead>
+        <tbody id="ranking"></tbody>
+      </table>
+
+      <h2>Analisis por zona</h2>
+      <div id="analysis"></div>
+
+      <h2>Fuentes</h2>
+      <p class="source-list">
+        Avisos: Zonaprop, Argenprop, MercadoLibre Inmuebles, Inmuebles Clarin y Properati cuando estan disponibles.
+        Competencia: busquedas publicas, sitios de comercios, directorios y OpenStreetMap/Overpass.
+      </p>
+      <p>
+        Importante: los precios y disponibilidad cambian rapido. Usalo para preseleccionar y despues llamar a cada inmobiliaria.
+      </p>
+    </aside>
+
+    <main>
+      <div id="map"></div>
+    </main>
+  </div>
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script src="scripts/app.js"></script>
+</body>
+</html>
