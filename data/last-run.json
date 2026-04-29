@@ -1,6 +1,6 @@
 {
-  "startedAt": "2026-04-28T17:29:53.960Z",
-  "updatedAt": "2026-04-28T17:30:01.977Z",
+  "startedAt": "2026-04-29T12:19:42.679Z",
+  "updatedAt": "2026-04-29T12:19:46.209Z",
   "status": "completed_with_warnings",
   "sources": [
     {
@@ -34,25 +34,13 @@
       "added": 0
     },
     {
-      "name": "Zonaprop Tagle Lanus Oeste",
-      "url": "https://www.zonaprop.com.ar/locales-comerciales-alquiler-lanus-oeste-orden-precio-ascendente.html",
-      "found": 5,
-      "added": 3
-    },
-    {
-      "name": "Zonaprop Remedios de Escalada",
-      "url": "https://www.zonaprop.com.ar/locales-comerciales-alquiler-remedios-de-escalada.html",
-      "found": 0,
-      "added": 0
-    },
-    {
       "name": "OpenStreetMap Overpass",
       "url": "https://overpass-api.de/api/interpreter",
       "found": 125,
       "added": 0
     }
   ],
-  "addedCandidates": 3,
+  "addedCandidates": 0,
   "addedCompetitors": 0,
   "errors": [
     {
@@ -97,6 +85,14 @@
     },
     {
       "source": "Properati Lanus Oeste",
+      "message": "HTTP 403"
+    },
+    {
+      "source": "Zonaprop Tagle Lanus Oeste",
+      "message": "HTTP 403"
+    },
+    {
+      "source": "Zonaprop Remedios de Escalada",
       "message": "HTTP 403"
     },
     {
