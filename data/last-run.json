@@ -1,6 +1,6 @@
 {
-  "startedAt": "2026-04-29T12:19:42.679Z",
-  "updatedAt": "2026-04-29T12:19:46.209Z",
+  "startedAt": "2026-04-30T00:49:23.147Z",
+  "updatedAt": "2026-04-30T00:49:32.176Z",
   "status": "completed_with_warnings",
   "sources": [
     {
@@ -31,6 +31,12 @@
       "name": "MercadoLibre Inmuebles Valentin Alsina",
       "url": "https://inmuebles.mercadolibre.com.ar/locales/alquiler/bsas-gba-sur/lanus/valentin-alsina/",
       "found": 0,
+      "added": 0
+    },
+    {
+      "name": "Zonaprop Tagle Lanus Oeste",
+      "url": "https://www.zonaprop.com.ar/locales-comerciales-alquiler-lanus-oeste-orden-precio-ascendente.html",
+      "found": 5,
       "added": 0
     },
     {
@@ -85,10 +91,6 @@
     },
     {
       "source": "Properati Lanus Oeste",
-      "message": "HTTP 403"
-    },
-    {
-      "source": "Zonaprop Tagle Lanus Oeste",
       "message": "HTTP 403"
     },
     {
