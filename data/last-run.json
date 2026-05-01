@@ -1,6 +1,6 @@
 {
-  "startedAt": "2026-04-30T12:17:29.120Z",
-  "updatedAt": "2026-04-30T12:17:34.947Z",
+  "startedAt": "2026-05-01T12:01:44.448Z",
+  "updatedAt": "2026-05-01T12:02:24.338Z",
   "status": "completed_with_warnings",
   "sources": [
     {
@@ -34,12 +34,6 @@
       "added": 0
     },
     {
-      "name": "Zonaprop Remedios de Escalada",
-      "url": "https://www.zonaprop.com.ar/locales-comerciales-alquiler-remedios-de-escalada.html",
-      "found": 0,
-      "added": 0
-    },
-    {
       "name": "OpenStreetMap Overpass",
       "url": "https://overpass-api.de/api/interpreter",
       "found": 125,
@@ -55,7 +49,7 @@
     },
     {
       "source": "Zonaprop Lanus Oeste keyword",
-      "message": "HTTP 403"
+      "message": "HTTP 503"
     },
     {
       "source": "Argenprop Lanus Oeste",
@@ -95,7 +89,11 @@
     },
     {
       "source": "Zonaprop Tagle Lanus Oeste",
-      "message": "HTTP 403"
+      "message": "HTTP 503"
+    },
+    {
+      "source": "Zonaprop Remedios de Escalada",
+      "message": "HTTP 503"
     },
     {
       "source": "Zonaprop Valentin Alsina",
