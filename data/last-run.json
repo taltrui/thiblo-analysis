@@ -1,6 +1,6 @@
 {
-  "startedAt": "2026-05-02T11:50:24.104Z",
-  "updatedAt": "2026-05-02T11:50:28.534Z",
+  "startedAt": "2026-05-03T11:49:23.355Z",
+  "updatedAt": "2026-05-03T11:49:29.694Z",
   "status": "completed_with_warnings",
   "sources": [
     {
@@ -30,12 +30,6 @@
     {
       "name": "MercadoLibre Inmuebles Valentin Alsina",
       "url": "https://inmuebles.mercadolibre.com.ar/locales/alquiler/bsas-gba-sur/lanus/valentin-alsina/",
-      "found": 0,
-      "added": 0
-    },
-    {
-      "name": "Zonaprop Remedios de Escalada",
-      "url": "https://www.zonaprop.com.ar/locales-comerciales-alquiler-remedios-de-escalada.html",
       "found": 0,
       "added": 0
     },
@@ -95,6 +89,10 @@
     },
     {
       "source": "Zonaprop Tagle Lanus Oeste",
+      "message": "HTTP 403"
+    },
+    {
+      "source": "Zonaprop Remedios de Escalada",
       "message": "HTTP 403"
     },
     {
