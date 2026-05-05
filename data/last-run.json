@@ -1,6 +1,6 @@
 {
-  "startedAt": "2026-05-04T12:22:26.471Z",
-  "updatedAt": "2026-05-04T12:22:37.510Z",
+  "startedAt": "2026-05-05T12:06:20.297Z",
+  "updatedAt": "2026-05-05T12:06:23.266Z",
   "status": "completed_with_warnings",
   "sources": [
     {
@@ -34,19 +34,13 @@
       "added": 0
     },
     {
-      "name": "Zonaprop Valentin Alsina",
-      "url": "https://www.zonaprop.com.ar/locales-comerciales-alquiler-valentin-alsina.html",
-      "found": 2,
-      "added": 1
-    },
-    {
       "name": "OpenStreetMap Overpass",
       "url": "https://overpass-api.de/api/interpreter",
       "found": 125,
       "added": 0
     }
   ],
-  "addedCandidates": 1,
+  "addedCandidates": 0,
   "addedCompetitors": 0,
   "errors": [
     {
@@ -99,6 +93,10 @@
     },
     {
       "source": "Zonaprop Remedios de Escalada",
+      "message": "HTTP 403"
+    },
+    {
+      "source": "Zonaprop Valentin Alsina",
       "message": "HTTP 403"
     },
     {
