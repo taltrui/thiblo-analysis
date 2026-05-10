@@ -1,6 +1,6 @@
 {
-  "startedAt": "2026-05-09T11:54:10.231Z",
-  "updatedAt": "2026-05-09T11:54:13.933Z",
+  "startedAt": "2026-05-10T11:56:12.225Z",
+  "updatedAt": "2026-05-10T11:56:25.640Z",
   "status": "completed_with_warnings",
   "sources": [
     {
@@ -31,18 +31,6 @@
       "name": "MercadoLibre Inmuebles Valentin Alsina",
       "url": "https://inmuebles.mercadolibre.com.ar/locales/alquiler/bsas-gba-sur/lanus/valentin-alsina/",
       "found": 0,
-      "added": 0
-    },
-    {
-      "name": "Zonaprop Remedios de Escalada",
-      "url": "https://www.zonaprop.com.ar/locales-comerciales-alquiler-remedios-de-escalada.html",
-      "found": 0,
-      "added": 0
-    },
-    {
-      "name": "OpenStreetMap Overpass",
-      "url": "https://overpass-api.de/api/interpreter",
-      "found": 125,
       "added": 0
     }
   ],
@@ -98,12 +86,20 @@
       "message": "HTTP 403"
     },
     {
+      "source": "Zonaprop Remedios de Escalada",
+      "message": "HTTP 403"
+    },
+    {
       "source": "Zonaprop Valentin Alsina",
       "message": "HTTP 403"
     },
     {
       "source": "Buscainmueble Valentin Alsina",
       "message": "HTTP 403"
+    },
+    {
+      "source": "OpenStreetMap Overpass",
+      "message": "Overpass HTTP 504"
     }
   ]
 }
