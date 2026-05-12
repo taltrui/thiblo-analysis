@@ -1,6 +1,6 @@
 {
-  "startedAt": "2026-05-11T13:49:21.950Z",
-  "updatedAt": "2026-05-11T13:49:27.071Z",
+  "startedAt": "2026-05-12T13:07:36.490Z",
+  "updatedAt": "2026-05-12T13:07:44.801Z",
   "status": "completed_with_warnings",
   "sources": [
     {
@@ -34,9 +34,15 @@
       "added": 0
     },
     {
-      "name": "Zonaprop Valentin Alsina",
-      "url": "https://www.zonaprop.com.ar/locales-comerciales-alquiler-valentin-alsina.html",
-      "found": 3,
+      "name": "Zonaprop Tagle Lanus Oeste",
+      "url": "https://www.zonaprop.com.ar/locales-comerciales-alquiler-lanus-oeste-orden-precio-ascendente.html",
+      "found": 5,
+      "added": 0
+    },
+    {
+      "name": "Zonaprop Remedios de Escalada",
+      "url": "https://www.zonaprop.com.ar/locales-comerciales-alquiler-remedios-de-escalada.html",
+      "found": 0,
       "added": 0
     },
     {
@@ -94,11 +100,7 @@
       "message": "HTTP 403"
     },
     {
-      "source": "Zonaprop Tagle Lanus Oeste",
-      "message": "HTTP 403"
-    },
-    {
-      "source": "Zonaprop Remedios de Escalada",
+      "source": "Zonaprop Valentin Alsina",
       "message": "HTTP 403"
     },
     {
