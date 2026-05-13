@@ -1,6 +1,6 @@
 {
-  "startedAt": "2026-05-12T13:07:36.490Z",
-  "updatedAt": "2026-05-12T13:07:44.801Z",
+  "startedAt": "2026-05-13T13:19:56.972Z",
+  "updatedAt": "2026-05-13T13:20:03.689Z",
   "status": "completed_with_warnings",
   "sources": [
     {
@@ -36,13 +36,7 @@
     {
       "name": "Zonaprop Tagle Lanus Oeste",
       "url": "https://www.zonaprop.com.ar/locales-comerciales-alquiler-lanus-oeste-orden-precio-ascendente.html",
-      "found": 5,
-      "added": 0
-    },
-    {
-      "name": "Zonaprop Remedios de Escalada",
-      "url": "https://www.zonaprop.com.ar/locales-comerciales-alquiler-remedios-de-escalada.html",
-      "found": 0,
+      "found": 4,
       "added": 0
     },
     {
@@ -97,6 +91,10 @@
     },
     {
       "source": "Properati Lanus Oeste",
+      "message": "HTTP 403"
+    },
+    {
+      "source": "Zonaprop Remedios de Escalada",
       "message": "HTTP 403"
     },
     {
