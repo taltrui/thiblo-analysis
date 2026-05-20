@@ -1,6 +1,6 @@
 {
-  "startedAt": "2026-05-19T13:56:33.781Z",
-  "updatedAt": "2026-05-19T13:56:36.718Z",
+  "startedAt": "2026-05-20T13:43:45.103Z",
+  "updatedAt": "2026-05-20T13:43:55.193Z",
   "status": "completed_with_warnings",
   "sources": [
     {
@@ -34,13 +34,19 @@
       "added": 0
     },
     {
+      "name": "Zonaprop Tagle Lanus Oeste",
+      "url": "https://www.zonaprop.com.ar/locales-comerciales-alquiler-lanus-oeste-orden-precio-ascendente.html",
+      "found": 4,
+      "added": 1
+    },
+    {
       "name": "OpenStreetMap Overpass",
       "url": "https://overpass-api.de/api/interpreter",
       "found": 125,
       "added": 0
     }
   ],
-  "addedCandidates": 0,
+  "addedCandidates": 1,
   "addedCompetitors": 0,
   "errors": [
     {
@@ -85,10 +91,6 @@
     },
     {
       "source": "Properati Lanus Oeste",
-      "message": "HTTP 403"
-    },
-    {
-      "source": "Zonaprop Tagle Lanus Oeste",
       "message": "HTTP 403"
     },
     {
