@@ -1,6 +1,6 @@
 {
-  "startedAt": "2026-05-20T13:43:45.103Z",
-  "updatedAt": "2026-05-20T13:43:55.193Z",
+  "startedAt": "2026-05-21T14:15:53.700Z",
+  "updatedAt": "2026-05-21T14:16:00.252Z",
   "status": "completed_with_warnings",
   "sources": [
     {
@@ -34,10 +34,16 @@
       "added": 0
     },
     {
-      "name": "Zonaprop Tagle Lanus Oeste",
-      "url": "https://www.zonaprop.com.ar/locales-comerciales-alquiler-lanus-oeste-orden-precio-ascendente.html",
-      "found": 4,
-      "added": 1
+      "name": "Zonaprop Remedios de Escalada",
+      "url": "https://www.zonaprop.com.ar/locales-comerciales-alquiler-remedios-de-escalada.html",
+      "found": 0,
+      "added": 0
+    },
+    {
+      "name": "Zonaprop Valentin Alsina",
+      "url": "https://www.zonaprop.com.ar/locales-comerciales-alquiler-valentin-alsina.html",
+      "found": 3,
+      "added": 0
     },
     {
       "name": "OpenStreetMap Overpass",
@@ -46,7 +52,7 @@
       "added": 0
     }
   ],
-  "addedCandidates": 1,
+  "addedCandidates": 0,
   "addedCompetitors": 0,
   "errors": [
     {
@@ -94,11 +100,7 @@
       "message": "HTTP 403"
     },
     {
-      "source": "Zonaprop Remedios de Escalada",
-      "message": "HTTP 403"
-    },
-    {
-      "source": "Zonaprop Valentin Alsina",
+      "source": "Zonaprop Tagle Lanus Oeste",
       "message": "HTTP 403"
     },
     {
