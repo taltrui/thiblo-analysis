@@ -1,6 +1,6 @@
 {
-  "startedAt": "2026-06-07T12:22:39.994Z",
-  "updatedAt": "2026-06-07T12:23:28.354Z",
+  "startedAt": "2026-06-08T14:50:17.230Z",
+  "updatedAt": "2026-06-08T14:51:12.678Z",
   "status": "completed_with_warnings",
   "sources": [
     {
@@ -86,12 +86,6 @@
       "url": "https://www.buscainmueble.com/locales/alquiler/valentin-alsina",
       "found": 0,
       "added": 0
-    },
-    {
-      "name": "OpenStreetMap Overpass",
-      "url": "https://overpass-api.de/api/interpreter",
-      "found": 125,
-      "added": 0
     }
   ],
   "addedCandidates": 0,
@@ -120,6 +114,10 @@
     {
       "source": "Zonaprop Valentin Alsina",
       "message": "HTTP 403"
+    },
+    {
+      "source": "OpenStreetMap Overpass",
+      "message": "Overpass HTTP 504"
     }
   ]
 }
