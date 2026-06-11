@@ -1,6 +1,6 @@
 {
-  "startedAt": "2026-06-10T14:26:26.438Z",
-  "updatedAt": "2026-06-10T14:26:37.684Z",
+  "startedAt": "2026-06-11T14:42:10.832Z",
+  "updatedAt": "2026-06-11T14:42:51.686Z",
   "status": "completed_with_warnings",
   "sources": [
     {
@@ -13,6 +13,54 @@
       "name": "Trusted seed competitors",
       "url": "manual/web-search",
       "found": 5,
+      "added": 0
+    },
+    {
+      "name": "Argenprop Lanus Oeste",
+      "url": "https://www.argenprop.com/locales/alquiler/lanus-oeste",
+      "found": 14,
+      "added": 0
+    },
+    {
+      "name": "Argenprop Remedios de Escalada",
+      "url": "https://www.argenprop.com/locales/alquiler/remedios-de-escalada",
+      "found": 0,
+      "added": 0
+    },
+    {
+      "name": "Argenprop cocheras/locales Remedios de Escalada",
+      "url": "https://www.argenprop.com/cocheras-o-locales/alquiler/remedios-de-escalada",
+      "found": 0,
+      "added": 0
+    },
+    {
+      "name": "Argenprop galpones/locales Remedios de Escalada",
+      "url": "https://www.argenprop.com/galpones-o-locales/alquiler/remedios-de-escalada",
+      "found": 0,
+      "added": 0
+    },
+    {
+      "name": "Argenprop Valentin Alsina",
+      "url": "https://www.argenprop.com/locales/alquiler/valentin-alsina",
+      "found": 0,
+      "added": 0
+    },
+    {
+      "name": "Inmuebles Clarin Lanus Oeste",
+      "url": "https://www.inmuebles.clarin.com/locales/alquiler/lanus-oeste",
+      "found": 14,
+      "added": 0
+    },
+    {
+      "name": "Inmuebles Clarin Remedios de Escalada",
+      "url": "https://www.inmuebles.clarin.com/locales/alquiler/remedios-de-escalada",
+      "found": 0,
+      "added": 0
+    },
+    {
+      "name": "Inmuebles Clarin Valentin Alsina",
+      "url": "https://www.inmuebles.clarin.com/locales/alquiler/valentin-alsina",
+      "found": 0,
       "added": 0
     },
     {
@@ -34,32 +82,20 @@
       "added": 0
     },
     {
-      "name": "Zonaprop Tagle Lanus Oeste",
-      "url": "https://www.zonaprop.com.ar/locales-comerciales-alquiler-lanus-oeste-orden-precio-ascendente.html",
-      "found": 5,
-      "added": 1
-    },
-    {
-      "name": "Zonaprop Remedios de Escalada",
-      "url": "https://www.zonaprop.com.ar/locales-comerciales-alquiler-remedios-de-escalada.html",
+      "name": "Buscainmueble Valentin Alsina",
+      "url": "https://www.buscainmueble.com/locales/alquiler/valentin-alsina",
       "found": 0,
-      "added": 0
-    },
-    {
-      "name": "Zonaprop Valentin Alsina",
-      "url": "https://www.zonaprop.com.ar/locales-comerciales-alquiler-valentin-alsina.html",
-      "found": 2,
       "added": 0
     },
     {
       "name": "OpenStreetMap Overpass",
       "url": "https://overpass-api.de/api/interpreter",
       "found": 126,
-      "added": 1
+      "added": 0
     }
   ],
-  "addedCandidates": 1,
-  "addedCompetitors": 1,
+  "addedCandidates": 0,
+  "addedCompetitors": 0,
   "errors": [
     {
       "source": "Zonaprop Lanus Oeste",
@@ -70,43 +106,19 @@
       "message": "HTTP 403"
     },
     {
-      "source": "Argenprop Lanus Oeste",
-      "message": "HTTP 403"
-    },
-    {
-      "source": "Argenprop Remedios de Escalada",
-      "message": "HTTP 403"
-    },
-    {
-      "source": "Argenprop cocheras/locales Remedios de Escalada",
-      "message": "HTTP 403"
-    },
-    {
-      "source": "Argenprop galpones/locales Remedios de Escalada",
-      "message": "HTTP 403"
-    },
-    {
-      "source": "Argenprop Valentin Alsina",
-      "message": "HTTP 403"
-    },
-    {
-      "source": "Inmuebles Clarin Lanus Oeste",
-      "message": "HTTP 403"
-    },
-    {
-      "source": "Inmuebles Clarin Remedios de Escalada",
-      "message": "HTTP 403"
-    },
-    {
-      "source": "Inmuebles Clarin Valentin Alsina",
-      "message": "HTTP 403"
-    },
-    {
       "source": "Properati Lanus Oeste",
       "message": "HTTP 403"
     },
     {
-      "source": "Buscainmueble Valentin Alsina",
+      "source": "Zonaprop Tagle Lanus Oeste",
+      "message": "HTTP 403"
+    },
+    {
+      "source": "Zonaprop Remedios de Escalada",
+      "message": "HTTP 403"
+    },
+    {
+      "source": "Zonaprop Valentin Alsina",
       "message": "HTTP 403"
     }
   ]
