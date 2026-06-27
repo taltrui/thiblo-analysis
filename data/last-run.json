@@ -1,6 +1,6 @@
 {
-  "startedAt": "2026-06-26T13:14:34.244Z",
-  "updatedAt": "2026-06-26T13:15:12.619Z",
+  "startedAt": "2026-06-27T12:10:18.802Z",
+  "updatedAt": "2026-06-27T12:10:58.586Z",
   "status": "completed_with_warnings",
   "sources": [
     {
@@ -18,8 +18,8 @@
     {
       "name": "Argenprop Lanus Oeste",
       "url": "https://www.argenprop.com/locales/alquiler/lanus-oeste",
-      "found": 13,
-      "added": 1
+      "found": 14,
+      "added": 0
     },
     {
       "name": "Argenprop Remedios de Escalada",
@@ -48,7 +48,7 @@
     {
       "name": "Inmuebles Clarin Lanus Oeste",
       "url": "https://www.inmuebles.clarin.com/locales/alquiler/lanus-oeste",
-      "found": 13,
+      "found": 14,
       "added": 0
     },
     {
@@ -94,7 +94,7 @@
       "added": 0
     }
   ],
-  "addedCandidates": 1,
+  "addedCandidates": 0,
   "addedCompetitors": 0,
   "errors": [
     {
