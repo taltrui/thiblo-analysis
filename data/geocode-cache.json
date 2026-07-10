@@ -83,5 +83,20 @@
     "lat": -34.688388,
     "lng": -58.3947286,
     "approximate": true
+  },
+  "avenida remedios de escalada de san martin 900 lanus oeste": {
+    "lat": -34.688388,
+    "lng": -58.3947286,
+    "approximate": true
+  },
+  "av manuel quindimil 1200 lanus oeste": {
+    "lat": -34.6877287,
+    "lng": -58.4447686,
+    "approximate": true
+  },
+  "avenida hipolito yrigoyen 3900 lanus oeste": {
+    "lat": -34.6996966,
+    "lng": -58.3918257,
+    "approximate": false
   }
 }
