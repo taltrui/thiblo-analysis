@@ -1,6 +1,6 @@
 {
-  "startedAt": "2026-07-11T11:55:24.122Z",
-  "updatedAt": "2026-07-11T11:55:45.658Z",
+  "startedAt": "2026-07-12T12:02:32.815Z",
+  "updatedAt": "2026-07-12T12:02:47.470Z",
   "status": "completed_with_warnings",
   "sources": [
     {
@@ -19,7 +19,7 @@
       "name": "MercadoLibre Inmuebles Lanus Oeste",
       "url": "https://inmuebles.mercadolibre.com.ar/locales/alquiler/bsas-gba-sur/lanus/lanus-oeste/",
       "found": 4,
-      "added": 1
+      "added": 0
     },
     {
       "name": "MercadoLibre Inmuebles Remedios de Escalada",
@@ -34,7 +34,7 @@
       "added": 0
     }
   ],
-  "addedCandidates": 1,
+  "addedCandidates": 0,
   "addedCompetitors": 0,
   "errors": [
     {
