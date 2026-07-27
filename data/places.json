@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-26T12:06:43.047Z",
+  "updatedAt": "2026-07-27T13:40:54.134Z",
   "sourceNote": "Actualizado automaticamente por scripts/update-data.mjs. Algunas coordenadas pueden ser aproximadas.",
   "candidates": [
     {
@@ -37,7 +37,7 @@
       "sourceUrl": "https://www.argenprop.com/locales/alquiler/remedios-de-escalada",
       "notes": "Esquina con doble vidriera en centro de Escalada. Muy buena exposicion.",
       "discoveredAt": "2026-04-28T16:25:22.641Z",
-      "lastSeenAt": "2026-07-26T12:06:32.105Z"
+      "lastSeenAt": "2026-07-27T13:40:28.554Z"
     },
     {
       "id": "rent-tagle-3589",
@@ -55,7 +55,7 @@
       "sourceUrl": "https://www.zonaprop.com.ar/propiedades/clasificado/alcllcin-local-zona-comercial-58125903.html",
       "notes": "Local 4x12 en zona comercial Tagle. Buen candidato para cubrir Villa Caraza/Tagle.",
       "discoveredAt": "2026-04-28T16:25:22.641Z",
-      "lastSeenAt": "2026-07-26T12:06:32.105Z"
+      "lastSeenAt": "2026-07-27T13:40:28.554Z"
     },
     {
       "id": "rent-albarracin-2400",
@@ -73,7 +73,7 @@
       "sourceUrl": "https://www.argenprop.com/locales/alquiler/remedios-de-escalada",
       "notes": "Local/deposito 15x5 aprox. Sin expensas segun aviso.",
       "discoveredAt": "2026-04-28T16:25:22.641Z",
-      "lastSeenAt": "2026-07-26T12:06:32.105Z"
+      "lastSeenAt": "2026-07-27T13:40:28.554Z"
     },
     {
       "id": "rent-fray-mamerto-esquiu-3200",
@@ -91,7 +91,7 @@
       "sourceUrl": "https://www.argenprop.com/galpones-o-locales/alquiler/remedios-de-escalada",
       "notes": "Galpon en esquina transitada; requiere evaluar estado/refacciones.",
       "discoveredAt": "2026-04-28T16:25:22.641Z",
-      "lastSeenAt": "2026-07-26T12:06:32.105Z"
+      "lastSeenAt": "2026-07-27T13:40:28.554Z"
     },
     {
       "id": "rent-peron-3400-valentin-alsina",
@@ -110,7 +110,7 @@
       "notes": "Amplio local sobre Av. Peron, ex distribuidora de bebidas, con oficina, cocina, bano y patio.",
       "approximate": true,
       "discoveredAt": "2026-04-28T17:18:34.980Z",
-      "lastSeenAt": "2026-07-26T12:06:32.105Z"
+      "lastSeenAt": "2026-07-27T13:40:28.554Z"
     },
     {
       "id": "rent-rivadavia-2602-coto",
@@ -128,7 +128,7 @@
       "sourceUrl": "https://www.zonaprop.com.ar/locales-comerciales-lanus-oeste-con-luz-orden-precio-ascendente.html",
       "notes": "Local dentro de Coto Lanus. Alto flujo indirecto, pero formato shopping/sucursal.",
       "discoveredAt": "2026-04-28T16:25:22.641Z",
-      "lastSeenAt": "2026-07-26T12:06:32.105Z"
+      "lastSeenAt": "2026-07-27T13:40:28.554Z"
     },
     {
       "id": "rent-general-hornos-1415",
@@ -146,7 +146,7 @@
       "sourceUrl": "https://www.argenprop.com/locales/alquiler/remedios-de-escalada",
       "notes": "Local/galpon en buen estado con cortina metalica y bano.",
       "discoveredAt": "2026-04-28T16:25:22.641Z",
-      "lastSeenAt": "2026-07-26T12:06:32.105Z"
+      "lastSeenAt": "2026-07-27T13:40:28.554Z"
     },
     {
       "id": "rent-aristobulo-191",
@@ -180,7 +180,7 @@
       "sourceUrl": "https://www.argenprop.com/locales/alquiler/remedios-de-escalada",
       "notes": "Local sobre zona comercial. Confirmar superficie antes de priorizar.",
       "discoveredAt": "2026-04-28T16:25:22.641Z",
-      "lastSeenAt": "2026-07-26T12:06:32.105Z"
+      "lastSeenAt": "2026-07-27T13:40:28.554Z"
     },
     {
       "id": "rent-santiago-plaul-3209",
@@ -247,7 +247,7 @@
       "notes": "Local con bano sobre avenida. El aviso de Zonaprop figura reservado; mantener como referencia de precio/zona.",
       "approximate": true,
       "discoveredAt": "2026-04-28T17:18:34.980Z",
-      "lastSeenAt": "2026-07-26T12:06:32.105Z"
+      "lastSeenAt": "2026-07-27T13:40:28.554Z"
     },
     {
       "id": "rent-viamonte-2349",
@@ -265,7 +265,7 @@
       "sourceUrl": "https://www.zonaprop.com.ar/locales-comerciales-alquiler-lanus-oeste-a-estrenar.html",
       "notes": "Dos salones de venta, deposito/oficina y bano. Buena exposicion hacia avenidas.",
       "discoveredAt": "2026-04-28T16:25:22.641Z",
-      "lastSeenAt": "2026-07-26T12:06:32.105Z"
+      "lastSeenAt": "2026-07-27T13:40:28.554Z"
     },
     {
       "id": "rent-25-mayo-975",
@@ -283,7 +283,7 @@
       "sourceUrl": "https://www.zonaprop.com.ar/locales-comerciales-alquiler-lanus-oeste-con-apto-profesional-publicado-hace-menos-de-15-dias.html",
       "notes": "Local 4.4x8 con deposito y bano, cerca de 25 de Mayo.",
       "discoveredAt": "2026-04-28T16:25:22.641Z",
-      "lastSeenAt": "2026-07-26T12:06:32.105Z"
+      "lastSeenAt": "2026-07-27T13:40:28.554Z"
     },
     {
       "id": "rent-avenida-hipolito-yrigoyen-3251-lanus-oeste",
@@ -321,7 +321,7 @@
       "notes": "Local de 4,50 x 8 m aprox. sobre Av. Peron, con bano.",
       "approximate": true,
       "discoveredAt": "2026-04-28T17:18:34.980Z",
-      "lastSeenAt": "2026-07-26T12:06:32.105Z"
+      "lastSeenAt": "2026-07-27T13:40:28.554Z"
     },
     {
       "id": "rent-25-mayo-1500",
@@ -356,7 +356,7 @@
       "sourceUrl": "https://www.argenprop.com/locales/alquiler/remedios-de-escalada",
       "notes": "Local grande de 180 m2 aprox. en Remedios de Escalada.",
       "discoveredAt": "2026-04-28T16:25:22.641Z",
-      "lastSeenAt": "2026-07-26T12:06:32.105Z"
+      "lastSeenAt": "2026-07-27T13:40:28.554Z"
     },
     {
       "id": "rent-zarate-100",
@@ -374,7 +374,7 @@
       "sourceUrl": "https://www.argenprop.com/galpones-o-locales/alquiler/remedios-de-escalada",
       "notes": "Deposito/galpon amplio. Puede servir si el foco es mayorista/logistica.",
       "discoveredAt": "2026-04-28T16:25:22.641Z",
-      "lastSeenAt": "2026-07-26T12:06:32.105Z"
+      "lastSeenAt": "2026-07-27T13:40:28.554Z"
     },
     {
       "id": "rent-avenida-hipolito-yrigoyen-al-4200-lanus-oeste",
@@ -412,7 +412,7 @@
       "notes": "Local a estrenar sobre Av. Peron esquina Ucrania. El aviso indica que anteriormente fue casa de articulos de limpieza.",
       "approximate": true,
       "discoveredAt": "2026-04-28T17:18:34.980Z",
-      "lastSeenAt": "2026-07-26T12:06:32.105Z"
+      "lastSeenAt": "2026-07-27T13:40:28.554Z"
     },
     {
       "id": "rent-peron-2500-valentin-alsina",
@@ -431,7 +431,7 @@
       "notes": "Local dentro de Galeria Boulevard, 3 x 3 m con entrepiso. Muy barato pero chico.",
       "approximate": true,
       "discoveredAt": "2026-04-28T17:18:34.980Z",
-      "lastSeenAt": "2026-07-26T12:06:32.105Z"
+      "lastSeenAt": "2026-07-27T13:40:28.554Z"
     },
     {
       "id": "rent-ministro-brin-4400",
@@ -449,7 +449,7 @@
       "sourceUrl": "https://www.argenprop.com/locales/alquiler/remedios-de-escalada",
       "notes": "Zona comercial cerca de Beltran. Buen precio, superficie chica.",
       "discoveredAt": "2026-04-28T16:25:22.641Z",
-      "lastSeenAt": "2026-07-26T12:06:32.105Z"
+      "lastSeenAt": "2026-07-27T13:40:28.554Z"
     },
     {
       "id": "rent-peron-3712-valentin-alsina",
@@ -468,7 +468,7 @@
       "notes": "Local sobre avenida de 18 m2 con bano. Precio bajo; revisar si sigue disponible.",
       "approximate": true,
       "discoveredAt": "2026-04-28T17:18:34.980Z",
-      "lastSeenAt": "2026-07-26T12:06:32.105Z"
+      "lastSeenAt": "2026-07-27T13:40:28.554Z"
     },
     {
       "id": "rent-peron-2100-valentin-alsina",
@@ -486,7 +486,7 @@
       "sourceUrl": "https://www.argenprop.com/local-en-alquiler-en-valentin-alsina--18268686",
       "notes": "Local comercial sobre Av. Peron, 4,50 x 17 m aprox., luz trifasica y frente vidriado.",
       "discoveredAt": "2026-04-28T17:18:34.980Z",
-      "lastSeenAt": "2026-07-26T12:06:32.105Z"
+      "lastSeenAt": "2026-07-27T13:40:28.554Z"
     },
     {
       "id": "rent-hipolito-3900",
@@ -593,7 +593,7 @@
       "notes": "Local con frente de 7 m x 12 m, vidriera, persiana motorizada, bano y kitchenette.",
       "approximate": true,
       "discoveredAt": "2026-04-28T17:18:34.980Z",
-      "lastSeenAt": "2026-07-26T12:06:32.105Z"
+      "lastSeenAt": "2026-07-27T13:40:28.554Z"
     },
     {
       "id": "rent-avenida-hipolito-yrigoyen-3900-lanus-oeste",
@@ -687,7 +687,7 @@
       "sourceUrl": "https://www.zonaprop.com.ar/locales-comerciales-lanus-oeste-con-desague-cloacal-orden-precio-ascendente.html",
       "notes": "A metros de centro comercial; local compacto sin expensas.",
       "discoveredAt": "2026-04-28T16:25:22.641Z",
-      "lastSeenAt": "2026-07-26T12:06:32.105Z"
+      "lastSeenAt": "2026-07-27T13:40:28.554Z"
     },
     {
       "id": "rent-jose-moreno-400",
@@ -721,7 +721,7 @@
       "sourceUrl": "https://www.argenprop.com/locales/alquiler/remedios-de-escalada",
       "notes": "Pleno centro de Remedios de Escalada, local refaccionado.",
       "discoveredAt": "2026-04-28T16:25:22.641Z",
-      "lastSeenAt": "2026-07-26T12:06:32.105Z"
+      "lastSeenAt": "2026-07-27T13:40:28.554Z"
     },
     {
       "id": "rent-hipolito-3600",
@@ -774,7 +774,7 @@
       "notes": "Local en pleno centro comercial, entre Farrel y Rucci. Frente, persiana, entrepiso, bano y kitchenette.",
       "approximate": true,
       "discoveredAt": "2026-04-28T17:18:34.980Z",
-      "lastSeenAt": "2026-07-26T12:06:32.105Z"
+      "lastSeenAt": "2026-07-27T13:40:28.554Z"
     },
     {
       "id": "rent-hipolito-4700",
@@ -828,7 +828,7 @@
       "sourceUrl": "https://inmuebles.mercadolibre.com.ar/locales/bsas-gba-sur/lanus/locales-en-alquiler-lanus",
       "notes": "Local a estrenar segun resultado de MercadoLibre. Confirmar precio.",
       "discoveredAt": "2026-04-28T16:25:22.641Z",
-      "lastSeenAt": "2026-07-26T12:06:32.105Z"
+      "lastSeenAt": "2026-07-27T13:40:28.554Z"
     },
     {
       "id": "rent-remedios-santiago",
@@ -880,7 +880,7 @@
       "sourceUrl": "https://www.argenprop.com/cocheras-o-locales/alquiler/remedios-de-escalada",
       "notes": "Local a estrenar sobre Uriarte; chico pero en arteria comercial.",
       "discoveredAt": "2026-04-28T16:25:22.641Z",
-      "lastSeenAt": "2026-07-26T12:06:32.105Z"
+      "lastSeenAt": "2026-07-27T13:40:28.554Z"
     },
     {
       "id": "rent-gobernador-irigoyen-200",
@@ -915,7 +915,7 @@
       "sourceUrl": "https://www.novosadpropiedades.com.ar/propiedad/alquiler-de-otro-inmueble-en-lanus-oeste-lanus-buenos-aires-3439-255935",
       "notes": "Casa con local comercial en PB y deposito. Evaluar si se puede alquilar/usar como local puro.",
       "discoveredAt": "2026-04-28T16:25:22.641Z",
-      "lastSeenAt": "2026-07-26T12:06:32.105Z"
+      "lastSeenAt": "2026-07-27T13:40:28.554Z"
     },
     {
       "id": "rent-avenida-hipolito-yrigoyen-4000-lanus-oeste",
@@ -953,7 +953,7 @@
       "lng": -58.4447686,
       "approximate": true,
       "discoveredAt": "2026-07-10T13:14:42.926Z",
-      "lastSeenAt": "2026-07-26T12:06:32.105Z"
+      "lastSeenAt": "2026-07-27T13:40:28.554Z"
     },
     {
       "id": "rent-avenida-bernardino-rivadavia-2602-lanus-oeste",
@@ -1046,7 +1046,7 @@
       "lng": -58.3922329,
       "approximate": false,
       "discoveredAt": "2026-07-23T12:25:53.574Z",
-      "lastSeenAt": "2026-07-26T12:06:32.105Z"
+      "lastSeenAt": "2026-07-27T13:40:28.554Z"
     },
     {
       "id": "rent-avenida-hipolito-yrigoyen-6000-lanus-oeste",
@@ -1084,7 +1084,7 @@
       "lng": -58.3895421,
       "approximate": true,
       "discoveredAt": "2026-07-21T12:24:41.128Z",
-      "lastSeenAt": "2026-07-26T12:06:32.105Z"
+      "lastSeenAt": "2026-07-27T13:40:28.554Z"
     },
     {
       "id": "rent-av-san-martin-2327-lanus-oeste",
@@ -1192,7 +1192,7 @@
       "notes": "Articulos de limpieza / cosmetica / perfumeria sobre Av. Peron.",
       "approximate": true,
       "discoveredAt": "2026-04-28T17:18:34.980Z",
-      "lastSeenAt": "2026-07-26T12:06:32.105Z"
+      "lastSeenAt": "2026-07-27T13:40:28.554Z"
     },
     {
       "id": "comp-mas-limpio",
@@ -2463,7 +2463,7 @@
       "notes": "Servicio de lavado/tintoreria; no vende necesariamente productos, pero compite por necesidad de limpieza.",
       "approximate": true,
       "discoveredAt": "2026-04-28T17:18:34.980Z",
-      "lastSeenAt": "2026-07-26T12:06:32.105Z"
+      "lastSeenAt": "2026-07-27T13:40:28.554Z"
     },
     {
       "id": "osm-way-470365491",
@@ -2589,7 +2589,7 @@
       "sourceUrl": "https://ar.near-place.com/outlet-alsina-presidente-teniente-general-juan-domingo-peron-3890-valentin-alsina",
       "notes": "Outlet/comercio de hogar sobre Av. Peron; referencia de flujo comercial.",
       "discoveredAt": "2026-04-28T17:18:34.980Z",
-      "lastSeenAt": "2026-07-26T12:06:32.105Z"
+      "lastSeenAt": "2026-07-27T13:40:28.554Z"
     },
     {
       "id": "osm-node-4633609134",
@@ -3079,7 +3079,7 @@
       "sourceUrl": "https://ar.near-place.com/supermercado-dia-presidente-teniente-general-juan-domingo-peron-3241-valentin-alsina",
       "notes": "Supermercado de cadena sobre el corredor Peron.",
       "discoveredAt": "2026-04-28T17:18:34.980Z",
-      "lastSeenAt": "2026-07-26T12:06:32.105Z"
+      "lastSeenAt": "2026-07-27T13:40:28.554Z"
     },
     {
       "id": "comp-dia-eva-peron",
@@ -3355,7 +3355,7 @@
       "sourceUrl": "https://ar.near-place.com/wow-bazar-presidente-teniente-general-juan-domingo-peron-2649-valentin-alsina",
       "notes": "Bazar sobre Av. Peron; competencia indirecta por articulos de hogar/limpieza.",
       "discoveredAt": "2026-04-28T17:18:34.980Z",
-      "lastSeenAt": "2026-07-26T12:06:32.105Z"
+      "lastSeenAt": "2026-07-27T13:40:28.554Z"
     }
   ]
 }
