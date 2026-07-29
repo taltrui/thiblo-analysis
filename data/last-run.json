@@ -1,6 +1,6 @@
 {
-  "startedAt": "2026-07-28T12:56:15.263Z",
-  "updatedAt": "2026-07-28T12:56:34.724Z",
+  "startedAt": "2026-07-29T13:02:50.358Z",
+  "updatedAt": "2026-07-29T13:03:01.137Z",
   "status": "completed_with_warnings",
   "sources": [
     {
@@ -18,23 +18,23 @@
     {
       "name": "MercadoLibre Inmuebles Lanus Oeste",
       "url": "https://inmuebles.mercadolibre.com.ar/locales/alquiler/bsas-gba-sur/lanus/lanus-oeste/",
-      "found": 5,
-      "added": 1
+      "found": 0,
+      "added": 0
     },
     {
       "name": "MercadoLibre Inmuebles Remedios de Escalada",
       "url": "https://inmuebles.mercadolibre.com.ar/locales/alquiler/bsas-gba-sur/lanus/remedios-de-escalada/",
-      "found": 2,
+      "found": 0,
       "added": 0
     },
     {
       "name": "MercadoLibre Inmuebles Valentin Alsina",
       "url": "https://inmuebles.mercadolibre.com.ar/locales/alquiler/bsas-gba-sur/lanus/valentin-alsina/",
-      "found": 1,
+      "found": 0,
       "added": 0
     }
   ],
-  "addedCandidates": 1,
+  "addedCandidates": 0,
   "addedCompetitors": 0,
   "errors": [
     {
