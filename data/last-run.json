@@ -1,6 +1,6 @@
 {
-  "startedAt": "2026-08-02T12:04:56.917Z",
-  "updatedAt": "2026-08-02T12:05:15.647Z",
+  "startedAt": "2026-08-03T13:43:07.665Z",
+  "updatedAt": "2026-08-03T13:43:34.488Z",
   "status": "completed_with_warnings",
   "sources": [
     {
@@ -31,6 +31,12 @@
       "name": "MercadoLibre Inmuebles Valentin Alsina",
       "url": "https://inmuebles.mercadolibre.com.ar/locales/alquiler/bsas-gba-sur/lanus/valentin-alsina/",
       "found": 1,
+      "added": 0
+    },
+    {
+      "name": "OpenStreetMap Overpass",
+      "url": "https://overpass-api.de/api/interpreter",
+      "found": 126,
       "added": 0
     }
   ],
@@ -96,10 +102,6 @@
     {
       "source": "Buscainmueble Valentin Alsina",
       "message": "HTTP 403"
-    },
-    {
-      "source": "OpenStreetMap Overpass",
-      "message": "Overpass HTTP 504"
     }
   ]
 }
