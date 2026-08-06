@@ -1,6 +1,6 @@
 {
-  "startedAt": "2026-08-05T12:57:03.325Z",
-  "updatedAt": "2026-08-05T12:57:28.613Z",
+  "startedAt": "2026-08-06T12:58:17.931Z",
+  "updatedAt": "2026-08-06T12:58:21.166Z",
   "status": "completed_with_warnings",
   "sources": [
     {
@@ -18,19 +18,25 @@
     {
       "name": "MercadoLibre Inmuebles Lanus Oeste",
       "url": "https://inmuebles.mercadolibre.com.ar/locales/alquiler/bsas-gba-sur/lanus/lanus-oeste/",
-      "found": 8,
+      "found": 0,
       "added": 0
     },
     {
       "name": "MercadoLibre Inmuebles Remedios de Escalada",
       "url": "https://inmuebles.mercadolibre.com.ar/locales/alquiler/bsas-gba-sur/lanus/remedios-de-escalada/",
-      "found": 2,
+      "found": 0,
       "added": 0
     },
     {
       "name": "MercadoLibre Inmuebles Valentin Alsina",
       "url": "https://inmuebles.mercadolibre.com.ar/locales/alquiler/bsas-gba-sur/lanus/valentin-alsina/",
-      "found": 1,
+      "found": 0,
+      "added": 0
+    },
+    {
+      "name": "OpenStreetMap Overpass",
+      "url": "https://overpass-api.de/api/interpreter",
+      "found": 126,
       "added": 0
     }
   ],
@@ -96,10 +102,6 @@
     {
       "source": "Buscainmueble Valentin Alsina",
       "message": "HTTP 403"
-    },
-    {
-      "source": "OpenStreetMap Overpass",
-      "message": "Overpass HTTP 504"
     }
   ]
 }
