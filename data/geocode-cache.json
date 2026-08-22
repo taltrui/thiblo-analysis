@@ -133,5 +133,10 @@
     "lat": -34.6965671,
     "lng": -58.4085527,
     "approximate": true
+  },
+  "av rosales 2100 lanus oeste": {
+    "lat": -34.715037,
+    "lng": -58.4082919,
+    "approximate": false
   }
 }
