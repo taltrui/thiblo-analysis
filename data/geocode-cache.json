@@ -138,5 +138,10 @@
     "lat": -34.715037,
     "lng": -58.4082919,
     "approximate": false
+  },
+  "av san martin al 3089 lanus oeste": {
+    "lat": -34.6796658,
+    "lng": -58.4042953,
+    "approximate": true
   }
 }
