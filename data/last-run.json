@@ -1,6 +1,6 @@
 {
-  "startedAt": "2026-08-31T17:56:39.910Z",
-  "updatedAt": "2026-08-31T17:57:04.300Z",
+  "startedAt": "2026-09-01T15:25:14.795Z",
+  "updatedAt": "2026-09-01T15:25:20.472Z",
   "status": "completed_with_warnings",
   "sources": [
     {
@@ -18,7 +18,7 @@
     {
       "name": "MercadoLibre Inmuebles Lanus Oeste",
       "url": "https://inmuebles.mercadolibre.com.ar/locales/alquiler/bsas-gba-sur/lanus/lanus-oeste/",
-      "found": 8,
+      "found": 5,
       "added": 0
     },
     {
@@ -31,6 +31,12 @@
       "name": "MercadoLibre Inmuebles Valentin Alsina",
       "url": "https://inmuebles.mercadolibre.com.ar/locales/alquiler/bsas-gba-sur/lanus/valentin-alsina/",
       "found": 0,
+      "added": 0
+    },
+    {
+      "name": "OpenStreetMap Overpass",
+      "url": "https://overpass-api.de/api/interpreter",
+      "found": 126,
       "added": 0
     }
   ],
@@ -47,35 +53,35 @@
     },
     {
       "source": "Argenprop Lanus Oeste",
-      "message": "HTTP 403"
+      "message": "HTTP 405"
     },
     {
       "source": "Argenprop Remedios de Escalada",
-      "message": "HTTP 403"
+      "message": "HTTP 405"
     },
     {
       "source": "Argenprop cocheras/locales Remedios de Escalada",
-      "message": "HTTP 403"
+      "message": "HTTP 405"
     },
     {
       "source": "Argenprop galpones/locales Remedios de Escalada",
-      "message": "HTTP 403"
+      "message": "HTTP 405"
     },
     {
       "source": "Argenprop Valentin Alsina",
-      "message": "HTTP 403"
+      "message": "HTTP 405"
     },
     {
       "source": "Inmuebles Clarin Lanus Oeste",
-      "message": "HTTP 403"
+      "message": "HTTP 405"
     },
     {
       "source": "Inmuebles Clarin Remedios de Escalada",
-      "message": "HTTP 403"
+      "message": "HTTP 405"
     },
     {
       "source": "Inmuebles Clarin Valentin Alsina",
-      "message": "HTTP 403"
+      "message": "HTTP 405"
     },
     {
       "source": "Properati Lanus Oeste",
@@ -95,11 +101,7 @@
     },
     {
       "source": "Buscainmueble Valentin Alsina",
-      "message": "HTTP 403"
-    },
-    {
-      "source": "OpenStreetMap Overpass",
-      "message": "Overpass HTTP 504"
+      "message": "HTTP 405"
     }
   ]
 }
