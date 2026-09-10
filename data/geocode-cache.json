@@ -143,5 +143,10 @@
     "lat": -34.6796658,
     "lng": -58.4042953,
     "approximate": true
+  },
+  "av san martin 3828 lanus oeste": {
+    "lat": -34.709977,
+    "lng": -58.421131,
+    "approximate": false
   }
 }
