@@ -148,5 +148,10 @@
     "lat": -34.709977,
     "lng": -58.421131,
     "approximate": false
+  },
+  "avenida san martin 1200 lanus oeste": {
+    "lat": -34.68715,
+    "lng": -58.396483,
+    "approximate": false
   }
 }
