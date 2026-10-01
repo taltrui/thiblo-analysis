@@ -1,6 +1,6 @@
 {
-  "startedAt": "2026-09-30T16:43:59.395Z",
-  "updatedAt": "2026-09-30T16:44:09.272Z",
+  "startedAt": "2026-10-01T17:18:21.754Z",
+  "updatedAt": "2026-10-01T17:18:31.546Z",
   "status": "completed_with_warnings",
   "sources": [
     {
@@ -18,7 +18,7 @@
     {
       "name": "MercadoLibre Inmuebles Lanus Oeste",
       "url": "https://inmuebles.mercadolibre.com.ar/locales/alquiler/bsas-gba-sur/lanus/lanus-oeste/",
-      "found": 5,
+      "found": 6,
       "added": 0
     },
     {
@@ -37,11 +37,11 @@
       "name": "OpenStreetMap Overpass",
       "url": "https://overpass-api.de/api/interpreter",
       "found": 127,
-      "added": 1
+      "added": 0
     }
   ],
   "addedCandidates": 0,
-  "addedCompetitors": 1,
+  "addedCompetitors": 0,
   "errors": [
     {
       "source": "Zonaprop Lanus Oeste",
