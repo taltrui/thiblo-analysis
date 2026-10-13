@@ -1,6 +1,6 @@
 {
-  "startedAt": "2026-10-12T20:10:39.270Z",
-  "updatedAt": "2026-10-12T20:11:00.921Z",
+  "startedAt": "2026-10-13T18:03:14.443Z",
+  "updatedAt": "2026-10-13T18:03:30.779Z",
   "status": "completed_with_warnings",
   "sources": [
     {
@@ -18,7 +18,7 @@
     {
       "name": "MercadoLibre Inmuebles Lanus Oeste",
       "url": "https://inmuebles.mercadolibre.com.ar/locales/alquiler/bsas-gba-sur/lanus/lanus-oeste/",
-      "found": 1,
+      "found": 3,
       "added": 0
     },
     {
