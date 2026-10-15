@@ -1,6 +1,6 @@
 {
-  "startedAt": "2026-10-14T15:44:28.863Z",
-  "updatedAt": "2026-10-14T15:44:45.183Z",
+  "startedAt": "2026-10-15T15:31:47.214Z",
+  "updatedAt": "2026-10-15T15:31:55.082Z",
   "status": "completed_with_warnings",
   "sources": [
     {
@@ -99,7 +99,7 @@
     },
     {
       "source": "OpenStreetMap Overpass",
-      "message": "Overpass HTTP 504"
+      "message": "Overpass HTTP 502"
     }
   ]
 }
