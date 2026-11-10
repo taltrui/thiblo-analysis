@@ -1,6 +1,6 @@
 {
-  "startedAt": "2026-11-09T21:20:16.277Z",
-  "updatedAt": "2026-11-09T21:21:06.397Z",
+  "startedAt": "2026-11-10T18:30:57.100Z",
+  "updatedAt": "2026-11-10T18:31:41.594Z",
   "status": "completed_with_warnings",
   "sources": [
     {
@@ -24,7 +24,7 @@
     {
       "name": "MercadoLibre Inmuebles Remedios de Escalada",
       "url": "https://inmuebles.mercadolibre.com.ar/locales/alquiler/bsas-gba-sur/lanus/remedios-de-escalada/",
-      "found": 0,
+      "found": 1,
       "added": 0
     },
     {
