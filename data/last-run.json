@@ -1,6 +1,6 @@
 {
-  "startedAt": "2026-11-17T19:40:39.108Z",
-  "updatedAt": "2026-11-17T19:40:42.352Z",
+  "startedAt": "2026-11-18T19:16:58.409Z",
+  "updatedAt": "2026-11-18T19:17:01.175Z",
   "status": "completed_with_warnings",
   "sources": [
     {
@@ -47,35 +47,35 @@
     },
     {
       "source": "Argenprop Lanus Oeste",
-      "message": "HTTP 405"
+      "message": "HTTP 403"
     },
     {
       "source": "Argenprop Remedios de Escalada",
-      "message": "HTTP 405"
+      "message": "HTTP 403"
     },
     {
       "source": "Argenprop cocheras/locales Remedios de Escalada",
-      "message": "HTTP 405"
+      "message": "HTTP 403"
     },
     {
       "source": "Argenprop galpones/locales Remedios de Escalada",
-      "message": "HTTP 405"
+      "message": "HTTP 403"
     },
     {
       "source": "Argenprop Valentin Alsina",
-      "message": "HTTP 405"
+      "message": "HTTP 403"
     },
     {
       "source": "Inmuebles Clarin Lanus Oeste",
-      "message": "HTTP 405"
+      "message": "HTTP 403"
     },
     {
       "source": "Inmuebles Clarin Remedios de Escalada",
-      "message": "HTTP 405"
+      "message": "HTTP 403"
     },
     {
       "source": "Inmuebles Clarin Valentin Alsina",
-      "message": "HTTP 405"
+      "message": "HTTP 403"
     },
     {
       "source": "Properati Lanus Oeste",
@@ -95,7 +95,7 @@
     },
     {
       "source": "Buscainmueble Valentin Alsina",
-      "message": "HTTP 405"
+      "message": "HTTP 403"
     },
     {
       "source": "OpenStreetMap Overpass",
